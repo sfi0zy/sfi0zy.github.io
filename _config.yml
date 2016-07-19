@@ -1,0 +1,26 @@
+title: Ivan Bogachev | Personal Blog
+email: sfi0zy@gmail.com
+description: >
+  My personal website. Interesting ideas for web developers,
+  CSS quests, amazing codepens and more great stuff is here
+
+url: "http://sfi0zy.github.io/"
+
+twitter_username: sfi0zy
+github_username: sfi0zy
+linkedin_username: sfi0zy
+codepen_username: sfi0zy
+toster_username: sfi0zy
+
+permalink: /:categories/:title
+
+paginate: 3
+paginate_path: "/page:num/"
+
+categories: ['codepen', 'bookmark', 'dev']
+tags: ['html', 'css', 'less', 'debug', 'codepen', 'javascript', 'bookmark']
+
+markdown: kramdown
+kramdown:
+    syntax_highlighter: rouge
+gems: ['jekyll-less', 'jekyll-paginate']
