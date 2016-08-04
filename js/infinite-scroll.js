@@ -41,8 +41,6 @@
                         options.isLoading = false;
                     }, 1000);
                 });
-                
-                
             }
         }
     };
