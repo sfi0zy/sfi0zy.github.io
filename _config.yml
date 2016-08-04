@@ -18,7 +18,7 @@ paginate: 3
 paginate_path: "/page:num/"
 
 categories: ['codepen', 'bookmark', 'dev']
-tags: ['html', 'css', 'less', 'debug', 'codepen', 'javascript', 'bookmark']
+tags: ['html', 'css', 'less', 'debug', 'codepen', 'javascript', 'bookmark', 'template']
 
 markdown: kramdown
 kramdown:
