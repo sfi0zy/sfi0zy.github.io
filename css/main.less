@@ -75,7 +75,7 @@ a {
     }
     
     &:focus {
-        outline: solid 2px @black;
+        outline: solid 2px rgba(0, 0, 0, .1);
     }
     
     &:active {
@@ -172,11 +172,14 @@ header {
                 &.home {
                     float: left;
                 }
+
+                &.right {
+                    float: right;
+                }
                 
                 a {
                     text-decoration: none;
                     color: @black;
-                    text-transform: uppercase;
                     .hover-transition;
                     
                     &:hover {
