@@ -3,7 +3,7 @@ layout: post
 title:  "Old book animation concept"
 date:   2016-05-30 00:00:00 +0300
 categories: codepen
-tags: [css, less, codepen]
+tags: [html, css, less, codepen]
 thumb: "https://habrastorage.org/files/770/4b6/e9a/7704b6e9a0084df39400e5dc433fe6db.png"
 ---
 

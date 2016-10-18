@@ -35,7 +35,7 @@ module Jekyll
                     self.read_yaml(@base, tag_layout)
 
                     self.data.merge!(
-                        'title' => 'Search: ' + tag.upcase,
+                        'title' => 'Search: ' + tag,
                         'paginator' => Paginate::Pager.new(site, num_page, site.tags[tag]),
                         'search' => true,
                         'search_tag' => tag
