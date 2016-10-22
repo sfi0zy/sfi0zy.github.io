@@ -356,15 +356,23 @@ aside {
             }
         }
 
+        display: none;
         background: @accent-color;
         color: @white;
         margin-top: 2rem;
         font: normal 1rem / 1.3 @secondary-font-family;
         padding: 1rem;
         transition: color @hover-animation-function @hover-animation-function;
-        animation: 1s linear 2s tada;
         .standart-border-radius;
         .standart-shadow;
+
+        &.animated {
+            animation: 1s linear 2s tada;
+        }
+
+        &.show {
+            display: block;
+        }
 
         a {
             color: @white;
