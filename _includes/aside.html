@@ -18,7 +18,7 @@
                                 <li><a class='mui-button -icon' href='https://github.com/{{ site.github_username }}'><i class='fa fa-github'></i></a></li>
                                 <li><a class='mui-button -icon' href='https://linkedin.com/in/{{ site.linkedin_username }}'><i class='fa fa-linkedin'></i></a></li>
                                 <li><a class='mui-button -icon' href='https://codepen.io/{{ site.codepen_username }}'><i class='fa fa-codepen'></i></a></li>
-                                <li><a class='mui-button -icon' href='https://toster.ru/user/{{ site.toster_username }}'><i class='fa another'>T</i></a></li>
+                                <li><a class='mui-button -icon -toster' href='https://toster.ru/user/{{ site.toster_username }}'>T</a></li>
                             </ul>
                         </div>
                     </div>
@@ -27,6 +27,20 @@
         </div>
         <div class='mui-column -s12'>
             <div class='( mui-card -hire ) _text-center _z-depth-5'>I'm looking for a job now. I'm interested in half-time job in Moscow or remote. If You have a job offer - just contact me with social media listed under my photo or by email (<a href='mailto:sfi0zy@gmail.com'>sfi0zy@gmail.com</a>)</div>
+        </div>
+        <div class='mui-column -s12'>
+            <div class='( mui-card -tags ) _text-center'>
+                <div class='tags-cloud'>
+                    {% assign tags = site.tags | sort %}
+                    {% for tag in tags %}
+                        <span class='tag _no-break'>
+                            <a href='/search/{{ tag | first | slugify }}/'
+                                    style='font-size: {{ tag | last | size  |  times: 8 | plus: 70  }}%'>
+                                    {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a>
+                        </span>
+                    {% endfor %}
+                </div>
+            </div>
         </div>
     </div>
 </aside>
