@@ -4,7 +4,7 @@ title:  "Rounded section example"
 date:   2016-05-08 00:00:00 +0300
 categories: bookmark
 tags: [html, css, less, bookmark]
-thumb: "https://habrastorage.org/files/5f1/fca/b6e/5f1fcab6ed564f4382ad1d164ebaa753.png"
+thumb: "/images/5f1fcab6ed564f4382ad1d164ebaa753.png"
 ---
 
 This is an example (and bookmark for me) how to create a rounded section in CSS. It was an illustration for the question on [toster.ru][question-on-toster]

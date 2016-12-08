@@ -4,7 +4,7 @@ title:  "Magic fire CSS animation"
 date:   2016-06-04 00:00:00 +0300
 categories: codepen
 tags: [css, less, codepen]
-thumb: "https://habrastorage.org/files/e34/93c/622/e3493c62234646eb80edbc5d834a692b.png"
+thumb: "/images/e3493c62234646eb80edbc5d834a692b.png"
 ---
 
 I originally wrote this fire for the quest on [CSSQuests][demo-on-cssquests], and now it's awailable on [CodePen][demo-on-codepen]. This is a pure CSS (pure LESS) animation of fire, without any JavaScript.

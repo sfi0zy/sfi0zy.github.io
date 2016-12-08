@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html>
-
+<html lang='en'>
     {% include head.html %}
-
     <body>
-        <div class="page-wrap">
+        <div class='mui-page-container'>
             {% include header.html %}
-            <div class="container">
-                {% include aside.html %}
-
-                <main>
-                    {{ content }}
-                </main>
+            <div class='mui-content-container'>
+                <div class='mui-row'>
+                    <div class='mui-column -w-margin -s12 -m4'>
+                        {% include aside.html %}
+                    </div>
+                    <div class='mui-column -w-margin -s12 -m8'>
+                        <main>
+                            {{ content }}
+                        </main>
+                    </div>
+                </div>
             </div>
         </div>
-
         {% include footer.html %}
-
     </body>
 
 </html>

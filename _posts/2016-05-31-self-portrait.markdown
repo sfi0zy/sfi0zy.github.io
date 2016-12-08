@@ -4,7 +4,7 @@ title:  "Pure CSS Self Portrait Animation"
 date:   2016-05-31 00:00:00 +0300
 categories: codepen
 tags: [html, css, less, codepen]
-thumb: "https://habrastorage.org/files/681/f34/721/681f34721437445f908dad336d596658.png"
+thumb: "/images/681f34721437445f908dad336d596658.png"
 ---
 
 My self portrait with some animations in pure CSS. Without any images, without SVG elements.

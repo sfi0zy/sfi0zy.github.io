@@ -4,7 +4,7 @@ title:  "Unique avatars"
 date:   2016-09-25 00:00:00 +0300
 categories: codepen
 tags: [javascript, codepen]
-thumb: "https://habrastorage.org/files/669/5fa/6cd/6695fa6cd734434d9f29efbca763a2e2.png"
+thumb: "/images/6695fa6cd734434d9f29efbca763a2e2.png"
 ---
 
 Example of unique avatars generation (illustration for the question on [toster.ru][question-on-toster])

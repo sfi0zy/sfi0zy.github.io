@@ -6,99 +6,75 @@ layout: default
     {% assign paginator = page.paginator %}
 {% endif %}
 
-<div class="posts">
-    {% for post in paginator.posts %}
-        <article>
-            <div class="date">{{ post.date | date: "%-d %B %Y" }}</div>
-            <div class="title">
-                {% if post.categories[0] == "codepen" %}
-                    <i class="category-icon fa fa-codepen"></i>
-                {% elsif post.categories[0] == "bookmark" %}
-                    <i class="category-icon fa fa-bookmark"></i>
-                {% elsif post.categories[0] == "dev" %}
-                    <i class="category-icon fa fa-cogs"></i>
+{% for post in paginator.posts %}
+    <article class='mui-post'>
+        <div class='date'>{{ post.date | date: '%-d %B %Y' }}</div>
+        <header class='mui-post-header'>
+            <h3 class='title'>
+                {% if post.categories[0] == 'codepen' %}
+                    <i class='category-icon fa fa-codepen'></i>
+                {% elsif post.categories[0] == 'bookmark' %}
+                    <i class='category-icon fa fa-bookmark'></i>
+                {% elsif post.categories[0] == 'dev' %}
+                    <i class='category-icon fa fa-cogs'></i>
                 {% else %}
-                    <i class="category-icon fa fa-wpforms"></i>
+                    <i class='category-icon fa fa-wpforms'></i>
                 {% endif %}
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </div>
-            <img src="{{ post.thumb }}" alt="Post thumb" class="thumb" onerror="this.className='not-loaded';">
-            <p>{{ post.excerpt }}</p>
-            <div class="wrapper">
-               <ul class="tags">
-                    <i class="fa fa-tags"></i>
-                    {% for tag in post.tags %}
-                    <li><a href="/search/{{ tag }}">{{ tag }}</a></li>
-                    {% endfor %}
-                </ul>
-                <a href="{{ post.url }}" class="read-more">read more</a>
-            </div>
-        </article>
-    {% endfor %}
-</div>
+                <a href='{{ post.url }}'>{{ post.title }}</a>
+            </h3>
+        </header>
+        <div class='mui-post-content'>
+            <img class='mui-image mui-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'  data-src='{{ post.thumb }}' alt='Post preview'>
+            <div class='mui-p'>{{ post.excerpt }}</div>
+        </div>
+        <footer class='mui-post-footer'>
+            <ul class='mui-tags-list'>
+                <li class='mui-tag-wrapper -icon'><i class='fa fa-tags' aria-hidden='true'></i></li>
+                {% for tag in post.tags %}
+                    <li class='mui-tag-wrapper'><a href='/search/{{ tag }}' class='mui-tag'>{{ tag }}</a></li>
+                {% endfor %}
+            </ul>
+            <a href='{{ post.url }}' class='mui-button -read-more'>read more</a>
+        </footer>
+    </article>
+{% endfor %}
 
-<!--<div class="spinner"></div>
+{% if paginator.total_pages > 1 %}
+    {% if page.search %}
+        <ul class='mui-pagination'>
+            {% if paginator.previous_page %}
+                <li class='page-link'>
+                    {% if paginator.page == 2 %}
+                        <a href='/search/{{ page.search_tag }}'><i class='fa fa-chevron-left'></i> Prev</a>
+                    {% else %}
+                        <a href='/search/{{ paginator.previous_page_path }}'><i class='fa fa-chevron-left'></i> Prev</a>
+                    {% endif %}
+                </li>
+            {% endif %}    
 
-<noscript>-->
-    <link rel="stylesheet" href="/css/noscript.css">
-    
-    {% if paginator.total_pages > 1 %}
-        {% if page.search %}
-            <div class="pagination">
-                {% if paginator.previous_page %}
-                    <span class="prev">
-                        {% if paginator.page == 2 %}
-                            <a href="/search/{{ page.search_tag }}"><i class="fa fa-chevron-left"></i> Prev</a>
-                        {% else %}
-                            <a href="/search/{{ paginator.previous_page_path }}"><i class="fa fa-chevron-left"></i> Prev</a>
-                        {% endif %}
-                    </span>
-                {% endif %}    
+            {% if paginator.next_page %}
+                <li class='page-link'>
+                    <a href='/search/{{ page.search_tag }}{{ paginator.next_page_path }}'>Next <i class='fa fa-chevron-right'></i></a>
+                </li>
+            {% endif %}
+        </ul>
+    {% else %}
+        <ul class='mui-pagination'>
+            {% if paginator.previous_page %}
+                <li class='page-link'>
+                    {% if paginator.page == 2 %}
+                        <a href='/'><i class='fa fa-chevron-left'></i> Prev</a>
+                    {% else %}
+                        <a href='{{ paginator.previous_page_path }}'><i class='fa fa-chevron-left'></i> Prev</a>
+                    {% endif %}
+                </li>
+            {% endif %}    
 
-                {% if paginator.next_page %}
-                    <span class="next">
-                        <a class=".next-link" href="/search/{{ page.search_tag }}{{ paginator.next_page_path }}">Next <i class="fa fa-chevron-right"></i></a>
-                    </span>
-                {% endif %}
-            </div>
-        {% else %}
-            <div class="pagination">
-                {% if paginator.previous_page %}
-                    <span class="prev">
-                        {% if paginator.page == 2 %}
-                            <a href="/"><i class="fa fa-chevron-left"></i> Prev</a>
-                        {% else %}
-                            <a href="{{ paginator.previous_page_path }}"><i class="fa fa-chevron-left"></i> Prev</a>
-                        {% endif %}
-                    </span>
-                {% endif %}    
-
-                {% if paginator.next_page %}
-                    <span class="next">
-                        <a class=".next-link" href="{{ paginator.next_page_path }}">Next <i class="fa fa-chevron-right"></i></a>
-                    </span>
-                {% endif %}
-            </div>
-        {% endif %}
-        
-    {% endif %}
-<!--</noscript>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="/js/infinite-scroll.js"></script>
-
-<script>
-    $(document).ready(function() {
-        {% if page.search %}
-            $('main').infiniteScroll({
-                totalPages: parseInt('{{ paginator.total_pages }}'),
-                nextPageUrlBase: '/search/{{ page.search_tag }}/page'
-            });
-        {% else %}
-            $('main').infiniteScroll({
-                totalPages: parseInt('{{ paginator.total_pages }}')
-            });
-        {% endif %}
-    });
-</script>
--->
+            {% if paginator.next_page %}
+                <li class='page-link'>
+                    <a href='{{ paginator.next_page_path }}'>Next <i class='fa fa-chevron-right'></i></a>
+                </li>
+            {% endif %}
+        </ul>
+    {% endif %}        
+{% endif %}

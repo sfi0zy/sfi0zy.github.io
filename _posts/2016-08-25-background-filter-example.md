@@ -4,7 +4,7 @@ title:  "Background Filter Example"
 date:   2016-08-25 00:00:00 +0300
 categories: codepen
 tags: [html, css, less, codepen]
-thumb: "https://habrastorage.org/files/08f/643/f93/08f643f9319f4339bed7eb2f499722d1.png"
+thumb: "/images/08f643f9319f4339bed7eb2f499722d1.png"
 ---
 
 Example of background with css filters. It was an illustration for the question on [toster.ru][question-on-toster]

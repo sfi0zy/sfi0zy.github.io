@@ -4,7 +4,7 @@ title:  "Yin Yang"
 date:   2016-10-18 00:00:00 +0300
 categories: codepen
 tags: [html, css, less, codepen]
-thumb: "https://habrastorage.org/files/f97/d55/d82/f97d55d826c9406ebb50150f6d8d39d1.png"
+thumb: "/images/f97d55d826c9406ebb50150f6d8d39d1.png"
 ---
 
 Pure CSS animated Yin-Yang realized using only one div element. This is a great illustration of usage of before and after pseudo-elements and CSS keyframes.

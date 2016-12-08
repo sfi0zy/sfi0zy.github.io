@@ -4,7 +4,7 @@ title:  "Twitch login form"
 date:   2016-10-30 00:00:00 +0300
 categories: codepen
 tags: [html, css, less, codepen]
-thumb: "https://habrastorage.org/files/a87/2b3/77d/a872b377d49d4b92b4b13ba720357600.png"
+thumb: "/images/a872b377d49d4b92b4b13ba720357600.png"
 ---
 
 This is a little example of my work. This login form based on free PSD template by Twitch Creative that I found on psdrepo.com. I use RSCSS methodology with LESS, fluid typography and nice animations. And of course this component is keyboard-friendly.

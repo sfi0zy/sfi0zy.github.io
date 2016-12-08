@@ -2,27 +2,29 @@
 layout: default
 ---
 
-<article>
-    <div class="title">
-        <a href="/" onclick="window.history.back();"><i class="category-icon fa fa-reply"></i></a>
-        {% if page.categories[0] == "codepen" %}
-            <i class="category-icon fa fa-codepen"></i>
-        {% elsif page.categories[0] == "bookmark" %}
-            <i class="category-icon fa fa-bookmark"></i>
-        {% elsif page.categories[0] == "dev" %}
-            <i class="category-icon fa fa-cogs"></i>
-        {% else %}
-            <i class="category-icon fa fa-wpforms"></i>
-        {% endif %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    </div>
-    <p>{{ page.content | split:'<!--cut-->' | first }}</p>
-    <div class="wrapper">
-       <ul class="tags">
-            <i class="fa fa-tags"></i>
+<article class='mui-post'>
+    <div class='date'>{{ page.date | date: '%-d %B %Y' }}</div>
+    <header class='mui-post-header'>
+        <h3 class='title'>
+            {% if page.categories[0] == 'codepen' %}
+                <i class='category-icon fa fa-codepen'></i>
+            {% elsif page.categories[0] == 'bookmark' %}
+                <i class='category-icon fa fa-bookmark'></i>
+            {% elsif page.categories[0] == 'dev' %}
+                <i class='category-icon fa fa-cogs'></i>
+            {% else %}
+                <i class='category-icon fa fa-wpforms'></i>
+            {% endif %}
+            <a href='{{ page.url }}'>{{ page.title }}</a>
+        </h3>
+    </header>
+    <div class='mui-post-content'>{{ page.content | split:'<!--cut-->' | first }}</div>
+    <footer class='mui-post-footer'>
+       <ul class='mui-tags-list'>
+            <li class='mui-tag-wrapper -icon'><i class='fa fa-tags' aria-hidden='true'></i></li>
             {% for tag in page.tags %}
-            <li><a href="/search/{{ tag }}">{{ tag }}</a></li>
+            <li class='mui-tag-wrapper'><a href='/search/{{ tag }}' class='mui-tag'>{{ tag }}</a></li>
             {% endfor %}
         </ul>
-    </div>
+    </footer>
 </article>

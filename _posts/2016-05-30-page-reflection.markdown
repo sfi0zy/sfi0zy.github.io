@@ -4,7 +4,7 @@ title:  "Page Refection On The Glass"
 date:   2016-05-30 00:00:00 +0300
 categories: codepen
 tags: [codepen, javascript]
-thumb: "https://habrastorage.org/files/c7a/728/635/c7a72863570c4d3c8c2b0dd23253cf2b.png"
+thumb: "/images/c7a72863570c4d3c8c2b0dd23253cf2b.png"
 ---
 
 Have your even seen page reflection? I'm not. This idea is very interesting, but have not very good performance.

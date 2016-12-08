@@ -4,7 +4,7 @@ title:  "Random Color CSS Animation"
 date:   2016-06-03 00:00:00 +0300
 categories: codepen
 tags: [css, less, codepen]
-thumb: "https://habrastorage.org/files/17a/f2f/391/17af2f3915014ab6a5b30d559d877c46.png"
+thumb: "/images/17af2f3915014ab6a5b30d559d877c46.png"
 ---
 
 This is a little hack to generate a random color for animation every time page loaded.
