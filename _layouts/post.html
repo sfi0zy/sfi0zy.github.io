@@ -23,7 +23,7 @@ layout: default
        <ul class='mui-tags-list'>
             <li class='mui-tag-wrapper -icon'><i class='fa fa-tags' aria-hidden='true'></i></li>
             {% for tag in page.tags %}
-            <li class='mui-tag-wrapper'><a href='/search/{{ tag }}' class='mui-tag'>{{ tag }}</a></li>
+            <li class='mui-tag-wrapper'><a href='/{{ site.tags_dir }}/{{ tag }}' class='mui-tag'>{{ tag }}</a></li>
             {% endfor %}
         </ul>
     </footer>

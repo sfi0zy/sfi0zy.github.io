@@ -5,10 +5,20 @@
                 <i class='fa fa-bars'></i>
             </div>
             <ul class='links-list'>
-                <li class='_align-left'><a href="/"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="https://codepen.io/sfi0zy/">See more on CodePen</a></li>
+                <li class='_align-left'><a href='/'><i class='fa fa-home'></i> Home</a></li>
+                <li class='_align-left'><a href='/about/'><i class='fa fa-question'></i> About me</a></li>
+                <li>
+                    <form action='/search/' method='get'>
+                        <div class='mui-input -icon-right'>
+                            <input id='search-input' type='search' name='query' placeholder='Search'>
+                            <label class='icon' for='search-input'><i class='fa fa-search'></i></label>
+                        </div>
+                        <input type='submit' style='display: none'>
+                    </form>
+                </li>
             </ul>
             <div class='mui-navigation-toggle mui-shadow-toggle'></div>
         </nav>
     </div>
 </header>
+

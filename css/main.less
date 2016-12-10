@@ -10,6 +10,30 @@ body {
             float: left;
         }
     }
+
+    form {
+        display: inline-block;
+        height: 4rem;
+        padding-top: 1rem;
+    }
+
+    @media screen and (max-width: 50rem) {
+        .mui-input {
+            height: 2em;
+            line-height: 2em;
+
+            input {
+                padding: 0 4rem 0 1rem;
+            }
+
+            .icon {
+                font-size: 2rem;
+                line-height: 2em;
+                right: 1.6rem;
+                padding: 0 1rem;
+            }
+        }
+    }
 }
 
 .mui-column.-w-margin {
@@ -171,6 +195,23 @@ body {
 
     img, p {
         margin-bottom: 1rem;
+    }
+}
+
+.mui-post.-about {
+    .mui-p {
+        margin-bottom: 1rem;
+    }
+}
+
+
+.search-results-wrapper {
+    padding-bottom: 1rem;
+}
+
+.mui-collection {
+    .mui-p {
+        margin-top: 1rem;
     }
 }
 
