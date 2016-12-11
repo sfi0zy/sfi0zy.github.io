@@ -1,23 +1,29 @@
-<header class='mui-page-header _text-right'>
-    <div class='mui-content-container'>
-        <nav class='mui-header-navigation'>
-            <div class='mui-navigation-toggle -hamburger'>
-                <i class='fa fa-bars'></i>
+<header class='mui-page-header _text-right' role='banner'>
+    <div class='mui-content-container' role='presentation'>
+        <nav class='mui-header-navigation' role='navigation'>
+            <div class='mui-navigation-toggle -hamburger' role='button' aria-label='Open navigation'>
+                <i class='fa fa-bars' role='presentation'></i>
             </div>
-            <ul class='links-list'>
-                <li class='_align-left'><a href='/'><i class='fa fa-home'></i> Home</a></li>
-                <li class='_align-left'><a href='/about/'><i class='fa fa-question'></i> About me</a></li>
-                <li>
-                    <form action='/search/' method='get'>
-                        <div class='mui-input -icon-right'>
-                            <input id='search-input' type='search' name='query' placeholder='Search'>
-                            <label class='icon' for='search-input'><i class='fa fa-search'></i></label>
+            <ul class='links-list' role='presentation'>
+                <li class='_align-left' role='presentation'>
+                    <a href='/' role='link'><i class='fa fa-home' role='presentation'></i> Home</a>
+                </li>
+                <li class='_align-left' role='presentation'>
+                    <a href='/about/' role='link'><i class='fa fa-question' role='presentation'></i> About me</a>
+                </li>
+                <li role='presentation'>
+                    <form action='/search/' method='get' role='search'>
+                        <div class='mui-input -icon-right' role='presentation'>
+                            <input id='search-input' type='search' name='query' placeholder='Search' role='textbox' aria-required='true'>
+                            <label class='icon' for='search-input' role='presentation'>
+                                <i class='fa fa-search' role='presentation'></i>
+                            </label>
                         </div>
-                        <input type='submit' style='display: none'>
+                        <input type='submit' style='display: none' role='link'>
                     </form>
                 </li>
             </ul>
-            <div class='mui-navigation-toggle mui-shadow-toggle'></div>
+            <div class='mui-navigation-toggle mui-shadow-toggle' role='button' aria-label='Close navigation'></div>
         </nav>
     </div>
 </header>

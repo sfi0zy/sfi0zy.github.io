@@ -7,74 +7,78 @@ layout: default
 {% endif %}
 
 {% for post in paginator.posts %}
-    <article class='mui-post'>
-        <div class='date'>{{ post.date | date: '%-d %B %Y' }}</div>
-        <header class='mui-post-header'>
-            <h3 class='title'>
+    <article class='mui-post' role='article'>
+        <div class='date' role='presentation' aria-label='Post publication date'>{{ post.date | date: '%-d %B %Y' }}</div>
+        <header class='mui-post-header' role='presentation'>
+            <h3 class='title' role='heading'>
                 {% if post.categories[0] == 'codepen' %}
-                    <i class='category-icon fa fa-codepen'></i>
+                    <i class='category-icon fa fa-codepen' role='presentation'></i>
                 {% elsif post.categories[0] == 'bookmark' %}
-                    <i class='category-icon fa fa-bookmark'></i>
+                    <i class='category-icon fa fa-bookmark' role='presentation'></i>
                 {% elsif post.categories[0] == 'dev' %}
-                    <i class='category-icon fa fa-cogs'></i>
+                    <i class='category-icon fa fa-cogs' role='presentation'></i>
                 {% else %}
-                    <i class='category-icon fa fa-wpforms'></i>
+                    <i class='category-icon fa fa-wpforms' role='presentation'></i>
                 {% endif %}
-                <a class='title-text' href='{{ post.url }}'>{{ post.title }}</a>
+                <a class='title-text' href='{{ post.url }}' role='link' aria-label='Link to this post'>{{ post.title }}</a>
             </h3>
         </header>
-        <div class='mui-post-content'>
-            <img class='mui-image mui-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'  data-src='{{ post.thumb }}' alt='Post preview'>
+        <div class='mui-post-content' role='presentation'>
+            <img class='mui-image mui-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'  data-src='{{ post.thumb }}' role='img' alt='Post preview'>
             <div class='mui-p'>{{ post.excerpt }}</div>
         </div>
-        <footer class='mui-post-footer'>
-            <ul class='mui-tags-list'>
-                <li class='mui-tag-wrapper -icon'><i class='fa fa-tags' aria-hidden='true'></i></li>
+        <footer class='mui-post-footer' role='presentation'>
+            <ul class='mui-tags-list' role='navigation' aria-label='Tags for this post'>
+                <li class='mui-tag-wrapper -icon' role='presentation'>
+                    <i class='fa fa-tags' role='presentation'></i>
+                </li>
                 {% for tag in post.tags %}
-                    <li class='mui-tag-wrapper'><a href='/{{ site.tags_dir }}/{{ tag }}' class='mui-tag'>{{ tag }}</a></li>
+                    <li class='mui-tag-wrapper' role='presentation'>
+                        <a href='/{{ site.tags_dir }}/{{ tag }}' class='mui-tag' role='link' aria-label='Link to search by tag "{{ tag }}"'>{{ tag }}</a>
+                    </li>
                 {% endfor %}
             </ul>
-            <a href='{{ post.url }}' class='mui-button -read-more'>read more</a>
+            <a href='{{ post.url }}' class='mui-button -read-more' role='link' aria-label='Link to this post'>read more</a>
         </footer>
     </article>
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
     {% if page.search %}
-        <ul class='mui-pagination'>
+        <ul class='mui-pagination' role='navigation' aria-label='Pagination-navigation'>
             {% if paginator.previous_page %}
-                <li class='page-link'>
+                <li class='page-link' role='presentation'>
                     {% if paginator.page == 2 %}
-                        <a href='/search/{{ page.search_tag }}'><i class='fa fa-chevron-left'></i> Prev</a>
+                        <a href='/{{ site.tags_dir }}/{{ page.search_tag }}' role='link' aria-label='Previous page'><i class='fa fa-chevron-left' role='presentation'></i> Prev</a>
                     {% else %}
-                        <a href='/search/{{ paginator.previous_page_path }}'><i class='fa fa-chevron-left'></i> Prev</a>
+                        <a href='/{{ site.tags_dir }}/{{ paginator.previous_page_path }}' role='link' aria-label='Previous page'><i class='fa fa-chevron-left' role='presentation'></i> Prev</a>
                     {% endif %}
                 </li>
             {% endif %}    
 
             {% if paginator.next_page %}
-                <li class='page-link'>
-                    <a href='/search/{{ page.search_tag }}{{ paginator.next_page_path }}'>Next <i class='fa fa-chevron-right'></i></a>
+                <li class='page-link' role='presentation'>
+                    <a href='/{{ site.tags_dir }}/{{ page.search_tag }}{{ paginator.next_page_path }}' role='link' aria-label='Next page'>Next <i class='fa fa-chevron-right' role='presentation'></i></a>
                 </li>
             {% endif %}
         </ul>
     {% else %}
-        <ul class='mui-pagination'>
+        <ul class='mui-pagination' role='navigation' aria-label='Pagination navigation'>
             {% if paginator.previous_page %}
-                <li class='page-link'>
+                <li class='page-link' role='presentation'>
                     {% if paginator.page == 2 %}
-                        <a href='/'><i class='fa fa-chevron-left'></i> Prev</a>
+                        <a href='/' role='link' aria-label='Previous page'><i class='fa fa-chevron-left' role='presentation'></i> Prev</a>
                     {% else %}
-                        <a href='{{ paginator.previous_page_path }}'><i class='fa fa-chevron-left'></i> Prev</a>
+                        <a href='{{ paginator.previous_page_path }}' role='link' aria-label='Previous page'><i class='fa fa-chevron-left' role='presentation'></i> Prev</a>
                     {% endif %}
                 </li>
             {% endif %}    
 
             {% if paginator.next_page %}
-                <li class='page-link'>
-                    <a href='{{ paginator.next_page_path }}'>Next <i class='fa fa-chevron-right'></i></a>
+                <li class='page-link' role='presentation'>
+                    <a href='{{ paginator.next_page_path }}' role='link' aria-label='Next page'>Next <i class='fa fa-chevron-right' role='presentation'></i></a>
                 </li>
             {% endif %}
         </ul>
-    {% endif %}        
+    {% endif %}
 {% endif %}

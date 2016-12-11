@@ -2,28 +2,32 @@
 layout: default
 ---
 
-<article class='mui-post'>
-    <div class='date'>{{ page.date | date: '%-d %B %Y' }}</div>
-    <header class='mui-post-header'>
-        <h3 class='title'>
+<article class='mui-post' role='article'>
+    <div class='date' role='presentation' aria-label='Post publication date'>{{ page.date | date: '%-d %B %Y' }}</div>
+    <header class='mui-post-header' role='presentation'>
+        <h3 class='title' role='heading'>
             {% if page.categories[0] == 'codepen' %}
-                <i class='category-icon fa fa-codepen'></i>
+                <i class='category-icon fa fa-codepen' role='presentation'></i>
             {% elsif page.categories[0] == 'bookmark' %}
-                <i class='category-icon fa fa-bookmark'></i>
+                <i class='category-icon fa fa-bookmark' role='presentation'></i>
             {% elsif page.categories[0] == 'dev' %}
-                <i class='category-icon fa fa-cogs'></i>
+                <i class='category-icon fa fa-cogs' role='presentation'></i>
             {% else %}
-                <i class='category-icon fa fa-wpforms'></i>
+                <i class='category-icon fa fa-wpforms' role='presentation'></i>
             {% endif %}
-            <a href='{{ page.url }}'>{{ page.title }}</a>
+            <a href='{{ page.url }}' role='link' aria-label='Link to this post'>{{ page.title }}</a>
         </h3>
     </header>
-    <div class='mui-post-content'>{{ page.content | split:'<!--cut-->' | first }}</div>
-    <footer class='mui-post-footer'>
-       <ul class='mui-tags-list'>
-            <li class='mui-tag-wrapper -icon'><i class='fa fa-tags' aria-hidden='true'></i></li>
+    <div class='mui-post-content' role='presentation' aria-label='Post content'>{{ page.content | split:'<!--cut-->' | first }}</div>
+    <footer class='mui-post-footer' role='presentation'>
+       <ul class='mui-tags-list' role='navigation' aria-label='Tags for this post'>
+            <li class='mui-tag-wrapper -icon' role='presentation'>
+                <i class='fa fa-tags' role='presentation'></i>
+            </li>
             {% for tag in page.tags %}
-            <li class='mui-tag-wrapper'><a href='/{{ site.tags_dir }}/{{ tag }}' class='mui-tag'>{{ tag }}</a></li>
+            <li class='mui-tag-wrapper' role='presentation'>
+                <a href='/{{ site.tags_dir }}/{{ tag }}' class='mui-tag' role='link' aria-label='Link to search by tag "{{ tag }}"'>{{ tag }}</a>
+            </li>
             {% endfor %}
         </ul>
     </footer>

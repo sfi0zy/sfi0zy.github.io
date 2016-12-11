@@ -7,10 +7,10 @@ function displaySearchResults(results, store) {
         results.forEach(function(result) {
             var item = store[result.ref];
 
-            appendString += '<li class=\'item\'><a href=' + item.url + '>' + item.title + '</a>';
+            appendString += '<li class=\'item\' role=\'listitem\'><a href=' + item.url + ' role=\'link\' aria-labelledby=\'Link to this post\'>' + item.title + '</a>';
 
             if (item.content) {
-                appendString += '<p class=\'mui-p\'>' + item.content.substring(0, 150) + '...</p>';
+                appendString += '<p class=\'mui-p\' aria-labelledby=\'Post content preview\'>' + item.content.substring(0, 150) + '...</p>';
             }
 
             appendString += '</li>';

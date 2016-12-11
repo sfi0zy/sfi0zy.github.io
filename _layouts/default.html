@@ -2,15 +2,15 @@
 <html lang='en'>
     {% include head.html %}
     <body>
-        <div class='mui-page-container'>
+        <div class='mui-page-container' role='presentation'>
             {% include header.html %}
-            <div class='mui-content-container'>
-                <div class='mui-row'>
-                    <div class='mui-column -w-margin -s12 -m5 -l4'>
+            <div class='mui-content-container' role='presentation'>
+                <div class='mui-row' role='presentation'>
+                    <div class='mui-column -w-margin -s12 -m5 -l4' role='presentation'>
                         {% include aside.html %}
                     </div>
-                    <div class='mui-column -w-margin -s12 -m7 -l8'>
-                        <main>
+                    <div class='mui-column -w-margin -s12 -m7 -l8' role='presentation'>
+                        <main role='main'>
                             {{ content }}
                         </main>
                     </div>
@@ -19,5 +19,4 @@
         </div>
         {% include footer.html %}
     </body>
-
 </html>
