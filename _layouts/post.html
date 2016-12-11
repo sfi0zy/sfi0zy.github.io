@@ -15,7 +15,7 @@ layout: default
             {% else %}
                 <i class='category-icon fa fa-wpforms' role='presentation'></i>
             {% endif %}
-            <a href='{{ page.url }}' role='link' aria-label='Link to this post'>{{ page.title }}</a>
+            <a href='{{ page.url }}' role='link' aria-label='Link to the this post'>{{ page.title }}</a>
         </h3>
     </header>
     <div class='mui-post-content' role='presentation' aria-label='Post content'>{{ page.content | split:'<!--cut-->' | first }}</div>

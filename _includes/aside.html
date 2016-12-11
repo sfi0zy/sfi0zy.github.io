@@ -11,9 +11,9 @@
                             </div>
                         </div>
                         <div class='mui-column -s8 -m12' role='presentation'>
-                            <div class='name' aria-label='My name'>Ivan Bogachev</div>
-                            <div class='description' aria-label='About me'>Musician and Front-End Developer</div>
-                            <div class='nickname' aria-label='My nickname'><a class='twitter-link' href='https://twitter.com/sfi0zy' role='link'>@sfi0zy</a></div>
+                            <div class='name'>Ivan Bogachev</div>
+                            <div class='description'>Musician and Front-End Developer</div>
+                            <div class='nickname'><a class='twitter-link' href='https://twitter.com/sfi0zy' role='link' aria-label='Link to my profile on twitter.com'>@sfi0zy</a></div>
                             <ul class='social-icons' role='presentation'>
                                 <li role='presentation'>
                                     <a class='mui-button -icon' href='https://github.com/{{ site.github_username }}' role='link' aria-label='Link to my profile on github.com'>
@@ -49,7 +49,7 @@
                     {% for tag in tags %}
                         <span class='tag _no-break' role='presentation'>
                             <a href='/{{ site.tags_dir }}/{{ tag | first | slugify }}/'
-                                    style='font-size: {{ tag | last | size  |  times: 8 | plus: 70  }}%' role='link' aria-label='Search posts for tag "{{ tag[0] | replace:'-', ' ' }}" ({{ tag | last | size }} posts total)'>
+                                    style='font-size: {{ tag | last | size  |  times: 8 | plus: 70  }}%' role='link' aria-label='Search posts for tag {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }} posts total)'>
                                     {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a>
                         </span>
                     {% endfor %}
@@ -59,7 +59,7 @@
 
         {% if page.url == '/' %}
             <div class='mui-column -s12' role='presentation'>
-                <div class='mui-card -twitter' role='group' aria-label='My latest tweets'>
+                <div class='mui-card -twitter' role='presentation' aria-label='My latest tweets'>
                     <a class='twitter-timeline' data-tweet-limit='3' href='https://twitter.com/sfi0zy' role='link'>Tweets by sfi0zy</a>
                 </div>
             </div>
