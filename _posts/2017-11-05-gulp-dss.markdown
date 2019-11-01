@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "DSS plugin for Gulp"
+date:   2017-11-05 00:00:00 +0300
+categories: dev
+tags: [css, grunt, gulp, github]
+thumb: "/images/67ade7aa5435844f603561d60873a86c.jpg"
+---
+
+One of the important tasks in large projects is the documentation and creation of style guides. This process should be automated if it's possible. Previously I used the <a href='https://github.com/DSSWG/grunt-dss'>grunt-dss</a> plugin, but during migration of the Muilessium to gulp a little problem appeared...
+
+Gulp-dss plugin from the author of the original plugin for grunt doesn't support handlebars syntax for templates. I planned the migration of other projects and the idea to rewrite all templates for style guides to another syntax was very bad. So I wrote my own realization of gulp-dss plugin.
+
+My plugin supports handlebars syntax and it makes the migration of the projects to gulp faster. It's distributed under the MIT license and the sources available on <a href='https://github.com/sfi0zy/gulp-dss'>GitHub</a>.
+

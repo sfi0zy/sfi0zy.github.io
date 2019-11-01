@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+    {% include head.html %}
+    <body itemscope itemtype='https://schema.org/Person'>
+        <div class='mui-scroll-fix'></div>
+        {% include header.html %}
+        <!-- page-container -->
+        <div class='mui-page-container -grey-1-bg'>
+            <!-- content-container -->
+            <div class='mui-content-container _separate-1'>
+                <!-- row -->
+                <div class='mui-row'>
+                    {% include aside.html %}
+
+                    <!-- main-column -->
+                    <main class='mui-column -s12 -m8 -l9'>
+                        <!-- content-container -->
+                        <div class='mui-content-container'>
+                            {{ content }}
+                        </div>
+                        <!-- /content-container -->
+                    </main>
+                    <!-- /main-column -->
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /content-container -->
+        </div>
+        <!-- page-container -->
+        {% include footer.html %}
+    </body>
+</html>

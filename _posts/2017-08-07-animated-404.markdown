@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Animated 404 page"
+date:   2017-08-07 00:00:00 +0300
+categories: codepen
+icon: hotoncodepen
+tags: [html, pug, css, postcss, ux, codepen, toster]
+thumb: "/images/472d28ca5fc340cda337ad185bc423f7.jpg"
+---
+
+This is a nice 404 page with CSS animations. I created it for <a href='https://toster.ru/q/449441'>one of my answers</a> on toster.ru. I was inspired by GIF animation from dribbble, but unfortunately I don't remember the name of its author. This animation is pretty simple and lightweight - only four circles, twelve numbers and 'Oops....' message.
+
+<p data-height="537" data-theme-id="light" data-slug-hash="gxmOda" data-default-tab="result" data-user="sfi0zy" data-embed-version="2" data-pen-title="Animated 404 page" class="codepen">See the Pen <a href="https://codepen.io/sfi0zy/pen/gxmOda/">Animated 404 page</a> by Ivan Bogachev (<a href="https://codepen.io/sfi0zy">@sfi0zy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "UI in VR"
+date:   2017-07-16 00:00:00 +0300
+categories: publications
+icon: publication
+rating: 8
+tags: [javascript, ux, vr, publications, habrahabr]
+thumb: "/images/9a215f7cf3de4368b573ba71ed13e4e0.jpg"
+---
+
+I've written an article on habrahabr.ru about one of my experiments. I created a website that can be viewed using a Google Cardboard (or similar devices). The experiment works only in desktop browsers due to bad support of detection of device orientation in mobile browsers for today, but it can be a starting point for the future experiments.
+
+<div class='youtube-wrapper'>
+    <iframe src="https://www.youtube.com/embed/JUTNqw-Wwaw" frameborder="0" allowfullscreen></iframe>
+</div>
+
+The full article is <a href='https://habrahabr.ru/post/333400/'>here</a>.

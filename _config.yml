@@ -1,0 +1,86 @@
+# ------------------------------------------------------------------------------
+# MAIN INFO
+# ------------------------------------------------------------------------------
+
+url: 'https://sfi0zy.github.io'
+
+title: Ivan Bogachev | Musician and UI Developer
+email: sfi0zy@gmail.com
+description: >
+    Here you can find different ideas for UI developers, amazing CSS and JS animations,
+    information about my music, books, articles and open-source projects. 
+
+
+# ------------------------------------------------------------------------------
+# CATEGORIES
+# ------------------------------------------------------------------------------
+
+categories: [
+    'codepen',
+    'dev',
+    'publications',
+    'other'
+]
+
+permalink: /:categories/:title
+
+
+# ------------------------------------------------------------------------------
+# TAGS
+# ------------------------------------------------------------------------------
+
+tags: [
+    'html', 'pug',
+    'svg',
+    'css', 'less', 'postcss',
+    'javascript', 'jquery', 'vue', 'animejs', 'webgl',
+    'grunt', 'gulp', 'webpack',
+    'design', 'ux', 'vr',
+    'chrome', 'security', 'fractals',
+    'muilessium', 'ucavatar',
+    'codepen', 'cssquests', 'toster', 'publications', 'habrahabr', 'github',
+    'other', 'music', 'books', 'promo', 'vim', 'bash'
+]
+
+tags_dir: 'tag'
+
+
+# ------------------------------------------------------------------------------
+# PAGINATION
+# ------------------------------------------------------------------------------
+
+paginate: 10
+paginate_path: '/page:num/'
+
+
+# ------------------------------------------------------------------------------
+# SYNTAX
+# ------------------------------------------------------------------------------
+
+markdown: kramdown
+kramdown:
+    syntax_highlighter: rouge
+
+
+# ------------------------------------------------------------------------------
+# DEFAULTS
+# ------------------------------------------------------------------------------
+
+defaults:
+    -
+        scope:
+            path: 'tag'
+        values:
+            sitemap: false
+
+
+# ------------------------------------------------------------------------------
+# PLUGINS
+# ------------------------------------------------------------------------------
+
+plugins: [
+    'jekyll-less',
+    'jekyll-paginate',
+    'jekyll-sitemap'
+]
+

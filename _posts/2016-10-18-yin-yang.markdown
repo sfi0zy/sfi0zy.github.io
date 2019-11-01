@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Yin Yang"
+date:   2016-10-18 00:00:00 +0300
+categories: codepen
+icon: hotoncodepen
+tags: [html, pug, css, less, codepen]
+thumb: "/images/f97d55d826c9406ebb50150f6d8d39d1.jpg"
+---
+
+Today I will show you an example of animated Yin-Yang. I have created it using only one div element. This is a great illustration of usage of ::before and ::after pseudo-elements and CSS keyframes.
+
+<p data-height="376" data-theme-id="light" data-slug-hash="ALrAvd" data-default-tab="result" data-user="sfi0zy" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/sfi0zy/pen/ALrAvd/">Yin-Yang</a> by Ivan Bogachev (<a href="http://codepen.io/sfi0zy">@sfi0zy</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>

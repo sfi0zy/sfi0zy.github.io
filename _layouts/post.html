@@ -1,0 +1,310 @@
+---
+layout: default
+---
+
+<!-- post -->
+<article class='mui-post -white-bg _shadow-1 _separate-1' itemscope itemtype='https://schema.org/Blog'>
+    <!-- post-header -->
+    <header class='mui-post-header'>
+        <div class='title'>
+            <a class='-grey-5 -f-blue-4' href='{{ page.url }}' aria-label='Post {{ page.title }}' itemprop='url'>
+                <h2 class='heading _bigger-3' itemprop='headline'>{{ page.title }}</h2>
+            </a>
+        </div>
+        <div class='information -grey-4 _smaller-1'>
+            {% if page.icon == "hotoncodepen" %}
+                <span class='post-badge' title='Hot on CodePen'>
+                    <span class='fa-codepen -grey-4'></span>
+                    <span class='fa-star -yellow-3'></span>
+                </span>
+            {% elsif page.icon == "publication" %}
+                <span class='post-badge' title='Publication'>
+                    <span class='fa-book -brown-3'></span>
+                </span>
+                {% if page.tags contains 'habrahabr' %}
+                    {% if page.rating > 0 %}
+                        <span class='post-badge -green-3' title='Rating on Habr.com'>+{{ page.rating }}&nbsp;</span>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+            {% if page.tags contains 'music' %}
+                <span class='post-badge' title='Music'>
+                    <svg class='mui-svg-icon'>
+                        <use xlink:href='#mui-svg-icon--notes'></use>
+                    </svg>
+                </span>&nbsp;
+            {% endif %}
+            <span>Published on</span>
+            <span class='date' aria-label='Post publication date' itemprop='datePublished' datetime='{{ page.date | date: "%Y-%m-%d" }}'>{{ page.date | date: '%B %-d, %Y' }}</span>
+        </div>
+    </header>
+    <!-- /post-header -->
+
+    <!-- post-content -->
+    <div class='mui-post-content' itemprop='text'>
+        {% assign svgurl = '.' | append: page.thumb | append: '.svg' %}
+        {% assign svg64 = svgurl | urltobase64 %}
+        {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
+        <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
+            <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+            <img class='mui-image -rounded -js-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' data-src='{{ page.thumb }}' alt='{{ page.title }} preview' itemprop='image'>
+            <noscript>
+                <img class='mui-image -rounded' src='{{ page.thumb }}' alt='{{ page.title }} preview' itemprop='image'>
+            </noscript>
+        </div>
+        <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
+            <div class='window _shadow-3'>
+                <div class='lazy-image-wrapper'>
+                    <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                    <img class='mui-image -rounded -js-lazy-load' data-src='{{ page.thumb }}' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='{{ page.title }} preview' itemprop='image'>
+                </div>
+                <div class='closeicon'>
+                    <svg class='mui-svg-icon'>
+                        <use xlink:href='#mui-svg-icon--close'></use>
+                    </svg>
+                </div>
+            </div>
+            <div class='mui-shadow-toggle'></div>
+        </div>
+
+        {{ page.content | split:'<!--cut-->' | first }}
+    </div>
+    <!-- /post-content -->
+
+    <!-- post-footer -->
+    <footer class='mui-post-footer'>
+        <!-- tags-list -->
+        <div class='mui-tags-list' aria-label='Tags list for this post'>
+            <div class='mui-tag-wrapper -icon'>
+                <svg class='mui-svg-icon'>
+                    <use xlink:href='#mui-svg-icon--tags'></use>
+                </svg>
+            </div>
+            {% for tag in page.tags %}
+                <div class='mui-tag-wrapper' itemprop='keywords'>
+                    <a class='mui-tag' href='/{{ site.tags_dir }}/{{ tag }}/'
+                            title='Search by tag {{ tag }}'>{{ tag }}</a>
+                </div>
+            {% endfor %}
+        </div>
+        <!-- /tags-list -->
+
+        <!-- share links -->
+        <div class='_separate-top-1'>
+            <a class='mui-button -icon -white -green-3-bg -f-white -f-blue-4-bg' target='_blank' href='https://twitter.com/home?status=@sfi0zy - {{ page.title }} - {{ page.url  | prepend: site.baseurl | prepend: site.url }}' title='Share this page on Twitter'><i class='fa fa-twitter'></i></a>
+            <a class='mui-button -icon -white -green-3-bg -f-white -f-blue-4-bg' target='_blank' href='http://vk.com/share.php?url={{ page.url  | prepend: site.baseurl | prepend: site.url }}&title=@sfi0zy - {{ page.title }}' title='Share this page on VK'><i class='fa fa-vk'></i></a>
+            <a class='mui-button -icon -white -green-3-bg -f-white -f-blue-4-bg' target='_blank' href='https://www.facebook.com/sharer/sharer.php?u={{ page.url  | prepend: site.baseurl | prepend: site.url }}' title='Share this page on Facebook'><i class='fa fa-facebook'></i></a>
+        </div>
+        <!-- /share links -->
+    </footer>
+    <!-- /post-footer -->
+</article>
+<!-- /post -->
+
+
+<!-- similar-posts -->
+<!--noindex-->
+<!--googleoff: index-->
+<div class='mui-card -white-bg _shadow-1 _separate-1'>
+    <div class='header _text-left'>
+        <h2 class='_bigger-1 _padding-lr-1'>Related posts</h2>
+    </div>
+    <div class='content'>
+        {% assign maxRelated = 3 %}
+        {% assign maxRelatedCounter = 0 %}
+        {% assign minCommonTags = 2 %}
+
+        {% assign shuffledPosts = site.posts | shuffle %}
+
+        {% for post in shuffledPosts %}
+            {% assign sameTagCounter = 0 %}
+            {% assign commonTags = '' %}
+
+            {% for tag in post.tags %}
+                {% if post.url != page.url %}
+                    {% if page.tags contains tag %}
+                        {% assign sameTagCounter = sameTagCounter | plus: 1%}
+                        {% capture tagMarkup %}
+                            <div class='mui-tag-wrapper _smaller-1'>
+                                <a class='mui-tag' href='/{{ site.tags_dir }}/{{ tag }}' title='Search by tag {{ tag }}'>{{ tag }}</a>
+                            </div>
+                        {% endcapture %}
+                        {% assign commonTags = commonTags | append: tagMarkup %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+            {% if sameTagCounter >= minCommonTags %}
+                {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                {% if maxRelated >= maxRelatedCounter %}
+                    <div class='mui-row _padding-lr-1' itemscope itemtype='https://schema.org/Blog'>
+                        <div class='mui-column -s12 -m4 _separate-1'>
+                            {% assign svgurl = '.' | append: post.thumb | append: '.svg' %}
+                            {% assign svg64 = svgurl | urltobase64 %}
+                            {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
+                            <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
+                                <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                                <img class='mui-image -rounded -js-lazy-load' data-src='{{ post.thumb }}' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='{{ post.title }} - post preview' itemprop='image'>
+                                <noscript>
+                                    <img class='mui-image -rounded' src='{{ post.thumb }}' alt='{{ post.title }} - post preview' itemprop='image'>
+                                </noscript>
+                            </div>
+                            <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
+                                <div class='window _shadow-3'>
+                                    <div class='lazy-image-wrapper'>
+                                        <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                                        <img class='mui-image -rounded -js-lazy-load' data-src='{{ post.thumb }}' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='{{ post.title }} - post preview' itemprop='image'>
+                                    </div>
+                                    <div class='closeicon'>
+                                        <svg class='mui-svg-icon'>
+                                            <use xlink:href='#mui-svg-icon--close'></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class='mui-shadow-toggle'></div>
+                            </div>
+                        </div>
+                        <div class='mui-column -s12 -m8 _separate-1 _padding-lr-1'>
+                            <a href='{{ post.url }}' aria-label='Post {{ post.title }}' itemprop='url'>
+                                <h3 class='_bigger-1' itemprop='headline'>{{ post.title }}</h3>
+                            </a>
+                            <div class='mui-row -grey-4 _smaller-1'>
+                                {% if post.icon == "hotoncodepen" %}
+                                    <span class='post-badge -separated' title='Hot on CodePen'>
+                                        <span class='fa-codepen -grey-4'></span>
+                                        <span class='fa-star -yellow-3'></span>
+                                    </span>
+                                {% elsif post.icon == "publication" %}
+                                    <span class='post-badge -separated' title='Publication'>
+                                        <span class='fa-book -brown-3'></span>
+                                    </span>
+                                    {% if post.rating > 0 %}
+                                        <span class='post-badge -green-3 -separated' title='Rating on Habr.com'>+{{ post.rating }}&nbsp;</span>
+                                    {% endif %}
+                                {% endif %}
+                                {% if post.tags contains 'music' %}
+                                    <span class='post-badge -separated' title='Music'>
+                                        <svg class='mui-svg-icon'>
+                                            <use xlink:href='#mui-svg-icon--notes'></use>
+                                        </svg>
+                                    </span>&nbsp;
+                                {% endif %}
+                                <span aria-label='Post publication date' itemprop='datePublished' datetime='{{ post.date | date: "%-d %B %Y" }}'>{{ post.date | date: '%B %-d, %Y' }}</span>
+                            </div>
+                            <div class='mui-tags-list'>
+                                <div class='mui-tag-wrapper -icon _smaller-1'>
+                                    <svg class='mui-svg-icon'>
+                                        <use xlink:href='#mui-svg-icon--tags'></use>
+                                    </svg>
+                                </div>
+                                {{ commonTags }}
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+
+
+        {% if maxRelatedCounter < 1 %}
+            {% assign minCommonTags = 1 %}
+            {% for post in shuffledPosts %}
+                {% assign sameTagCounter = 0 %}
+                {% assign commonTags = '' %}
+
+                {% for tag in post.tags %}
+                    {% if post.url != page.url %}
+                        {% if page.tags contains tag %}
+                            {% assign sameTagCounter = sameTagCounter | plus: 1%}
+                            {% capture tagMarkup %}
+                                <div class='mui-tag-wrapper _smaller-1'>
+                                    <a class='mui-tag' href='/{{ site.tags_dir }}/{{ tag }}' title='Search by tag {{ tag }}'>{{ tag }}</a>
+                                </div>
+                            {% endcapture %}
+                            {% assign commonTags = commonTags | append: tagMarkup %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if sameTagCounter >= minCommonTags %}
+                    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+                    {% if maxRelated >= maxRelatedCounter %}
+                        <div class='mui-row _padding-lr-1' itemscope itemtype='https://schema.org/Blog'>
+                            <div class='mui-column -s12 -m4 _separate-1'>
+                                {% assign svgurl = '.' | append: post.thumb | append: '.svg' %}
+                                {% assign svg64 = svgurl | urltobase64 %}
+                                {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
+                                <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
+                                    <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                                    <img class='mui-image -rounded -js-lazy-load' data-src='{{ post.thumb }}' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='{{ post.title }} - post preview' itemprop='image'>
+                                    <noscript>
+                                        <img class='mui-image -rounded' src='{{ post.thumb }}' alt='{{ post.title }} - post preview' itemprop='image'>
+                                    </noscript>
+                                </div>
+                                <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
+                                    <div class='window _shadow-3'>
+                                        <div class='lazy-image-wrapper'>
+                                            <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                                            <img class='mui-image -rounded -js-lazy-load' data-src='{{ post.thumb }}' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='{{ post.title }} - post preview' itemprop='image'>
+                                        </div>
+                                        <div class='closeicon'>
+                                            <svg class='mui-svg-icon'>
+                                                <use xlink:href='#mui-svg-icon--close'></use>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class='mui-shadow-toggle'></div>
+                                </div>
+                            </div>
+                            <div class='mui-column -s12 -m8 _separate-1 _padding-lr-1'>
+                                <a href='{{ post.url }}' aria-label='Post {{ post.title }}' itemprop='url'>
+                                    <h3 class='_bigger-1' itemprop='headline'>{{ post.title }}</h3>
+                                </a>
+                                <div class='mui-row -grey-4 _smaller-1'>
+                                    {% if post.icon == "hotoncodepen" %}
+                                        <span class='post-badge -separated' title='Hot on CodePen'>
+                                            <span class='fa-codepen -grey-4'></span>
+                                            <span class='fa-star -yellow-3'></span>
+                                        </span>
+                                    {% elsif post.icon == "publication" %}
+                                        <span class='post-badge -separated' title='Publication'>
+                                            <span class='fa-book -brown-3'></span>
+                                        </span>
+                                        {% if post.rating > 0 %}
+                                            <span class='post-badge -green-3 -separated' title='Rating on Habr.com'>+{{ post.rating }}&nbsp;</span>
+                                        {% endif %}
+                                    {% endif %}
+                                    {% if post.tags contains 'music' %}
+                                        <span class='post-badge -separated' title='Music'>
+                                            <svg class='mui-svg-icon'>
+                                                <use xlink:href='#mui-svg-icon--notes'></use>
+                                            </svg>
+                                        </span>
+                                    {% endif %}
+                                    <span aria-label='Post publication date' itemprop='datePublished' datetime='{{ post.date | date: "%-d %B %Y" }}'>{{ post.date | date: '%B %-d, %Y' }}</span>
+                                </div>
+                                <div class='mui-tags-list'>
+                                    <div class='mui-tag-wrapper -icon _smaller-1'>
+                                        <svg class='mui-svg-icon'>
+                                            <use xlink:href='#mui-svg-icon--tags'></use>
+                                        </svg>
+                                    </div>
+                                    {{ commonTags }}
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+        {% endif %}
+    </div>
+</div>
+<!--googleon: index-->
+<!--/noindex-->
+<!-- /similar-posts -->
+
+
+
+{% include projects.html %}
+

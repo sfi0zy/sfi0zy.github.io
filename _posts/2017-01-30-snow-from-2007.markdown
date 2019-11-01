@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Snow from 2007"
+date:   2017-01-30 00:00:00 +0300
+categories: codepen
+icon: hotoncodepen
+tags: [javascript, jquery, ux, codepen]
+thumb: "/images/f46c023f6f06476289be22d45a28480a.jpg"
+---
+
+This is an example of usage of <a href='https://github.com/loktar00/JQuery-Snowfall'>jQuery-Snowfall</a> plugin. I wrote this pen for my <a href='https://toster.ru/q/392648#answer_960282'>answer</a> on toster.ru. But it looks so pretty - I can't not to share it here.
+
+<p data-height="428" data-theme-id="light" data-slug-hash="zNpPKZ" data-default-tab="result" data-user="sfi0zy" data-embed-version="2" data-pen-title="Snow From 2007 Example" class="codepen">See the Pen <a href="http://codepen.io/sfi0zy/pen/zNpPKZ/">Snow From 2007 Example</a> by Ivan Bogachev (<a href="http://codepen.io/sfi0zy">@sfi0zy</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

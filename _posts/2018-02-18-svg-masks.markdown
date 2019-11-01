@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "SVG masks and WOW effects"
+date:   2018-02-18 00:00:00 +0300
+categories: publications
+icon: publication
+rating: 61
+tags: [svg, javascript, animejs, ux, codepen, publications, habrahabr]
+thumb: "/images/9e90291bc58127aed1fbbcb01c7fc22b.jpg"
+---
+
+I wrote an article about SVG masks. This is the continuation of the <a href='/publications/particles-animations'>previous article</a>. It was about particles. Today I explained the basic principles of usage of masks and showed three cool examples. As always, they are available on CodePen. The article is in Russian and has been <a href='https://habrahabr.ru/post/349362/'>published on habrahabr.ru</a>.
+

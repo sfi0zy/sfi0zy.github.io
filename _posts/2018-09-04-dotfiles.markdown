@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "My dotfiles"
+date:   2018-09-04 00:00:00 +0300
+categories: dev
+tags: [github, vim, bash]
+thumb: "/images/65b3e6b93302144a578668f30a768d4b.jpg"
+---
+
+Just some of my dotfiles - vimrc, bashrc, eslintrc, gitignore.
+
+
+I published them on <a href='https://github.com/sfi0zy/dotfiles'>GitHub</a>.

@@ -1,0 +1,65 @@
+<!-- recommended projects -->
+<!--noindex-->
+<!--googleoff: index-->
+<div class='mui-card -white-bg _shadow-1 _separate-1'>
+    <div class='header _text-left'>
+        <h2 class='_bigger-1 _padding-lr-1'>Pet projects</h2>
+    </div>
+    <div class='content'>
+        <div class='mui-row _padding-lr-1' itemscope itemtype='https://schema.org/CreativeWork'>
+            <div class='mui-column -s12 -m4 _separate-1'>
+                {% assign svgurl = './images/c6318886573b85803796c7db04871871.jpg.svg' %}
+                {% assign svg64 = svgurl | urltobase64 %}
+                {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
+                <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
+                    <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                    <img class='mui-image -rounded -js-lazy-load' data-src='/images/c6318886573b85803796c7db04871871.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Muilessium preview' itemprop='thumbnailUrl'>
+                    <noscript>
+                        <img class='mui-image -rounded' src='/images/c6318886573b85803796c7db04871871.jpg' alt='Muilessium preview' itemprop='thumbnailUrl'>
+                    </noscript>
+                </div>
+                <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
+                    <div class='window _shadow-3'>
+                        <div class='lazy-image-wrapper'>
+                            <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                            <img class='mui-image -rounded -js-lazy-load' data-src='/images/c6318886573b85803796c7db04871871.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Muilessium preview' itemprop='image'>
+                        </div>
+                        <div class='closeicon'>
+                            <svg class='mui-svg-icon'>
+                                <use xlink:href='#mui-svg-icon--close'></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class='mui-shadow-toggle'></div>
+                </div>
+            </div>
+            <div class='mui-column -s12 -m8 _separate-1 _padding-lr-1'>
+                <a href='https://sfi0zy.github.io/muilessium/' itemprop='url'>
+                    <h3 class='_bigger-1' itemprop='name'>Muilessium</h3>
+                </a>
+                <div class='mui-row -grey-4 _smaller-1'>
+                    <div class='-grey-4'>
+                        <svg class='mui-svg-icon -grey-4'>
+                            <use xlink:href='#mui-svg-icon--star'></use>
+                        </svg>
+                        <span>16</span>&nbsp;
+                        <svg class='mui-svg-icon -grey-4'>
+                            <use xlink:href='#mui-svg-icon--fork'></use>
+                        </svg>
+                        <span>3</span>&nbsp;
+                        <!--<svg class='mui-svg-icon -grey-4'>
+                            <use xlink:href='#mui-svg-icon--archive'></use>
+                        </svg>
+                        <span>10k+</span>-->
+                    </div>
+                    <p itemprop='description'>Simple UI framework. RSCSS, REM-based sizes, fluid typography and other nice ideas. This website is powered by it.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- /recommended projects -->
+<!--googleon: index-->
+<!--/noindex-->
+
