@@ -16,4 +16,5 @@ My new book has been published. This is a collection of my pieces for piano and 
     VK.Widgets.Post('vk_post_139811689_1004', 139811689, 1004, 'EJTRtnyrbetPKewS3KN3PGp0-S7p');
 </script>
 
-The free preview is <a href='/files/И. А. Богачев - Нотная тетрадь №2 (стр 1-3 15 26 38 64 75 80 85).pdf'>available here</a>.
+UPD: The <a href='/other/free-pdf-versions-of-my-books'>free PDF version is available</a>.
+
