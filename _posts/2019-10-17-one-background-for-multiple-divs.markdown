@@ -28,5 +28,10 @@ UPD: <a href='https://twitter.com/anatudor'>Ana Tudor</a> created a more complex
   on <a href='https://codepen.io'>CodePen</a>.</span>
 </p>
 
+UPD: Check out speed coding of this example on the FreeFrontend YouTube channel:
+
+<div class='youtube-wrapper'>
+    <iframe src="https://www.youtube.com/embed/OqmMff6f9_A" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <script async src='https://static.codepen.io/assets/embed/ei.js'></script>

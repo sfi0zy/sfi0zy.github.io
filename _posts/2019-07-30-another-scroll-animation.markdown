@@ -17,3 +17,5 @@ Just another scroll animation. It's based on <a href='https://sfi0zy.github.io/c
 </p>
 <script async src='https://static.codepen.io/assets/embed/ei.js'></script>
 
+UPD: Found an article about this trick: <a href='https://programmer.group/5d6641e54727f.html'>programmer.group/5d6641e54727f.html</a>.
+
