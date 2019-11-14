@@ -91,7 +91,7 @@ layout: default
 
         <!-- share links -->
         <div class='_separate-top-1'>
-            <a class='mui-button -icon -white -green-3-bg -f-white -f-blue-4-bg' target='_blank' href='https://twitter.com/home?status=@sfi0zy - {{ page.title }} - {{ page.url  | prepend: site.baseurl | prepend: site.url }}' title='Share this page on Twitter'><i class='fa fa-twitter'></i></a>
+            <a class='mui-button -icon -white -green-3-bg -f-white -f-blue-4-bg' target='_blank' href='https://twitter.com/intent/tweet?text={{ page.title }} {{ page.url  | prepend: site.baseurl | prepend: site.url }} by @sfi0zy' title='Share this page on Twitter'><i class='fa fa-twitter'></i></a>
             <a class='mui-button -icon -white -green-3-bg -f-white -f-blue-4-bg' target='_blank' href='http://vk.com/share.php?url={{ page.url  | prepend: site.baseurl | prepend: site.url }}&title=@sfi0zy - {{ page.title }}' title='Share this page on VK'><i class='fa fa-vk'></i></a>
             <a class='mui-button -icon -white -green-3-bg -f-white -f-blue-4-bg' target='_blank' href='https://www.facebook.com/sharer/sharer.php?u={{ page.url  | prepend: site.baseurl | prepend: site.url }}' title='Share this page on Facebook'><i class='fa fa-facebook'></i></a>
         </div>
