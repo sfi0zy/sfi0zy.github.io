@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Let's talk about writing"
+title:  "Let&apos;s talk about writing"
 date:   2019-10-23 00:00:00 +0300
 categories: other
 tags: [habrahabr, other]
