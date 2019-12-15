@@ -4,7 +4,7 @@ title:  "Interactive plans"
 date:   2019-12-08 00:00:00 +0300
 categories: publications
 icon: publication
-rating: 13
+rating: 14
 tags: [svg, javascript, codepen, publications, habrahabr]
 thumb: "/images/abbdf0b85f6212ec50f454dd158d859b.jpg"
 ---
