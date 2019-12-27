@@ -8,7 +8,7 @@ tags: [html, svg, css, less, ux, codepen]
 thumb: "/images/889cf5fbff8dc417957f00b0d9bbc0a1.jpg"
 ---
 
-SVG paths have an option called stroke-dashoffset and We can animate it. When Chris Coyier posted an article about it, someone said "as always, using properties for effects they were never intended for". He is absolutely right, but...
+SVG paths have an option called stroke-dashoffset and we can animate it. When Chris Coyier posted an article about it, someone said "as always, using properties for effects they were never intended for". He is absolutely right, but...
 
 <p data-height="409" data-theme-id="light" data-slug-hash="JOrGjX" data-default-tab="css,result" data-user="sfi0zy" data-embed-version="2" data-pen-title="Magic sphere" class="codepen">See the Pen <a href="https://codepen.io/sfi0zy/pen/JOrGjX/">Magic sphere</a> by Ivan Bogachev (<a href="https://codepen.io/sfi0zy">@sfi0zy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
