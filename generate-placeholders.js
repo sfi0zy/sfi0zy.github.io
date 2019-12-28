@@ -37,12 +37,15 @@ fs.readdir('images/', (err, filenames) => {
         const startColor = '#' + rgbHex(...palette[0]);
         const endColor   = '#' + rgbHex(...palette[1]);
 
+        const gradientUniqueID = 'svg-id-' + Math.floor(Math.random() * 1000000);
+
         const template = Handlebars.compile(fs.readFileSync('image-placeholder-template.svg', 'utf-8'));
         const svg = template({
             height,
             width,
             startColor,
-            endColor
+            endColor,
+            gradientUniqueID
         });
 
         fs.writeFileSync('images/' + filename + '.svg', svg, 'utf-8');

@@ -9,10 +9,9 @@
         <div class='mui-row _padding-lr-1' itemscope itemtype='https://schema.org/CreativeWork'>
             <div class='mui-column -s12 -m4 _separate-1'>
                 {% assign svgurl = './images/c6318886573b85803796c7db04871871.jpg.svg' %}
-                {% assign svg64 = svgurl | urltobase64 %}
                 {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
                 <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
-                    <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                    {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
                     <img class='mui-image -rounded -js-lazy-load' data-src='/images/c6318886573b85803796c7db04871871.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Muilessium preview' itemprop='thumbnailUrl'>
                     <noscript>
                         <img class='mui-image -rounded' src='/images/c6318886573b85803796c7db04871871.jpg' alt='Muilessium preview' itemprop='thumbnailUrl'>
@@ -21,7 +20,7 @@
                 <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
                     <div class='window _shadow-3'>
                         <div class='lazy-image-wrapper'>
-                            <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                            {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
                             <img class='mui-image -rounded -js-lazy-load' data-src='/images/c6318886573b85803796c7db04871871.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Muilessium preview' itemprop='image'>
                         </div>
                         <div class='closeicon'>
@@ -62,10 +61,9 @@
         <div class='mui-row _padding-lr-1' itemscope itemtype='https://schema.org/CreativeWork'>
             <div class='mui-column -s12 -m4 _separate-1'>
                 {% assign svgurl = './images/0839ac12758df00da562f8456f2d6082.jpg.svg' %}
-                {% assign svg64 = svgurl | urltobase64 %}
                 {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
                 <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
-                    <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                    {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
                     <img class='mui-image -rounded -js-lazy-load' data-src='/images/0839ac12758df00da562f8456f2d6082.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Promo Core preview' itemprop='thumbnailUrl'>
                     <noscript>
                         <img class='mui-image -rounded' src='/images/0839ac12758df00da562f8456f2d6082.jpg' alt='Promo Core preview' itemprop='thumbnailUrl'>
@@ -74,7 +72,7 @@
                 <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
                     <div class='window _shadow-3'>
                         <div class='lazy-image-wrapper'>
-                            <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                            {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
                             <img class='mui-image -rounded -js-lazy-load' data-src='/images/0839ac12758df00da562f8456f2d6082.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Promo Core preview' itemprop='image'>
                         </div>
                         <div class='closeicon'>
@@ -117,10 +115,9 @@
         <div class='mui-row _padding-lr-1' itemscope itemtype='https://schema.org/CreativeWork'>
             <div class='mui-column -s12 -m4 _separate-1'>
                 {% assign svgurl = './images/e8e83b36952f4defc45c8d279e81951f.jpg.svg' %}
-                {% assign svg64 = svgurl | urltobase64 %}
                 {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
                 <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
-                    <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                    {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
                     <img class='mui-image -rounded -js-lazy-load' data-src='/images/e8e83b36952f4defc45c8d279e81951f.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Zen Launcher preview' itemprop='thumbnailUrl'>
                     <noscript>
                         <img class='mui-image -rounded' src='/images/e8e83b36952f4defc45c8d279e81951f.jpg' alt='Zen Launcher preview' itemprop='thumbnailUrl'>
@@ -129,7 +126,7 @@
                 <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
                     <div class='window _shadow-3'>
                         <div class='lazy-image-wrapper'>
-                            <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                            {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
                             <img class='mui-image -rounded -js-lazy-load' data-src='/images/e8e83b36952f4defc45c8d279e81951f.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Zen Launcher preview' itemprop='image'>
                         </div>
                         <div class='closeicon'>

@@ -38,6 +38,9 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-inline-svg (1.1.4)
+      jekyll (>= 3.3, < 5.0)
+      svg_optimizer (~> 0.2.5)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
@@ -56,6 +59,9 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mimemagic (0.3.3)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.7)
+      mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.1.0)
@@ -71,6 +77,8 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    svg_optimizer (0.2.5)
+      nokogiri
     therubyracer (0.12.3)
       libv8 (~> 3.16.14.15)
       ref
@@ -81,6 +89,7 @@ PLATFORMS
 DEPENDENCIES
   hash-joiner
   jekyll (>= 3.8.4)
+  jekyll-inline-svg
   jekyll-less!
   jekyll-paginate
   jekyll-sitemap

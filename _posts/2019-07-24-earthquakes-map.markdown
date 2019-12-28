@@ -11,7 +11,7 @@ A couple of days ago I received the email with the rules for the #codepenchallen
 
 <div class='mui-media-view -full-width _separate-1'>
     <div class='lazy-image-wrapper' data-modal-opener='modal-funny-earth'>
-        <img class='mui-image -rounded -placeholder' src='/images/7b9e9ad94626c8f4008472f6aefe9333.jpg.svg' alt='placeholder' role='presentation'>
+        {% svg '/images/7b9e9ad94626c8f4008472f6aefe9333.jpg.svg' class='mui-image -rounded -placeholder' %}
         <img class='mui-image -rounded -js-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' data-src='/images/7b9e9ad94626c8f4008472f6aefe9333.jpg' alt='Funny Earth' itemprop='image'>
         <noscript>
             <img class='mui-image -rounded' src='/images/7b9e9ad94626c8f4008472f6aefe9333.jpg' alt='Funny Earth' itemprop='image'>
@@ -20,7 +20,7 @@ A couple of days ago I received the email with the rules for the #codepenchallen
     <div class='mui-modal-window' id='modal-funny-earth'>
         <div class='window _shadow-3'>
             <div class='lazy-image-wrapper'>
-                <img class='mui-image -rounded -placeholder' src='/images/7b9e9ad94626c8f4008472f6aefe9333.jpg.svg' alt='placeholder' role='presentation'>
+                {% svg '/images/7b9e9ad94626c8f4008472f6aefe9333.jpg.svg' class='mui-image -rounded -placeholder' %}
                 <img class='mui-image -rounded -js-lazy-load' data-src='/images/7b9e9ad94626c8f4008472f6aefe9333.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Funny Earth' itemprop='image'>
             </div>
             <div class='closeicon'>

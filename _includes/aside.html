@@ -9,9 +9,8 @@
                 <div class='mui-row -s-middle -m-top'>
                     <div class='mui-column -s12 -m12'>
                         {% assign svgurl = './images/d5bd5bbed4b24e9fa61f098a04aae6fe.jpg.svg' %}
-                        {% assign svg64 = svgurl | urltobase64 %}
                         <div class='lazy-image-wrapper' data-modal-opener='modal-my-portrait'>
-                            <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                            {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
                             <img class='mui-image -rounded -js-lazy-load' data-src='/images/d5bd5bbed4b24e9fa61f098a04aae6fe.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='My portrait' itemprop='image'>
                             <noscript>
                                 <img class='mui-image -rounded' src='/images/d5bd5bbed4b24e9fa61f098a04aae6fe.jpg' alt='my photo' itemprop='image'>
@@ -93,11 +92,10 @@
 </aside>
 
 {% assign svgurl = './images/d5bd5bbed4b24e9fa61f098a04aae6fe.jpg.svg' %}
-{% assign svg64 = svgurl | urltobase64 %}
 <div class='mui-modal-window' id='modal-my-portrait'>
     <div class='window _shadow-3'>
         <div class='lazy-image-wrapper'>
-            <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+            {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
             <img class='mui-image -rounded -js-lazy-load' data-src='/images/d5bd5bbed4b24e9fa61f098a04aae6fe.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='My portrait' itemprop='image'>
         </div>
         <div class='closeicon'>
@@ -110,11 +108,10 @@
 </div>
 
 {% assign svgurl = './images/633fa4319ac8fa20cd053817707e24b4.jpg.svg' %}
-{% assign svg64 = svgurl | urltobase64 %}
 <div class='mui-modal-window' id='modal-flamenco-method-preview'>
     <div class='window _shadow-3'>
         <div class='lazy-image-wrapper'>
-            <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+            {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
             <img class='mui-image -rounded -js-lazy-load' data-src='/images/633fa4319ac8fa20cd053817707e24b4.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Flamenco guitar method preview' itemprop='image'>
         </div>
         <div class='closeicon'>
@@ -127,11 +124,10 @@
 </div>
 
 {% assign svgurl = './images/2980530a86179302a582ca7e7751cefa.jpg.svg' %}
-{% assign svg64 = svgurl | urltobase64 %}
 <div class='mui-modal-window' id='collection-of-pieces-preview'>
     <div class='window _shadow-3'>
         <div class='lazy-image-wrapper'>
-            <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+            {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
             <img class='mui-image -rounded -js-lazy-load' data-src='/images/2980530a86179302a582ca7e7751cefa.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Collection of pieces preview' itemprop='image'>
         </div>
         <div class='closeicon'>

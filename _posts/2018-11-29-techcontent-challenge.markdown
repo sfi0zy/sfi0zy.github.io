@@ -17,7 +17,7 @@ The results of the challenge are published <a href='https://habr.com/company/tm/
 
 <div class='mui-media-view -full-width _separate-1'>
     <div class='lazy-image-wrapper' data-modal-opener='modal-sertificate'>
-        <img class='mui-image -rounded -placeholder' src='/images/b2d9959874a3b104f024c54b77dd92ae.jpg.svg' alt='placeholder' role='presentation'>
+        {% svg '/images/b2d9959874a3b104f024c54b77dd92ae.jpg.svg' class='mui-image -rounded -placeholder' %}
         <img class='mui-image -rounded -js-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' data-src='/images/b2d9959874a3b104f024c54b77dd92ae.jpg' alt='Sertificate' itemprop='image'>
         <noscript>
             <img class='mui-image -rounded' src='/images/b2d9959874a3b104f024c54b77dd92ae.jpg' alt='Sertificate' itemprop='image'>
@@ -26,7 +26,7 @@ The results of the challenge are published <a href='https://habr.com/company/tm/
     <div class='mui-modal-window' id='modal-sertificate'>
         <div class='window _shadow-3'>
             <div class='lazy-image-wrapper'>
-                <img class='mui-image -rounded -placeholder' src='/images/b2d9959874a3b104f024c54b77dd92ae.jpg.svg' alt='placeholder' role='presentation'>
+                {% svg '/images/b2d9959874a3b104f024c54b77dd92ae.jpg.svg' class='mui-image -rounded -placeholder' %}
                 <img class='mui-image -rounded -js-lazy-load' data-src='/images/b2d9959874a3b104f024c54b77dd92ae.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Sertificate' itemprop='image'>
             </div>
             <div class='closeicon'>

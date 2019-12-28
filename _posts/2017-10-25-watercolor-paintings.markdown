@@ -11,7 +11,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
 
 <div class='mui-media-view -full-width _separate-1'>
     <div class='lazy-image-wrapper' data-modal-opener='modal-sunset-at-the-sea'>
-        <img class='mui-image -rounded -placeholder' src='/images/84c3a78dbd236f8bac4494f7cfc55884.jpg.svg' alt='placeholder' role='presentation'>
+        {% svg '/images/84c3a78dbd236f8bac4494f7cfc55884.jpg.svg' class='mui-image -rounded -placeholder' %}
         <img class='mui-image -rounded -js-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' data-src='/images/84c3a78dbd236f8bac4494f7cfc55884.jpg' alt='The sunset at the sea' itemprop='image'>
         <noscript>
             <img class='mui-image -rounded' src='/images/84c3a78dbd236f8bac4494f7cfc55884.jpg' alt='The sunset at the sea' itemprop='image'>
@@ -20,7 +20,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
     <div class='mui-modal-window' id='modal-sunset-at-the-sea'>
         <div class='window _shadow-3'>
             <div class='lazy-image-wrapper'>
-                <img class='mui-image -rounded -placeholder' src='/images/84c3a78dbd236f8bac4494f7cfc55884.jpg.svg' alt='placeholder' role='presentation'>
+                {% svg '/images/84c3a78dbd236f8bac4494f7cfc55884.jpg.svg' class='mui-image -rounded -placeholder' %}
                 <img class='mui-image -rounded -js-lazy-load' data-src='/images/84c3a78dbd236f8bac4494f7cfc55884.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='The sunset at the sea' itemprop='image'>
             </div>
             <div class='closeicon'>
@@ -36,7 +36,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
 
 <div class='mui-media-view -full-width _separate-1'>
     <div class='lazy-image-wrapper' data-modal-opener='modal-mystic-forest'>
-        <img class='mui-image -rounded -placeholder' src='/images/3f52fbf86b60fc69b9807d52441ac7a7.jpg.svg' alt='placeholder' role='presentation'>
+        {% svg '/images/3f52fbf86b60fc69b9807d52441ac7a7.jpg.svg' class='mui-image -rounded -placeholder' %}
         <img class='mui-image -rounded -js-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' data-src='/images/3f52fbf86b60fc69b9807d52441ac7a7.jpg' alt='The mystic forest' itemprop='image'>
         <noscript>
             <img class='mui-image -rounded' src='/images/3f52fbf86b60fc69b9807d52441ac7a7.jpg' alt='The mystic forest' itemprop='image'>
@@ -45,7 +45,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
     <div class='mui-modal-window' id='modal-mystic-forest'>
         <div class='window _shadow-3'>
             <div class='lazy-image-wrapper'>
-                <img class='mui-image -rounded -placeholder' src='/images/3f52fbf86b60fc69b9807d52441ac7a7.jpg.svg' alt='placeholder' role='presentation'>
+                {% svg '/images/3f52fbf86b60fc69b9807d52441ac7a7.jpg.svg' class='mui-image -rounded -placeholder' %}
                 <img class='mui-image -rounded -js-lazy-load' data-src='/images/3f52fbf86b60fc69b9807d52441ac7a7.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='The mystic forest' itemprop='image'>
             </div>
             <div class='closeicon'>
@@ -61,7 +61,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
 
 <div class='mui-media-view -full-width _separate-1'>
     <div class='lazy-image-wrapper' data-modal-opener='modal-atlantic-wind'>
-        <img class='mui-image -rounded -placeholder' src='/images/9a04aef09aacd0c9575a2fc7ef2addfc.jpg.svg' alt='placeholder' role='presentation'>
+        {% svg '/images/9a04aef09aacd0c9575a2fc7ef2addfc.jpg.svg' class='mui-image -rounded -placeholder' %}
         <img class='mui-image -rounded -js-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' data-src='/images/9a04aef09aacd0c9575a2fc7ef2addfc.jpg' alt='The cold Atlantic wind' itemprop='image'>
         <noscript>
             <img class='mui-image -rounded' src='/images/9a04aef09aacd0c9575a2fc7ef2addfc.jpg' alt='The cold Atlantic wind' itemprop='image'>
@@ -70,7 +70,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
     <div class='mui-modal-window' id='modal-atlantic-wind'>
         <div class='window _shadow-3'>
             <div class='lazy-image-wrapper'>
-                <img class='mui-image -rounded -placeholder' src='/images/9a04aef09aacd0c9575a2fc7ef2addfc.jpg.svg' alt='placeholder' role='presentation'>
+                {% svg '/images/9a04aef09aacd0c9575a2fc7ef2addfc.jpg.svg' class='mui-image -rounded -placeholder' %}
                 <img class='mui-image -rounded -js-lazy-load' data-src='/images/9a04aef09aacd0c9575a2fc7ef2addfc.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='The cold Atlantic wind' itemprop='image'>
             </div>
             <div class='closeicon'>
@@ -86,7 +86,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
 
 <div class='mui-media-view -full-width _separate-1'>
     <div class='lazy-image-wrapper' data-modal-opener='modal-forest'>
-        <img class='mui-image -rounded -placeholder' src='/images/6c69de9526634829d5cc7b0d3e78002a.jpg.svg' alt='placeholder' role='presentation'>
+        {% svg '/images/6c69de9526634829d5cc7b0d3e78002a.jpg.svg' class='mui-image -rounded -placeholder' %}
         <img class='mui-image -rounded -js-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' data-src='/images/6c69de9526634829d5cc7b0d3e78002a.jpg' alt='The forest' itemprop='image'>
         <noscript>
             <img class='mui-image -rounded' src='/images/6c69de9526634829d5cc7b0d3e78002a.jpg' alt='The forest' itemprop='image'>
@@ -95,7 +95,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
     <div class='mui-modal-window' id='modal-forest'>
         <div class='window _shadow-3'>
             <div class='lazy-image-wrapper'>
-                <img class='mui-image -rounded -placeholder' src='/images/6c69de9526634829d5cc7b0d3e78002a.jpg.svg' alt='placeholder' role='presentation'>
+                {% svg '/images/6c69de9526634829d5cc7b0d3e78002a.jpg.svg' class='mui-image -rounded -placeholder' %}
                 <img class='mui-image -rounded -js-lazy-load' data-src='/images/6c69de9526634829d5cc7b0d3e78002a.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='The forest' itemprop='image'>
             </div>
             <div class='closeicon'>
@@ -111,7 +111,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
 
 <div class='mui-media-view -full-width _separate-1'>
     <div class='lazy-image-wrapper' data-modal-opener='modal-sunset-in-the-countryside'>
-        <img class='mui-image -rounded -placeholder' src='/images/129ff1467cbd0da7c627f36db6bdf9af.jpg.svg' alt='placeholder' role='presentation'>
+        {% svg '/images/129ff1467cbd0da7c627f36db6bdf9af.jpg.svg' class='mui-image -rounded -placeholder' %}
         <img class='mui-image -rounded -js-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' data-src='/images/129ff1467cbd0da7c627f36db6bdf9af.jpg' alt='The sunset in the countryside' itemprop='image'>
         <noscript>
             <img class='mui-image -rounded' data-src='/images/129ff1467cbd0da7c627f36db6bdf9af.jpg' alt='The sunset in the countryside' itemprop='image'>
@@ -120,7 +120,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
     <div class='mui-modal-window' id='modal-sunset-in-the-countryside'>
         <div class='window _shadow-3'>
             <div class='lazy-image-wrapper'>
-                <img class='mui-image -rounded -placeholder' src='/images/129ff1467cbd0da7c627f36db6bdf9af.jpg.svg' alt='placeholder' role='presentation'>
+                {% svg '/images/129ff1467cbd0da7c627f36db6bdf9af.jpg.svg' class='mui-image -rounded -placeholder' %}
                 <img class='mui-image -rounded -js-lazy-load' data-src='/images/129ff1467cbd0da7c627f36db6bdf9af.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='The sunset in the countryside' itemprop='image'>
             </div>
             <div class='closeicon'>
@@ -136,7 +136,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
 
 <div class='mui-media-view -full-width _separate-1'>
     <div class='lazy-image-wrapper' data-modal-opener='modal-field'>
-        <img class='mui-image -rounded -placeholder' src='/images/33ddeb7355bdf43e534905b2d6e9c09b.jpg.svg' alt='placeholder' role='presentation'>
+        {% svg '/images/33ddeb7355bdf43e534905b2d6e9c09b.jpg.svg' class='mui-image -rounded -placeholder' %}
         <img class='mui-image -rounded -js-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' data-src='/images/33ddeb7355bdf43e534905b2d6e9c09b.jpg' alt='The tulip field' itemprop='image'>
         <noscript>
             <img class='mui-image -rounded' src='/images/33ddeb7355bdf43e534905b2d6e9c09b.jpg' alt='The tulip field' itemprop='image'>
@@ -145,7 +145,7 @@ When I was a teenager I studied at the art school. Later I've changed my interes
     <div class='mui-modal-window' id='modal-field'>
         <div class='window _shadow-3'>
             <div class='lazy-image-wrapper'>
-                <img class='mui-image -rounded -placeholder' src='/images/33ddeb7355bdf43e534905b2d6e9c09b.jpg.svg' alt='placeholder' role='presentation'>
+                {% svg '/images/33ddeb7355bdf43e534905b2d6e9c09b.jpg.svg' class='mui-image -rounded -placeholder' %}
                 <img class='mui-image -rounded -js-lazy-load' data-src='/images/33ddeb7355bdf43e534905b2d6e9c09b.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='The tulip field' itemprop='image'>
             </div>
             <div class='closeicon'>

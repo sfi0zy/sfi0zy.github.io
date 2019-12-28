@@ -98,10 +98,9 @@ layout: default
         <!-- post-content -->
         <div class='mui-post-content'>
             {% assign svgurl = '.' | append: post.thumb | append: '.svg' %}
-            {% assign svg64 = svgurl | urltobase64 %}
             {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
             <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
-                <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
                 <img class='mui-image -rounded -js-lazy-load' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'  data-src='{{ post.thumb }}' alt='{{ post.title }} - post preview' itemprop='image'>
                 <noscript>
                     <img class='mui-image -rounded' src='{{ post.thumb }}' alt='{{ post.title }} - post preview' itemprop='image'>
@@ -110,7 +109,7 @@ layout: default
             <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
                 <div class='window _shadow-3'>
                     <div class='lazy-image-wrapper'>
-                        <img class='mui-image -rounded -placeholder' src='{{ svg64 }}' alt='placeholder' role='presentation'>
+                        {% svg '{{ svgurl }}' class='mui-image -rounded -placeholder' %}
                         <img class='mui-image -rounded -js-lazy-load' data-src='{{ post.thumb }}' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='{{ post.title }} - post-preview' itemprop='image'>
                     </div>
                     <div class='closeicon'>
