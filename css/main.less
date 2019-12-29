@@ -1,0 +1,202 @@
+// =============================================================================
+// GLOBAL STYLES & UTILS
+// =============================================================================
+
+mark {
+    background: #f48fb1;
+}
+
+
+._padding-lr-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+// =============================================================================
+// MUILESSIUM
+// =============================================================================
+
+.mui-header-logo {
+    // Use !important here to generate the correct critical CSS
+    // and apply this padding without future changes from Muilessium
+    padding-left: .5rem !important;
+}
+
+
+.mui-content-container {
+    width: 90%;
+
+    @media screen and (max-width: 800px) {
+        width: 92%;
+    }
+
+    @media screen and (max-width: 600px) {
+        width: 95%;
+    }
+
+    @media screen and (max-width: 400px) {
+        width: 98%;
+    }
+
+    .-sticky {
+        will-change: transform;
+        transition: transform 1000ms ease-in-out !important;
+    }
+}
+
+
+.mui-column {
+    @media screen and (max-width: 600px) {
+        padding: 0 .5rem;
+    }
+
+    &.-aside {
+        @media screen and (max-width: 599px) {
+            order: 2;
+        }
+    }
+}
+
+.mui-post-content {
+    a:not(.mui-button) {
+        border-bottom: 1px dashed #424242;
+    }
+
+    p, img, .lazy-image-wrapper {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+.mui-image.-js-lazy-load {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition-duration: 1s;
+    margin: 0;
+    will-change: opacity;
+}
+
+
+.mui-image.-placeholder {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+
+.mui-modal-window {
+    > .window > .closeicon {
+        &:hover,
+        &:focus {
+            background: #424242;
+        }
+    }
+
+    img,
+    .mui-image,
+    .lazy-image-wrapper {
+        margin: 0;
+        padding: 0;
+        // max-height: 80vh;
+    }
+
+    .mui-image.-placeholder {
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+[data-modal-opener] {
+    cursor: pointer;
+}
+
+
+// =============================================================================
+// OTHER COMPONENTS
+// =============================================================================
+
+
+.lazy-image-wrapper {
+    position: relative;
+}
+
+
+.logo-image {
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    vertical-align: middle;
+    transform: translateY(-.2rem);
+    margin-right: .5rem;
+}
+
+
+.logo-text {
+    display: inline-block;
+}
+
+
+.contacts-icons {
+    padding: .5rem .2rem;
+}
+
+
+.category-icon {
+    float: left;
+    margin-right: .3rem;
+}
+
+
+.youtube-wrapper {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    border-radius: .3rem;
+    overflow: hidden;
+    background: linear-gradient(135deg, #9e9e9e 0%, #eeeeee 100%);
+
+    > iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.post-badge {
+    display: inline-block;
+    position: relative;
+
+    &.-separated {
+        margin-right: .2em;
+    }
+
+    svg:nth-of-type(2) {
+        display: inline-block;
+        position: absolute;
+        top: .1em;
+        right: -.2em;
+        font-size: .5em;
+    }
+}
+
+
+.custom-avatar {
+    border-radius: .3rem;
+    margin-right: 1rem;
+}
+
+
+.old-comments {
+    margin-bottom: 3rem;
+}
+

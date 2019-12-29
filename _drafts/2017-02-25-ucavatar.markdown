@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "My avatars generator is now available on NPM"
+date:   2017-02-25 00:00:00 +0300
+categories: dev
+tags: [javascript, ucavatar, github]
+thumb: "/images/6695fa6cd734434d9f29efbca763a2e2.jpg"
+---
+
+Previously I wrote about the <a href='https://sfi0zy.github.io/codepen/unique-avatars'>generator of avatars</a>. Now it's available on <a href='https://github.com/sfi0zy/ucavatar'>GitHub</a> and <a href='https://www.npmjs.com/package/ucavatar'>NPM</a> as a little standalone library called Ucavatar.
+

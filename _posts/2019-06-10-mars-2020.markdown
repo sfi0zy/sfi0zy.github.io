@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Mars 2020"
+date:   2019-06-10 00:00:00 +0300
+categories: other
+tags: [other]
+thumb: "/images/6706125925a1c59d8283e452492da7e2.jpg"
+---
+
+My name is on the next mission to Mars: NASA's #Mars2020 Rover. 
+

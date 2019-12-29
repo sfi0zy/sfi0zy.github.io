@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "300 pens on CodePen"
+date:   2019-09-27 00:00:00 +0300
+categories: other
+icon: achievement
+tags: [html, pug, svg, css, less, postcss, javascript, webgl, codepen]
+thumb: "/images/3a0a7c8484829c56c554a94e09d2ad68.jpg"
+---
+
+Three years ago I switched to front-end development and started learning HTML and CSS. Up to this day I shared interesting examples on CodePen. Not every day, of course, but often. Several days ago their number reached 300. Looking back, I can say that it was a good time. Painting with CSS, canvas animations and WebGL shaders, SVG hacks... There are no impossible design ideas for me now. I can create everything, it's only a matter of time. I think it's a good idea to celebrate this anniversary. Feel free to use <a href='https://codepen.io/sfi0zy'>my pens</a> - all of them are distributed under the MIT license.
+

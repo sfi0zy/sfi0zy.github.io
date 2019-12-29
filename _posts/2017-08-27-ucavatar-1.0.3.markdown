@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Ucavatar 1.0.3"
+date:   2017-08-26 00:00:00 +0300
+categories: dev
+icon: hotoncodepen
+tags: [javascript, ucavatar, codepen, github]
+thumb: "/images/4624e920caf44cd5aa02302ba608efef.jpg"
+---
+
+<a href='https://github.com/sfi0zy/ucavatar'>Ucavatar</a> has been updated. Now it has improved algorithm of generation, more contrast colors, more different forms. Follow me on GitHub and Codepen to not miss future updates. 
+
+<p data-height="459" data-theme-id="light" data-slug-hash="rzZqxZ" data-default-tab="result" data-user="sfi0zy" data-embed-version="2" data-pen-title="Ucavatar 1.0.3 Test (200 names)" class="codepen">See the Pen <a href="https://codepen.io/sfi0zy/pen/rzZqxZ/">Ucavatar 1.0.3 Test (200 names)</a> by Ivan Bogachev (<a href="https://codepen.io/sfi0zy">@sfi0zy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

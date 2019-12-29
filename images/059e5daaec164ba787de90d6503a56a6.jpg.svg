@@ -1,0 +1,20 @@
+<svg
+    version='1.1'
+    xmlns='http://www.w3.org/2000/svg'
+    viewBox='0 0 100 100'
+    preserveAspectRatio='none'
+    height='250'
+    width='1140'>
+    <defs>
+        <linearGradient id='svg-id-836464'
+            x1='0%'
+            y1='0%'
+            x2='100%'
+            y2='0%'
+            gradientTransform='rotate(45)'>
+            <stop offset='0%'   style='stop-color:#e93d6e;stop-opacity:1' />
+            <stop offset='100%' style='stop-color:#f9f6f8;stop-opacity:1' />
+        </linearGradient>
+    </defs>
+    <rect x='0' y='0' height='100' width='100' fill='url(#svg-id-836464)' />
+</svg>
