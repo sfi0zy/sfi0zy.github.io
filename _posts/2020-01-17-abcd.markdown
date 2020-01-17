@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "ABCD"
+date:   2020-01-17 00:00:00 +0300
+categories: codepen
+icon: hotoncodepen
+tags: [html, pug, css, less, javascript, codepen, toster]
+thumb: "/images/b63b6f46f1c2bb13e3ef18875a712229.jpg"
+---
+
+A couple of days ago I found an <a href='https://qna.habr.com/q/700893'>interesting question on Habr Q&amp;A</a>. A man asked how to create a design concept with HTML and CSS. It's a common question for this website and the concept looked simple, but nobody knew how to create it. The thing is the sides of the triangles in the concept must be parallel on all screen sizes, not only on fullhd. I accepted the challenge and created a prototype for modern browsers. It looks like we can't create such design using CSS only, even for evergreen browsers, so I used JS to calculate the widths of the triangles based on the heights of the cards. But maybe someone will invent a new CSS trick for this type of calculations.
+
+<p class='codepen' data-height='370' data-theme-id='light' data-default-tab='css,result' data-user='sfi0zy' data-slug-hash='zYxJNmG' style='height: 370px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;' data-pen-title='ABCD'>
+  <span>See the Pen <a href='https://codepen.io/sfi0zy/pen/zYxJNmG'>
+  ABCD</a> by Ivan Bogachev (<a href='https://codepen.io/sfi0zy'>@sfi0zy</a>)
+  on <a href='https://codepen.io'>CodePen</a>.</span>
+</p>
+<script async src='https://static.codepen.io/assets/embed/ei.js'></script>
+
