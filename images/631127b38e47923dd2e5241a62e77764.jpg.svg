@@ -3,18 +3,18 @@
     xmlns='http://www.w3.org/2000/svg'
     viewBox='0 0 100 100'
     preserveAspectRatio='none'
-    height='960'
+    height='1080'
     width='1920'>
     <defs>
-        <linearGradient id='svg-id-488481'
+        <linearGradient id='svg-id-638409'
             x1='0%'
             y1='0%'
             x2='100%'
             y2='0%'
             gradientTransform='rotate(45)'>
-            <stop offset='0%'   style='stop-color:#44bb84;stop-opacity:1' />
-            <stop offset='100%' style='stop-color:#354b5c;stop-opacity:1' />
+            <stop offset='0%'   style='stop-color:#f5f3f2;stop-opacity:1' />
+            <stop offset='100%' style='stop-color:#262524;stop-opacity:1' />
         </linearGradient>
     </defs>
-    <rect x='0' y='0' height='100' width='100' fill='url(#svg-id-488481)' />
+    <rect x='0' y='0' height='100' width='100' fill='url(#svg-id-638409)' />
 </svg>

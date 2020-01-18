@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "ABCDE"
+date:   2020-01-18 00:00:01 +0300
+categories: codepen
+icon: hotoncodepen
+tags: [html, pug, css, less, codepen]
+thumb: "/images/948d6503a000ad7500d1af9c3d2ed5fc.jpg"
+---
+
+This time I created an example of responsive infographics with hexagons. Probably you've already seen the similar design concepts. This one doesn't work in IE/Edge because I used clip-path with polygon to create the hexagonal elements, but if you need to support these browsers, you can simply replace the clip-path solution with SVG images.
+
+<p class='codepen' data-height='501' data-theme-id='light' data-default-tab='result' data-user='sfi0zy' data-slug-hash='JjomEKQ' style='height: 501px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;' data-pen-title='ABCDE'>
+  <span>See the Pen <a href='https://codepen.io/sfi0zy/pen/JjomEKQ'>
+  ABCDE</a> by Ivan Bogachev (<a href='https://codepen.io/sfi0zy'>@sfi0zy</a>)
+  on <a href='https://codepen.io'>CodePen</a>.</span>
+</p>
+<script async src='https://static.codepen.io/assets/embed/ei.js'></script>
+
