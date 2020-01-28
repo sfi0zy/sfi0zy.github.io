@@ -6,7 +6,7 @@
     height='357'
     width='715'>
     <defs>
-        <linearGradient id='svg-id-350682'
+        <linearGradient id='svg-id-250963'
             x1='0%'
             y1='0%'
             x2='100%'
@@ -16,5 +16,5 @@
             <stop offset='100%' style='stop-color:#cca187;stop-opacity:1' />
         </linearGradient>
     </defs>
-    <rect x='0' y='0' height='100' width='100' fill='url(#svg-id-350682)' />
+    <rect x='0' y='0' height='100' width='100' fill='url(#svg-id-250963)' />
 </svg>
