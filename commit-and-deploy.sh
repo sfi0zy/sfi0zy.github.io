@@ -12,8 +12,11 @@ git commit -m "$COMMIT_MESSAGE"
 printf "(!) [source] push to GitHub\n"
 git push origin source
 
+printf "delete [master]\n"
+git branch -d master
+printf "recreate empty [master]\n"
+git checkout --orphan master
 printf " -> [master]\n"
-git checkout master
 printf "[master] remove old build\n"
 rm -r `find . | grep -v "_site" | grep -v ".git"`
 printf "[master] copy new build\n"
@@ -22,8 +25,8 @@ printf "[master] add all files to git\n"
 git add .
 printf "[master] commit\n"
 git commit -m "Rebuild website"
-printf "(!) [master] push to GitHub\n"
-git push origin master
+printf "(!) [master] FORCE push to GitHub\n"
+git push origin master -f
 
 printf " -> [source]\n"
 git checkout source
