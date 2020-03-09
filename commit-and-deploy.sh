@@ -13,7 +13,7 @@ printf "(!) [source] push to GitHub\n"
 git push origin source
 
 printf "delete [master]\n"
-git branch -d master
+git branch -D master
 printf "recreate empty [master]\n"
 git checkout --orphan master
 printf " -> [master]\n"
