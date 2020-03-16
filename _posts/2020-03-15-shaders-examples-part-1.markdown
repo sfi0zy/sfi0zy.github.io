@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Shaders examples"
+title:  "Shaders examples: Part I"
 date:   2020-03-15 00:00:00 +0300
 categories: codepen
 icon: hotoncodepen
