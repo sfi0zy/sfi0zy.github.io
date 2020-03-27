@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Shaders examples: Part V"
-date:   2020-03-20 00:00:00 +0300
+date:   2020-03-27 00:00:00 +0300
 categories: codepen
 icon: hotoncodepen
 tags: [javascript, webgl, threejs, codepen]
