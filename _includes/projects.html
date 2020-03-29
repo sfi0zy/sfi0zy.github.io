@@ -100,6 +100,53 @@
                 </div>
             </div>
         </div>
+
+
+        <div class='mui-row _padding-lr-1' itemscope itemtype='https://schema.org/CreativeWork'>
+            <div class='mui-column -s12 -m4 _separate-1'>
+                {% assign svgurl1 = './images/c5ae40b9d8774855cc14d4099a7c9820.jpg-1.svg' %}
+                {% assign svgurl2 = './images/c5ae40b9d8774855cc14d4099a7c9820.jpg-2.svg' %}
+                {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
+                <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
+                    {% svg '{{ svgurl1 }}' class='mui-image -rounded -placeholder' %}
+                    <img class='mui-image -rounded -js-lazy-load' data-src='/images/c5ae40b9d8774855cc14d4099a7c9820.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Shaders Gallery preview' itemprop='thumbnailUrl'>
+                    <noscript>
+                        <img class='mui-image -rounded' src='/images/c5ae40b9d8774855cc14d4099a7c9820.jpg' alt='Shaders Gallery preview' itemprop='thumbnailUrl'>
+                    </noscript>
+                </div>
+                <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
+                    <div class='window _shadow-3'>
+                        <div class='lazy-image-wrapper'>
+                            {% svg '{{ svgurl2 }}' class='mui-image -rounded -placeholder' %}
+                            <img class='mui-image -rounded -js-lazy-load' data-src='/images/c5ae40b9d8774855cc14d4099a7c9820.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Shaders Gallery preview' itemprop='image'>
+                        </div>
+                        <div class='closeicon'>
+                            <svg class='mui-svg-icon'>
+                                <use xlink:href='#mui-svg-icon--close'></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class='mui-shadow-toggle'></div>
+                </div>
+            </div>
+            <div class='mui-column -s12 -m8 _separate-1 _padding-lr-1'>
+                <a href='https://github.com/sfi0zy/shaders-gallery' itemprop='url'>
+                    <h3 class='_bigger-1' itemprop='name'>Shaders Gallery (NEW)</h3>
+                </a>
+                <div class='mui-row -grey-4 _smaller-1'>
+                    <div class='-grey-4'>
+                        <svg class='mui-svg-icon -grey-4'>
+                            <use xlink:href='#mui-svg-icon--star'></use>
+                        </svg>
+                        <span>1</span>&nbsp;
+                    </div>
+                    <p itemprop='description'>Library for creating galleries of photos with effects based on WebGL shaders.</p>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
 </div>
 <!-- /recommended projects -->
