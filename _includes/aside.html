@@ -60,6 +60,24 @@
         <!-- /card (question) -->
 
 
+        <!-- card (book) -->
+        <div class='mui-card -white-bg _shadow-1 _separate-1'>
+            <div class='header -white-bg'>
+                {% assign svgurl1 = './images/0f221da4b750818efa87c63e47dba543.jpg-1.svg' %}
+                <div class='lazy-image-wrapper' data-modal-opener='modal-my-book'>
+                    {% svg '{{ svgurl1 }}' class='mui-image -rounded -placeholder' %}
+                    <img class='mui-image -rounded -js-lazy-load' style='transform:scale(1.02);' data-src='/images/0f221da4b750818efa87c63e47dba543.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='16 models of behavior' itemprop='image'>
+                    <noscript>
+                        <img class='mui-image -rounded' src='/images/0f221da4b750818efa87c63e47dba543.jpg' alt='my photo' itemprop='image'>
+                    </noscript>
+                </div>
+            </div>
+            <div class='content _text-center _smaller-1'>
+                <p style='margin-top:-1rem;'>Check out my book about human behavior! It's free.<br><br><a class='mui-button -green-3-bg -f-blue-3-bg' href='/files/И.%20А.%20Богачев%20-%20Пирамида%20адаптации%20(2019).pdf'>Download</a></p>
+            </div>
+        </div>
+        <!-- /card (book) -->
+
 
         <!-- card (tags) -->
         <div class='mui-card _shadow-1 _separate-1'>
@@ -101,6 +119,23 @@
         <div class='lazy-image-wrapper'>
             {% svg '{{ svgurl2 }}' class='mui-image -rounded -placeholder' %}
             <img class='mui-image -rounded -js-lazy-load' data-src='/images/d5bd5bbed4b24e9fa61f098a04aae6fe.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='My portrait' itemprop='image'>
+        </div>
+        <div class='closeicon'>
+            <svg class='mui-svg-icon'>
+                <use xlink:href='#mui-svg-icon--close'></use>
+            </svg>
+        </div>
+    </div>
+    <div class='mui-shadow-toggle'></div>
+</div>
+
+
+{% assign svgurl2 = './images/0f221da4b750818efa87c63e47dba543.jpg-2.svg' %}
+<div class='mui-modal-window' id='modal-my-book'>
+    <div class='window _shadow-3'>
+        <div class='lazy-image-wrapper'>
+            {% svg '{{ svgurl2 }}' class='mui-image -rounded -placeholder' %}
+            <img class='mui-image -rounded -js-lazy-load' data-src='/images/0f221da4b750818efa87c63e47dba543.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='16 models of behavior' itemprop='image'>
         </div>
         <div class='closeicon'>
             <svg class='mui-svg-icon'>
