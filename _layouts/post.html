@@ -163,6 +163,10 @@ layout: default
         {% assign shuffledPosts = site.posts | shuffle %}
 
         {% for post in shuffledPosts %}
+            {% if post.outdated == true %}
+                {% continue %}
+            {% endif %}
+
             {% assign sameTagCounter = 0 %}
             {% assign commonTags = '' %}
 
@@ -301,6 +305,10 @@ layout: default
         {% if maxRelatedCounter < 1 %}
             {% assign minCommonTags = 1 %}
             {% for post in shuffledPosts %}
+                {% if post.outdated == true %}
+                    {% continue %}
+                {% endif %}
+
                 {% assign sameTagCounter = 0 %}
                 {% assign commonTags = '' %}
 

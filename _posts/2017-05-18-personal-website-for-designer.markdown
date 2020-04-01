@@ -3,6 +3,7 @@ layout: post
 title:  "Personal website template"
 date:   2017-05-18 00:00:00 +0300
 categories: dev
+outdated: true
 tags: [html, pug, css, postcss, javascript, gulp, webpack, muilessium]
 thumb: "/images/7e0be513e17b457abba74bb50bbb7add.jpg"
 ---

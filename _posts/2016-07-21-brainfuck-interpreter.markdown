@@ -3,6 +3,7 @@ layout: post
 title:  "Brainfuck interpreter"
 date:   2016-07-21 00:00:00 +0300
 categories: dev
+outdated: true
 tags: [javascript, codepen]
 thumb: "/images/8de7d25601e24220a3e9f1917f7f02c6.jpg"
 ---

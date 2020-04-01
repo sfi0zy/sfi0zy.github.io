@@ -3,6 +3,7 @@ layout: post
 title:  "Landing page for creative agency"
 date:   2017-05-19 00:00:00 +0300
 categories: dev
+outdated: true
 tags: [html, pug, css, postcss, javascript, gulp, webpack, muilessium]
 thumb: "/images/b99ff4b48a0841a9aa99a156c2c3f916.jpg"
 ---

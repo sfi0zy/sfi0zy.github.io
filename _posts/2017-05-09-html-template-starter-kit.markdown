@@ -3,6 +3,7 @@ layout: post
 title:  "HTML template"
 date:   2017-05-09 00:00:00 +0300
 categories: dev
+outdated: true
 tags: [html, pug, css, postcss, javascript, gulp, webpack, muilessium, github]
 thumb: "/images/64c4ceaff49e40d7975df0cd0125696c.jpg"
 ---

@@ -3,6 +3,7 @@ layout: post
 title:  "HTML template for the coffee house"
 date:   2017-05-19 00:00:00 +0300
 categories: dev
+outdated: true
 tags: [html, pug, css, postcss, javascript, gulp, webpack, muilessium]
 thumb: "/images/5abb98cd6e8847788008b410ff010982.jpg"
 ---
