@@ -1,13 +1,10 @@
 console.log('Creating placeholders...');
 
 const Handlebars  = require('handlebars');
-const ColorThief  = require('color-thief');
+const thief       = require('./node_modules/color-thief/dist/color-thief.js');
 const rgbHex      = require('rgb-hex');
 const sizeOf      = require('image-size');
 const fs          = require('fs');
-
-
-const thief = new ColorThief();
 
 
 console.log('NPM Dependencies loaded...');
@@ -30,44 +27,43 @@ fs.readdir('images/', (err, filenames) => {
             return;
         }
 
-        const image  = fs.readFileSync('images/' + filename);
         const size = sizeOf('images/' + filename);
         const height = size.height;
         const width  = size.width;
 
-        const palette = thief.getPalette(image, 2);
+        thief.getPalette('images/' + filename, 2).then((palette) => {
+            const startColor = '#' + rgbHex(...palette[0]);
+            const endColor   = '#' + rgbHex(...palette[1]);
 
-        const startColor = '#' + rgbHex(...palette[0]);
-        const endColor   = '#' + rgbHex(...palette[1]);
+            // We generate two similar placeholders to use one for small image
+            // and another (with different id) fot image in modal window.
+            // It's weird solution, but we use it because we don't prepare
+            // images of bigger sizes for modal windows.
 
-        // We generate two similar placeholders to use one for small image
-        // and another (with different id) fot image in modal window.
-        // It's weird solution, but we use it because we don't prepare
-        // images of bigger sizes for modal windows.
+            const id1 = 'svg-id-' + Math.floor(Math.random() * 1000000);
+            const id2 = 'svg-id-' + Math.floor(Math.random() * 1000000);
 
-        const id1 = 'svg-id-' + Math.floor(Math.random() * 1000000);
-        const id2 = 'svg-id-' + Math.floor(Math.random() * 1000000);
+            const svg1 = template({
+                height,
+                width,
+                startColor,
+                endColor,
+                gradientUniqueID: id1
+            });
 
-        const svg1 = template({
-            height,
-            width,
-            startColor,
-            endColor,
-            gradientUniqueID: id1
+            const svg2 = template({
+                height,
+                width,
+                startColor,
+                endColor,
+                gradientUniqueID: id2
+            });
+
+            fs.writeFileSync('images/' + filename + '-1.svg', svg1, 'utf-8');
+            fs.writeFileSync('images/' + filename + '-2.svg', svg2, 'utf-8');
+
+            console.log('ok: ' + filename);
         });
-
-        const svg2 = template({
-            height,
-            width,
-            startColor,
-            endColor,
-            gradientUniqueID: id2
-        });
-
-        fs.writeFileSync('images/' + filename + '-1.svg', svg1, 'utf-8');
-        fs.writeFileSync('images/' + filename + '-2.svg', svg2, 'utf-8');
-
-        console.log('ok: ' + filename);
     });
 });
 
