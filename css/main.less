@@ -107,13 +107,20 @@ mark {
 
     .mui-image.-placeholder {
         height: auto;
-        width: 100%;
+        width: auto;
+        max-width: 100%;
+        max-height: 80vh;
     }
 }
 
 
 [data-modal-opener] {
     cursor: pointer;
+
+    @media screen and (max-width: 800px) {
+        cursor: auto;
+        pointer-events: none;
+    }
 }
 
 
