@@ -107,6 +107,13 @@ layout: default
                         </svg>
                     </span>
                 {% endif %}
+                {% if post.tags contains 'video' %}
+                    <span class='post-badge' title='Video'>
+                        <svg class='mui-svg-icon -red-3'>
+                            <use xlink:href='#mui-svg-icon--video'></use>
+                        </svg>
+                    </span>
+                {% endif %}
                 {% if post.tags contains 'publications' %}
                     <span class='post-badge' title='Publication'>
                         <svg class='mui-svg-icon -brown-4'>

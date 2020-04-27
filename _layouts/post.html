@@ -52,6 +52,13 @@ layout: default
                     </svg>
                 </span>
             {% endif %}
+            {% if page.tags contains 'video' %}
+                <span class='post-badge' title='Video'>
+                    <svg class='mui-svg-icon -red-3'>
+                        <use xlink:href='#mui-svg-icon--video'></use>
+                    </svg>
+                </span>
+            {% endif %}
             {% if page.tags contains 'publications' %}
                 <span class='post-badge' title='Publication'>
                     <svg class='mui-svg-icon -brown-4'>
@@ -258,6 +265,13 @@ layout: default
                                         </svg>
                                     </span>&nbsp;
                                 {% endif %}
+                                {% if post.tags contains 'video' %}
+                                    <span class='post-badge' title='Video'>
+                                        <svg class='mui-svg-icon -red-3'>
+                                            <use xlink:href='#mui-svg-icon--video'></use>
+                                        </svg>&nbsp;
+                                    </span>
+                                {% endif %}
                                 {% if post.tags contains 'publications' %}
                                     <span class='post-badge' title='Publication'>
                                         <svg class='mui-svg-icon -brown-4'>
@@ -399,6 +413,13 @@ layout: default
                                                 <use xlink:href='#mui-svg-icon--podcast'></use>
                                             </svg>
                                         </span>&nbsp;
+                                    {% endif %}
+                                    {% if post.tags contains 'video' %}
+                                        <span class='post-badge' title='Video'>
+                                            <svg class='mui-svg-icon -red-3'>
+                                                <use xlink:href='#mui-svg-icon--video'></use>
+                                            </svg>&nbsp;
+                                        </span>
                                     {% endif %}
                                     {% if post.tags contains 'publications' %}
                                         <span class='post-badge' title='Publication'>
