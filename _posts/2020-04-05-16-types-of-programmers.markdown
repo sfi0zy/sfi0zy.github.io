@@ -4,6 +4,7 @@ title:  "16 types of programmers"
 date:   2020-04-05 00:00:00 +0300
 categories: publications
 icon: publication
+rating: 9
 tags: [publications, habrahabr, psychology]
 thumb: "/images/d899a2e029696f36bc6d0d6d8651d96b.jpg"
 ---
