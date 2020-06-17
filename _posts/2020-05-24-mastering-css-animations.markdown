@@ -4,7 +4,7 @@ title:  "Mastering CSS animations"
 date:   2020-05-24 00:00:00 +0300
 categories: publications
 icon: publication
-rating: 15
+rating: 18
 tags: [css, svg, codepen, publications, habrahabr]
 thumb: "/images/dad597faea0b780fb4cb10b13b3578d9.jpg"
 ---
