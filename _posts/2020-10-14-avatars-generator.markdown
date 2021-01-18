@@ -4,7 +4,7 @@ title:  "Avatars Generator"
 date:   2020-10-14 00:00:00 +0300
 categories: codepen
 icon: hotoncodepen
-tags: [javascript, codepen, ucavatar]
+tags: [javascript, canvas, codepen, ucavatar]
 thumb: "/images/185f0755862b96fc45117268e400e7a5.jpg"
 ---
 

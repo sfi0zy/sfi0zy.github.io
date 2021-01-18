@@ -4,7 +4,7 @@ title:  "Techno Bird"
 date:   2020-09-23 00:00:00 +0300
 categories: codepen
 icon: hotoncodepen
-tags: [javascript, webgl, codepen]
+tags: [javascript, canvas, webgl, codepen]
 thumb: "/images/fe76f54cb649d00acdfa3273e4a5913f.jpg"
 ---
 

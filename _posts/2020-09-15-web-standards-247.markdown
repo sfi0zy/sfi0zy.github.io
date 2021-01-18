@@ -4,7 +4,7 @@ title:  "Web Standards 247"
 date:   2020-09-15 00:00:00 +0300
 categories: other
 icon: achievement
-tags: [publications, habrahabr, podcast]
+tags: [publications, math, habrahabr, podcast]
 thumb: "/images/a28e4a4d776f2e9435bf5df85bb02b49.jpg"
 ---
 

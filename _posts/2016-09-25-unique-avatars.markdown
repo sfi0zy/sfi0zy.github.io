@@ -4,7 +4,7 @@ title:  "Unique avatars"
 date:   2016-09-25 00:00:00 +0300
 categories: codepen
 icon: hotoncodepen
-tags: [javascript, codepen, toster, ucavatar, github]
+tags: [javascript, canvas, codepen, toster, ucavatar, github]
 thumb: "/images/6695fa6cd734434d9f29efbca763a2e2.jpg"
 ---
 

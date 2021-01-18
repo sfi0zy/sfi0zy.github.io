@@ -5,7 +5,7 @@ date:   2018-02-01 00:00:00 +0300
 categories: publications
 icon: publication
 rating: 15
-tags: [javascript, codepen, publications, habrahabr]
+tags: [javascript, canvas, codepen, publications, habrahabr]
 thumb: "/images/fc9588ba03219d17c2d43f2afa3db036.jpg"
 ---
 

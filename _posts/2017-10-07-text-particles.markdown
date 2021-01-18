@@ -4,7 +4,7 @@ title:  "Text particles animation"
 date:   2017-10-07 00:00:00 +0300
 categories: codepen
 icon: hotoncodepen
-tags: [javascript, codepen, toster]
+tags: [javascript, canvas, codepen, toster]
 thumb: "/images/6a76516a9e9a38a5d12112313cf49697.jpg"
 ---
 

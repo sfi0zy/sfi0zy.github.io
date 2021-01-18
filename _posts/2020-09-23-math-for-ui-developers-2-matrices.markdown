@@ -5,7 +5,7 @@ date:   2020-09-23 00:00:00 +0300
 categories: publications
 icon: publication
 rating: 16
-tags: [javascript, publications, habrahabr, github]
+tags: [javascript, math, publications, habrahabr, github]
 thumb: "/images/f2c89efc1a9a4834297884de597ff62e.jpg"
 ---
 

@@ -4,7 +4,7 @@ title:  "Loaders (WebGL shaders)"
 date:   2018-05-28 00:00:00 +0300
 categories: codepen
 icon: hotoncodepen
-tags: [javascript, webgl, threejs, codepen]
+tags: [javascript, canvas, webgl, threejs, codepen]
 thumb: "/images/e27d84b33cd0a44e1e4a0199feee1af6.jpg"
 ---
 

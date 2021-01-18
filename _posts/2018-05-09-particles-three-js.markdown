@@ -4,7 +4,7 @@ title:  "Particles (Three.js)"
 date:   2018-05-09 00:00:00 +0300
 categories: codepen
 icon: hotoncodepen
-tags: [javascript, webgl, threejs, codepen]
+tags: [javascript, canvas, webgl, threejs, codepen]
 thumb: "/images/887bb415eac5dc1bb7258a8e9cc0c453.jpg"
 ---
 

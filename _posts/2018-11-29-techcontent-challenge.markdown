@@ -4,7 +4,7 @@ title:  "TechContent challenge"
 date:   2018-11-29 00:00:00 +0300
 categories: other
 icon: achievement
-tags: [publications, habrahabr, webgl]
+tags: [publications, habrahabr, canvas, webgl]
 thumb: "/images/4f70e20db13f26fa607a5badf333982a.jpg"
 ---
 

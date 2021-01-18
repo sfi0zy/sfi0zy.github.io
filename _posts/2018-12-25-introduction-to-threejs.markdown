@@ -5,7 +5,7 @@ date:   2018-12-25 00:00:00 +0300
 categories: publications
 icon: publication
 rating: 17
-tags: [javascript, webgl, threejs, github, publications, habrahabr]
+tags: [javascript, canvas, webgl, threejs, github, publications, habrahabr]
 thumb: "/images/8f2cfdd0b219dca9f077262159c9584d.jpg"
 ---
 

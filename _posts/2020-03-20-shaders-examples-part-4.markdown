@@ -3,7 +3,7 @@ layout: post
 title:  "Shaders examples: Part IV"
 date:   2020-03-20 00:00:00 +0300
 categories: codepen
-tags: [javascript, webgl, threejs, codepen]
+tags: [javascript, canvas, webgl, threejs, codepen]
 thumb: "/images/e1c1be7b3faa1da0ce74e720eaef99cf.jpg"
 ---
 

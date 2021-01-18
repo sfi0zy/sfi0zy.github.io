@@ -3,7 +3,7 @@ layout: post
 title:  "Mandelbrot set explorer"
 date:   2016-11-03 00:00:01 +0300
 categories: dev
-tags: [javascript, fractals]
+tags: [javascript, canvas, fractals]
 thumb: "/images/f3ce397abec74893a4f71f0bdee73c72.jpg"
 ---
 

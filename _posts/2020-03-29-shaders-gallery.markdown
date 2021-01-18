@@ -3,7 +3,7 @@ layout: post
 title:  "Shaders Gallery"
 date:   2020-03-29 00:00:00 +0300
 categories: dev
-tags: [javascript, webgl, threejs, animejs, github]
+tags: [javascript, canvas, webgl, threejs, animejs, github]
 thumb: "/images/c5ae40b9d8774855cc14d4099a7c9820.jpg"
 ---
 

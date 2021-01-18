@@ -4,7 +4,7 @@ title:  "Shaders examples: Part II"
 date:   2020-03-16 00:00:00 +0300
 categories: codepen
 icon: hotoncodepen
-tags: [javascript, webgl, threejs, codepen]
+tags: [javascript, canvas, webgl, threejs, codepen]
 thumb: "/images/6bf4801495aef544004aeb6d216e0539.jpg"
 ---
 

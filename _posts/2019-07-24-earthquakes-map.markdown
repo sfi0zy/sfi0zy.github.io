@@ -3,7 +3,7 @@ layout: post
 title:  "Earthquakes map"
 date:   2019-07-24 00:00:00 +0300
 categories: dev
-tags: [javascript, webgl, threejs, github]
+tags: [javascript, canvas, webgl, threejs, github]
 thumb: "/images/edb1432842bd384ab323daa9f1143c16.jpg"
 ---
 

@@ -4,7 +4,7 @@ title:  "Texture projection"
 date:   2019-08-11 00:00:00 +0300
 categories: codepen
 icon: hotoncodepen
-tags: [javascript, webgl, codepen, threejs]
+tags: [javascript, canvas, webgl, codepen, threejs]
 thumb: "/images/4443002de602f75a39fb4c2f6daedbe1.jpg"
 ---
 
