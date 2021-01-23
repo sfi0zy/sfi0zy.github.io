@@ -3,6 +3,7 @@ layout: post
 title:  "Horizontal Scroll Gallery"
 date:   2021-01-22 00:00:00 +0300
 categories: codepen
+icon: hotoncodepen
 tags: [html, css, less, javascript, codepen]
 thumb: "/images/7f69cad064b3fdf8072bed971a207d31.jpg"
 ---
