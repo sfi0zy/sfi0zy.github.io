@@ -19,5 +19,10 @@ At the beginning of my programmer's career, I created a program for displaying f
   Animated Julia set (WebGL version)</a> by Ivan Bogachev (<a href='https://codepen.io/sfi0zy'>@sfi0zy</a>)
   on <a href='https://codepen.io'>CodePen</a>.</span>
 </p>
+<p class='codepen' data-height='400' data-theme-id='light' data-default-tab='result' data-user='sfi0zy' data-slug-hash='gOLbYKa' data-preview='true' style='height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;' data-pen-title='Julia set with mouse controls (WebGL version)'>
+  <span>See the Pen <a href='https://codepen.io/sfi0zy/pen/gOLbYKa'>
+  Julia set with mouse controls (WebGL version)</a> by Ivan Bogachev (<a href='https://codepen.io/sfi0zy'>@sfi0zy</a>)
+  on <a href='https://codepen.io'>CodePen</a>.</span>
+</p>
 <script async src='https://cpwebassets.codepen.io/assets/embed/ei.js'></script>
 
