@@ -3,7 +3,7 @@ layout: post
 title:  "Fractals gallery"
 date:   2017-09-05 00:00:00 +0300
 categories: other
-tags: [other, fractals]
+tags: [other, math, fractals]
 thumb: "/images/913a5fb6d8f64b21b209e0d101962215.jpg"
 ---
 
