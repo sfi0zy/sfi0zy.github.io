@@ -17,3 +17,10 @@ Some time ago I posted an example of the background image for multiple elements.
 </p>
 <script async src='https://cpwebassets.codepen.io/assets/embed/ei.js'></script>
 
+
+UPD: This demo has been featured in the "Best of CodePen #2/2021" by FreeFrontend:
+
+<div class='youtube-wrapper'>
+    <iframe src="https://www.youtube.com/embed/la5tx1oyn9s" frameborder="0" allowfullscreen></iframe>
+</div>
+

@@ -28,3 +28,9 @@ I created yet another CSS loader. And one more. I can't stop. I got the idea, ex
 </p>
 <script async src='https://cpwebassets.codepen.io/assets/embed/ei.js'></script>
 
+The new loaders have been featured in the "Best of CodePen #6/2021" by FreeFrontend:
+
+<div class='youtube-wrapper'>
+    <iframe src="https://www.youtube.com/embed/SFwUEhZXXdU" frameborder="0" allowfullscreen></iframe>
+</div>
+
