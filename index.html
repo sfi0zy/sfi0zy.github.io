@@ -24,34 +24,18 @@ layout: default
 
 {% for post in paginator.posts %}
 
-    {% if forloop.index == 3 %}
-        <!-- ad -->
-        <!--noindex-->
-        <!--googleoff: index-->
-        <!--<div class='mui-card -grey-1-bg _text-center'>
-            <div class='content'>
-                <h2>Winter is coming...</h2>
-                <p>It's time to create a Christmas tree with Three.js!</p>
-                <p>Check out my <a class='-green-3 -f-blue-3' href='https://habr.com/ru/post/433876/'>article about it</a> (in Russian) and the <a class='-green-3 -f-blue-4' href='https://github.com/sfi0zy/christmas-tree'>source code</a>!</p>
-            </div>
-        </div>-->
-        <!--googleon: index-->
-        <!--/noindex-->
-        <!-- /ad -->
-    {% endif %}
-
 
     {% if forloop.index == 3 %}
         <!-- ad -->
         <!--noindex-->
         <!--googleoff: index-->
-        <div class='mui-card -grey-1-bg _text-center'>
+        <section class='mui-card -grey-1-bg _text-center'>
             <div class='content'>
                 <h2>Learning WebGL?</h2>
                 <p>Looking for a step-to-step tutorial without mathematics?</p>
                 <p>Check out my <a class='-green-3 -f-blue-4' href='https://habr.com/ru/post/420847/'>article about WebGL shaders</a> with examples adapted especially for UI developers (in Russian)!</p>
             </div>
-        </div>
+        </section>
         <!--googleon: index-->
         <!--/noindex-->
         <!-- /ad -->

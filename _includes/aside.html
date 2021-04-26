@@ -4,7 +4,10 @@
     <div class='mui-content-container -sticky' id='aside-content'>
 
         <!-- card (photo & info) -->
-        <div class='mui-card _shadow-1 _separate-1'>
+        <section class='mui-card _shadow-1 _separate-1'>
+            <div class='header'>
+                <h2 class='_bigger-1'>About me</h2>
+            </div>
             <div class='content -white-bg _text-center'>
                 <div class='mui-row -s-middle -m-top'>
                     <div class='mui-column -s12 -m12'>
@@ -30,11 +33,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- /card (photo & info) -->
 
+
         <!-- card (looking for job) -->
-        <div class='mui-card -white -green-3-bg _shadow-1 _separate-1'>
+        <section class='mui-card -white -green-3-bg _shadow-1 _separate-1'>
+            <div class='header'>
+                <h2 class='_bigger-1'>Job</h2>
+            </div>
             <div class='content -white _text-center _smaller-1'>
                 <div class='_bigger-3'>
                     <svg class='mui-svg-icon -white'>
@@ -43,12 +50,15 @@
                 </div>
                 <p>Hire me!<br><br>I'm looking<br>for a part-time job<br><br><span itemprop='email'>sfi0zy@gmail.com</span></p>
             </div>
-        </div>
+        </section>
         <!-- /card (looking for job) -->
 
 
         <!-- card (book) -->
-        <div class='mui-card -white-bg _shadow-1 _separate-1'>
+        <section class='mui-card -white-bg _shadow-1 _separate-1'>
+            <div class='header'>
+                <h2 class='_bigger-1'>My latest book</h2>
+            </div>
             <div class='header -white-bg'>
                 {% assign svgurl1 = './images/0f221da4b750818efa87c63e47dba543.jpg-1.svg' %}
                 <div class='lazy-image-wrapper' data-modal-opener='modal-my-book'>
@@ -62,11 +72,15 @@
             <div class='content _text-center _smaller-1'>
                 <p style='margin-top:-1rem;'>Check out my book about human behavior! It's free.<br><br><a class='mui-button -green-3-bg -f-blue-4-bg' href='/files/И.%20А.%20Богачев%20-%20Пирамида%20адаптации%20(2019).pdf'>Download</a></p>
             </div>
-        </div>
+        </section>
         <!-- /card (book) -->
 
+
         <!-- card (web standards) -->
-        <div class='mui-card -white-bg _shadow-1 _separate-1'>
+        <section class='mui-card -white-bg _shadow-1 _separate-1'>
+            <div class='header'>
+                <h2 class='_bigger-1'>Listen it!</h2>
+            </div>
             <div class='header -white-bg'>
                 {% assign svgurl1 = './images/a28e4a4d776f2e9435bf5df85bb02b49.jpg-1.svg' %}
                 <div class='lazy-image-wrapper' data-modal-opener='modal-web-standards'>
@@ -80,28 +94,38 @@
             <div class='content _text-center _smaller-1'>
                 <p style='margin-top:-1rem;'>Listen the discussion about my articles in Web Standards podcast!<br><br><a class='mui-button -green-3-bg -f-blue-4-bg' href='https://www.youtube.com/watch?v=Khtu7JbDubY'>Listen on YouTube</a></p>
             </div>
-        </div>
+        </section>
         <!-- /card (web standards) -->
 
+
         <!-- card (tags) -->
-        <div class='mui-card _shadow-1 _separate-1'>
-            <div class='content -white-bg _text-center _smaller-1'>
-                <div class='tags-cloud' role='navigation' aria-label='Tags cloud'>
-                    {% assign tags = site.tags | sort %}
-                    {% for tag in tags %}
-                        <span class='tag _no-break'>
-                            <a href='/{{ site.tags_dir }}/{{ tag | first | slugify }}/'
-                                    style='font-size: {{ tag | last | size  |  times: 1.5 | plus: 80  }}%' title='Search posts for tag {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }} posts total)'>
-                                    {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})</a>
-                        </span>
-                    {% endfor %}
-                </div>
+        <section class='mui-card _shadow-1 _separate-1'>
+            <div class='header'>
+                <h2 class='_bigger-1'>Tags</h2>
             </div>
-        </div>
+            <div class='content -white-bg _text-center _smaller-1'>
+                <nav>
+                    <ul class='tags-cloud'>
+                        {% assign tags = site.tags | sort %}
+                        {% for tag in tags %}
+                            <li class='tag _no-break'>
+                                <a href='/{{ site.tags_dir }}/{{ tag | first | slugify }}/'
+                                        style='font-size: {{ tag | last | size  |  times: 1.5 | plus: 80  }}%' title='Search posts for tag {{ tag[0] | replace:'-', ' ' }}'>
+                                        {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})&nbsp;</a>
+                            </span>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </div>
+        </section>
         <!-- /card (tags) -->
 
+
         <!-- card (rss) -->
-        <div class='mui-card _shadow-1 _separate-1'>
+        <section class='mui-card _shadow-1 _separate-1'>
+            <div class='header'>
+                <h2 class='_bigger-1'>Feed</h2>
+            </div>
             <div class='content -white-bg _text-center _smaller-1'>
                 <a href='/feed.xml'>
                     <svg class='mui-svg-icon'>
@@ -110,12 +134,13 @@
                     <span>RSS</span>
                 </a>
             </div>
-        </div>
+        </section>
         <!-- /card (rss) -->
 
     </div>
     <!-- /content-container -->
 </aside>
+
 
 {% assign svgurl2 = './images/d5bd5bbed4b24e9fa61f098a04aae6fe.jpg-2.svg' %}
 <div class='mui-modal-window' id='modal-my-portrait'>
