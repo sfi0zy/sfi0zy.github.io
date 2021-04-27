@@ -5,7 +5,7 @@ date:   2018-11-28 00:00:00 +0300
 categories: publications
 icon: publication
 rating: 23
-tags: [svg, javascript, github, publications, habrahabr]
+tags: [svg, javascript, github, publications, math, habrahabr]
 thumb: "/images/5704fbd03a1bb025d372f9356d36d609.jpg"
 ---
 
