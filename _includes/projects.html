@@ -7,15 +7,61 @@
     </div>
     <div class='content'>
 
-
         <div class='mui-row _padding-lr-1' itemscope itemtype='https://schema.org/CreativeWork'>
             <div class='mui-column -s12 -m4 _separate-1'>
-                {% assign svgurl1 = './images/0839ac12758df00da562f8456f2d6082.jpg-1.svg' %}
-                {% assign svgurl2 = './images/0839ac12758df00da562f8456f2d6082.jpg-2.svg' %}
+                {% assign svgurl1 = './images/3523149b054546ada2ddceab596c79bf.jpg-1.svg' %}
+                {% assign svgurl2 = './images/3523149b054546ada2ddceab596c79bf.jpg-2.svg' %}
                 {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
                 <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
                     {% svg '{{ svgurl1 }}' class='mui-image -rounded -placeholder' %}
-                    <img class='mui-image -rounded -js-lazy-load' data-src='/images/0839ac12758df00da562f8456f2d6082.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Promo Core preview' itemprop='thumbnailUrl'>
+                    <img class='mui-image -rounded -js-lazy-load' data-src='/images/3523149b054546ada2ddceab596c79bf.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Math slides' itemprop='thumbnailUrl'>
+                    <noscript>
+                        <img class='mui-image -rounded' src='/images/3523149b054546ada2ddceab596c79bf.jpg' alt='Math slides' itemprop='thumbnailUrl'>
+                    </noscript>
+                </div>
+                <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
+                    <div class='window _shadow-3'>
+                        <div class='lazy-image-wrapper'>
+                            {% svg '{{ svgurl2 }}' class='mui-image -rounded -placeholder' %}
+                            <img class='mui-image -rounded -js-lazy-load' data-src='/images/3523149b054546ada2ddceab596c79bf.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Math slides' itemprop='image'>
+                        </div>
+                        <div class='closeicon'>
+                            <svg class='mui-svg-icon'>
+                                <use xlink:href='#mui-svg-icon--close'></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class='mui-shadow-toggle'></div>
+                </div>
+            </div>
+            <div class='mui-column -s12 -m8 _separate-1 _padding-lr-1'>
+                <a href='https://github.com/sfi0zy/promo-core' itemprop='url'>
+                    <h3 class='_bigger-1' itemprop='name'>Math slides</h3>
+                </a>
+                <div class='mui-row -grey-4 _smaller-1'>
+                    <div class='-grey-4'>
+                        <svg class='mui-svg-icon -grey-4'>
+                            <use xlink:href='#mui-svg-icon--star'></use>
+                        </svg>
+                        <span>38</span>&nbsp;
+                        <svg class='mui-svg-icon -grey-4'>
+                            <use xlink:href='#mui-svg-icon--git-branch'></use>
+                        </svg>
+                        <span>1</span>&nbsp;
+                    </div>
+                    <p itemprop='description'>The tool from my series of articles called "Math is not required for UI development". It creates slides with graphs and texts in the style of the school desk.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class='mui-row _padding-lr-1' itemscope itemtype='https://schema.org/CreativeWork'>
+            <div class='mui-column -s12 -m4 _separate-1'>
+                {% assign svgurl1 = './images/77ab9a833a8578bcd8719dbed444aab4.jpg-1.svg' %}
+                {% assign svgurl2 = './images/77ab9a833a8578bcd8719dbed444aab4.jpg-2.svg' %}
+                {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
+                <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
+                    {% svg '{{ svgurl1 }}' class='mui-image -rounded -placeholder' %}
+                    <img class='mui-image -rounded -js-lazy-load' data-src='/images/77ab9a833a8578bcd8719dbed444aab4.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Promo Core preview' itemprop='thumbnailUrl'>
                     <noscript>
                         <img class='mui-image -rounded' src='/images/0839ac12758df00da562f8456f2d6082.jpg' alt='Promo Core preview' itemprop='thumbnailUrl'>
                     </noscript>
@@ -24,7 +70,7 @@
                     <div class='window _shadow-3'>
                         <div class='lazy-image-wrapper'>
                             {% svg '{{ svgurl2 }}' class='mui-image -rounded -placeholder' %}
-                            <img class='mui-image -rounded -js-lazy-load' data-src='/images/0839ac12758df00da562f8456f2d6082.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Promo Core preview' itemprop='image'>
+                            <img class='mui-image -rounded -js-lazy-load' data-src='/images/77ab9a833a8578bcd8719dbed444aab4.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Promo Core preview' itemprop='image'>
                         </div>
                         <div class='closeicon'>
                             <svg class='mui-svg-icon'>
@@ -40,14 +86,16 @@
                     <h3 class='_bigger-1' itemprop='name'>Promo Core</h3>
                 </a>
                 <div class='mui-row -grey-4 _smaller-1'>
-                    <!--
                     <div class='-grey-4'>
                         <svg class='mui-svg-icon -grey-4'>
-                            <use xlink:href='#mui-svg-icon- -star'></use>
+                            <use xlink:href='#mui-svg-icon--star'></use>
+                        </svg>
+                        <span>10</span>&nbsp;
+                        <svg class='mui-svg-icon -grey-4'>
+                            <use xlink:href='#mui-svg-icon--git-branch'></use>
                         </svg>
                         <span>1</span>&nbsp;
                     </div>
-                    -->
                     <p itemprop='description'>Boilerplate for static promotional websites. Pug, LESS, PostCSS, ES6+, Gulp, Webpack, BrowserSync, ESLint, Stylelint, auto-generated docs...</p>
                 </div>
             </div>
@@ -86,22 +134,16 @@
                     <h3 class='_bigger-1' itemprop='name'>Muilessium</h3>
                 </a>
                 <div class='mui-row -grey-4 _smaller-1'>
-                    <!--
                     <div class='-grey-4'>
                         <svg class='mui-svg-icon -grey-4'>
-                            <use xlink:href='#mui-svg-icon- -star'></use>
+                            <use xlink:href='#mui-svg-icon--star'></use>
                         </svg>
                         <span>16</span>&nbsp;
                         <svg class='mui-svg-icon -grey-4'>
-                            <use xlink:href='#mui-svg-icon- -git-branch'></use>
+                            <use xlink:href='#mui-svg-icon--git-branch'></use>
                         </svg>
                         <span>3</span>&nbsp;
-                        <svg class='mui-svg-icon -grey-4'>
-                            <use xlink:href='#mui-svg-icon- -download'></use>
-                        </svg>
-                        <span>5k+</span>
                     </div>
-                    -->
                     <p itemprop='description'>Simple UI framework. RSCSS, REM-based sizes, fluid typography and other nice ideas. This website is powered by it.</p>
                 </div>
             </div>
