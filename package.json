@@ -11,7 +11,7 @@
   "devDependencies": {
     "color-thief": "git+https://github.com/lokesh/color-thief#v2.3.0",
     "get-pixels": "3.3.2",
-    "handlebars": "4.5.3",
+    "handlebars": "4.7.7",
     "image-size": "0.7.4",
     "rgb-hex": "3.0.0"
   }
