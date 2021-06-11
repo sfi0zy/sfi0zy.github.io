@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Weeee.js"
+date:   2021-06-11 00:00:00 +0300
+categories: dev
+tags: [javascript, math, weeee, github]
+thumb: "/images/e3f07f8da9d321d5aecb452fcd9c6af0.jpg"
+---
+
+I started a new pet project - Weeee.js. It's a tiny library for animations. From time to time I found myself in the situation, when GSAP or even Anime.js is too big for my tasks. So, here is Weeee.js - the tiny Javascript tweening engine. I think I'll add some more math functions to it in the future, maybe some play/pause API, but it'll be small and compact. Also, it can be used for educational purposes, due it's source length. It can work as an example of how to create an animation library by yourself. <a href='https://github.com/sfi0zy/weeee'>Fork it on GitHub</a> and <a href='https://codepen.io/sfi0zy'>follow me on CodePen</a> to not miss the future demos and updates!
+
