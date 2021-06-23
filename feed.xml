@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ivan Bogachev</title>
+    <description>Personal website. I post ideas for front-end developers, CSS, SVG and WebGL animations, information about my music, printed books, photography, articles and other projects.
+</description>
+    <link>https://sfi0zy.github.io/</link>
+    <atom:link href="https://sfi0zy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 23 Jun 2021 08:50:15 +0300</pubDate>
+    <lastBuildDate>Wed, 23 Jun 2021 08:50:15 +0300</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Lines and mouse</title>
+        <description>&lt;p&gt;Just another WebGL example.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-height=&quot;400&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-user=&quot;sfi0zy&quot; data-slug-hash=&quot;zYZQJJV&quot; style=&quot;height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Lines + Mouse (WebGL example)&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/sfi0zy/pen/zYZQJJV&quot;&gt;
+  Lines + Mouse (WebGL example)&lt;/a&gt; by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Tue, 22 Jun 2021 00:00:00 +0300</pubDate>
+        <link>https://sfi0zy.github.io/codepen/lines-and-mouse</link>
+        <guid isPermaLink="true">https://sfi0zy.github.io/codepen/lines-and-mouse</guid>
+        
+        <category>javascript</category>
+        
+        <category>canvas</category>
+        
+        <category>webgl</category>
+        
+        <category>math</category>
+        
+        <category>codepen</category>
+        
+        
+        <category>codepen</category>
+        
+      </item>
+    
+      <item>
+        <title>Weeee.js</title>
+        <description>&lt;p&gt;I started a new pet project - Weeee.js. It’s a tiny library for animations. From time to time I found myself in the situation, when GSAP or even Anime.js is too big for my tasks. So, here is Weeee.js - the tiny Javascript tweening engine. I think I’ll add some more math functions to it in the future, maybe some play/pause API, but it’ll be small and compact. Also, it can be used for educational purposes, due it’s source length. It can work as an example of how to create an animation library by yourself. &lt;a href=&quot;https://github.com/sfi0zy/weeee&quot;&gt;Fork it on GitHub&lt;/a&gt; and &lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;follow me on CodePen&lt;/a&gt; to not miss the future demos and updates!&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 11 Jun 2021 00:00:00 +0300</pubDate>
+        <link>https://sfi0zy.github.io/dev/weeee</link>
+        <guid isPermaLink="true">https://sfi0zy.github.io/dev/weeee</guid>
+        
+        <category>javascript</category>
+        
+        <category>math</category>
+        
+        <category>weeee</category>
+        
+        <category>github</category>
+        
+        
+        <category>dev</category>
+        
+      </item>
+    
+      <item>
+        <title>Macro photography</title>
+        <description>&lt;p&gt;I don’t like insects. I never liked them. But during this spring I made some photos of insects, spiders and other small creatures. It was an experiment with extension tubes and my old Helios 44m4, but it looks like this kind of photos is interesting for other people. So I think I’ll continue to shoot insects from time to time. Follow &lt;a href=&quot;https://www.instagram.com/sfi0zy/&quot;&gt;me on Instagram&lt;/a&gt; to see more interesting stuff that I’ll find in the parks of Moscow.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 Jun 2021 00:00:00 +0300</pubDate>
+        <link>https://sfi0zy.github.io/other/macro-photography</link>
+        <guid isPermaLink="true">https://sfi0zy.github.io/other/macro-photography</guid>
+        
+        <category>photography</category>
+        
+        <category>other</category>
+        
+        
+        <category>other</category>
+        
+      </item>
+    
+      <item>
+        <title>Promo Core v1.0.0</title>
+        <description>&lt;p&gt;I just released the &lt;a href=&quot;https://github.com/sfi0zy/promo-core&quot;&gt;PromoCore&lt;/a&gt; v1.0.0. It’s a boilerplate for static promotional websites. Pug, LESS, PostCSS, Babel, linters, docs, detailed logs, etc. Everything you need to start a project is here. And the structure of the project is included too. Events manager, files structure and factory for components, singletons and wrappers for dependencies and polyfills, flags for features, etc. I tried to get all my experience in creative front-end development and create the one boilerplate to rule them all. I included the things, which I always use, and I don’t included old tricks for IE and awkward HTML templates for SEO. Just the core of the website. Feel free to use it for your projects or just for inspiration.&lt;/p&gt;
+
+&lt;p&gt;ヾ( °-°)シﾟ`･｡･°*♪･ﾟ’☆&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 10 May 2021 00:00:00 +0300</pubDate>
+        <link>https://sfi0zy.github.io/dev/promo-core-v1</link>
+        <guid isPermaLink="true">https://sfi0zy.github.io/dev/promo-core-v1</guid>
+        
+        <category>html</category>
+        
+        <category>pug</category>
+        
+        <category>svg</category>
+        
+        <category>css</category>
+        
+        <category>less</category>
+        
+        <category>postcss</category>
+        
+        <category>javascript</category>
+        
+        <category>gulp</category>
+        
+        <category>webpack</category>
+        
+        <category>github</category>
+        
+        
+        <category>dev</category>
+        
+      </item>
+    
+      <item>
+        <title>Clip-path triangulation</title>
+        <description>&lt;p&gt;For a long time I wanted to made an experiment. I have an idea to combine Delaunay triangulation, clip-path, and my CSS demos with multiple backgrounds. Finally, I found a time to make it. The performance of this combination is not good, but it was expected. Clip-path property seems very heavy in terms of performance optimization. But the animation I got can be used for small pictures. It works well enough. Feel free to add it to your projects and share it with your co-workers if you like it.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-height=&quot;400&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-user=&quot;sfi0zy&quot; data-slug-hash=&quot;YzNgBxZ&quot; style=&quot;height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Clip-path triangulation example&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/sfi0zy/pen/YzNgBxZ&quot;&gt;
+  Clip-path triangulation example&lt;/a&gt; by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Tue, 27 Apr 2021 00:00:00 +0300</pubDate>
+        <link>https://sfi0zy.github.io/codepen/clip-path-triangulation</link>
+        <guid isPermaLink="true">https://sfi0zy.github.io/codepen/clip-path-triangulation</guid>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>less</category>
+        
+        <category>javascript</category>
+        
+        <category>math</category>
+        
+        <category>codepen</category>
+        
+        
+        <category>codepen</category>
+        
+      </item>
+    
+      <item>
+        <title>5 years in frontend development</title>
+        <description>&lt;p&gt;5 years ago I switched from C/C++ and programming in *nix environments to Javascript and became a frontend developer. And now, looking back, I can say these were interesting years. I learned a lot, I have grown from a kid, who didn’t know how to write basic HTML layout, to a professional in creative frontend. From the first days I wanted to make beautiful things, not only UI, but animations, complex designs, 3D presentations e.t.c. Later, I started teaching to understand things in computer graphics and math in a more serious way. My first demos on CodePen look awkward now, but they were pretty cool then. Five years ago people didn’t know the tricks, how to create such things. It’s funny, but I can say “I was painting in CSS before it became mainstream” and it’ll be completely true. Anyway, It’s a good point to take a little break and then return to frontend with new ideas.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 22 Apr 2021 00:00:00 +0300</pubDate>
+        <link>https://sfi0zy.github.io/other/5-years-in-frontend</link>
+        <guid isPermaLink="true">https://sfi0zy.github.io/other/5-years-in-frontend</guid>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>javascript</category>
+        
+        <category>webgl</category>
+        
+        <category>codepen</category>
+        
+        <category>cssquests</category>
+        
+        <category>habrahabr</category>
+        
+        <category>github</category>
+        
+        <category>codepen</category>
+        
+        <category>other</category>
+        
+        
+        <category>other</category>
+        
+      </item>
+    
+      <item>
+        <title>Yet another CSS loader...</title>
+        <description>&lt;p&gt;I created yet another CSS loader. And one more. I can’t stop. I got the idea, experimented with it and asked myself - maybe send it to CodePen? And yes, I created my own &lt;a href=&quot;https://codepen.io/collection/DydoqE&quot;&gt;collection of loaders&lt;/a&gt;. Some of them are pretty heavy, they are more like concepts for inspiration, but some are CSS-only and can be used in production.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-height=&quot;400&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;sfi0zy&quot; data-slug-hash=&quot;qBqxyma&quot; style=&quot;height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Yet another CSS loader&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/sfi0zy/pen/qBqxyma&quot;&gt;
+  Yet another CSS loader&lt;/a&gt; by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-height=&quot;400&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;sfi0zy&quot; data-slug-hash=&quot;OJbQwYr&quot; style=&quot;height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Yet another CSS loader #2&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/sfi0zy/pen/OJbQwYr&quot;&gt;
+  Yet another CSS loader #2&lt;/a&gt; by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-height=&quot;400&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;sfi0zy&quot; data-slug-hash=&quot;NWbyVMv&quot; style=&quot;height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Yet another CSS loader #3&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/sfi0zy/pen/NWbyVMv&quot;&gt;
+  Yet another CSS loader #3&lt;/a&gt; by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The new loaders have been featured in the “Best of CodePen #6/2021” by FreeFrontend:&lt;/p&gt;
+
+&lt;div class=&quot;youtube-wrapper&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/SFwUEhZXXdU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Sat, 27 Feb 2021 00:00:00 +0300</pubDate>
+        <link>https://sfi0zy.github.io/codepen/yet-another-css-loader</link>
+        <guid isPermaLink="true">https://sfi0zy.github.io/codepen/yet-another-css-loader</guid>
+        
+        <category>css</category>
+        
+        <category>less</category>
+        
+        <category>codepen</category>
+        
+        
+        <category>codepen</category>
+        
+      </item>
+    
+      <item>
+        <title>Mandelbrot and Julia sets (WebGL versions)</title>
+        <description>&lt;p&gt;At the beginning of my programmer’s career, I created a program for displaying fractals. I was very slow, of course. As I remember, it used WinApi to draw an image pixel by pixel in the window. But the fractals themselves made an impression on me. And it was the first “real” program I made. It gave me motivation to continue studying. Recently, I have a thought, that it’ll be a good idea to show my students the same program, but written in javascript and GLSL. So I created a couple of demos - one for the standard Mandelbrot set and another for the animated Julia set. I hope they’ll help my students too.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-height=&quot;400&quot; data-preview=&quot;true&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-user=&quot;sfi0zy&quot; data-slug-hash=&quot;JjbjxgQ&quot; style=&quot;height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Mandelbrot set (WebGL version)&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/sfi0zy/pen/JjbjxgQ&quot;&gt;
+  Mandelbrot set (WebGL version)&lt;/a&gt; by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;400&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-user=&quot;sfi0zy&quot; data-slug-hash=&quot;XWNWGeL&quot; style=&quot;height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Animated Julia set (WebGL version)&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/sfi0zy/pen/XWNWGeL&quot;&gt;
+  Animated Julia set (WebGL version)&lt;/a&gt; by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;p class=&quot;codepen&quot; data-height=&quot;400&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-user=&quot;sfi0zy&quot; data-slug-hash=&quot;gOLbYKa&quot; data-preview=&quot;true&quot; style=&quot;height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Julia set with mouse controls (WebGL version)&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/sfi0zy/pen/gOLbYKa&quot;&gt;
+  Julia set with mouse controls (WebGL version)&lt;/a&gt; by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 30 Jan 2021 00:00:00 +0300</pubDate>
+        <link>https://sfi0zy.github.io/codepen/mandelbrot-and-julia-sets-webgl-versions</link>
+        <guid isPermaLink="true">https://sfi0zy.github.io/codepen/mandelbrot-and-julia-sets-webgl-versions</guid>
+        
+        <category>javascript</category>
+        
+        <category>canvas</category>
+        
+        <category>webgl</category>
+        
+        <category>math</category>
+        
+        <category>fractals</category>
+        
+        <category>codepen</category>
+        
+        
+        <category>codepen</category>
+        
+      </item>
+    
+      <item>
+        <title>CSS animation concept</title>
+        <description>&lt;p&gt;Some time ago I posted an example of the background image for multiple elements. This time I used the same ideas to create a nice concept of animation for two images. Similar effects usually use WebGL, and I wanted to check if it’s possible to recreate them with CSS. I used 25 elements, animating at the same time, but it’s still has a good performance. I didn’t expect this, really. It’s a good point to start a new series of CSS experiments. Follow me on CodePen to not miss them!&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-height=&quot;400&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-user=&quot;sfi0zy&quot; data-slug-hash=&quot;VwmZxgg&quot; style=&quot;height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;CSS animation concept&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/sfi0zy/pen/VwmZxgg&quot;&gt;
+  CSS animation concept&lt;/a&gt; by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;UPD: This demo has been featured in the “Best of CodePen #2/2021” by FreeFrontend:&lt;/p&gt;
+
+&lt;div class=&quot;youtube-wrapper&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/la5tx1oyn9s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 29 Jan 2021 00:00:00 +0300</pubDate>
+        <link>https://sfi0zy.github.io/codepen/css-animation-concept</link>
+        <guid isPermaLink="true">https://sfi0zy.github.io/codepen/css-animation-concept</guid>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>less</category>
+        
+        <category>codepen</category>
+        
+        
+        <category>codepen</category>
+        
+      </item>
+    
+      <item>
+        <title>Horizontal Scroll Gallery</title>
+        <description>&lt;p&gt;I received an interesting question recently. Another developer asked about horizontal scroll and different effects attached to it. He shows me a video concept of some gallery and I thought that it’s worth it to create an example of something similar. So I did it. It looks like Locomotive Scroll works strange in the CodePen`s iframes, sometimes it stucks, but it’s expected. Iframes and custom scroll have always been a bad combination. But the whole demo is pretty nice in my opinion. Feel free to open it on CodePen and use it for your experiments too.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-height=&quot;648&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-user=&quot;sfi0zy&quot; data-slug-hash=&quot;PoGvYyy&quot; style=&quot;height: 648px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Horizontal Scroll Gallery (Locomotive Scroll)&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/sfi0zy/pen/PoGvYyy&quot;&gt;
+  Horizontal Scroll Gallery (Locomotive Scroll)&lt;/a&gt; by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Fri, 22 Jan 2021 00:00:00 +0300</pubDate>
+        <link>https://sfi0zy.github.io/codepen/horizontal-scroll-gallery</link>
+        <guid isPermaLink="true">https://sfi0zy.github.io/codepen/horizontal-scroll-gallery</guid>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>less</category>
+        
+        <category>javascript</category>
+        
+        <category>codepen</category>
+        
+        
+        <category>codepen</category>
+        
+      </item>
+    
+  </channel>
+</rss>
