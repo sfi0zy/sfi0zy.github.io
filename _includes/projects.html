@@ -1,0 +1,89 @@
+<!-- recommended projects -->
+<!--noindex-->
+<!--googleoff: index-->
+<div class='mui-card -white-bg _shadow-1 _separate-1'>
+    <div class='header _text-left'>
+        <h2 class='_bigger-1 _padding-lr-1'>Pet projects</h2>
+    </div>
+    <div class='content'>
+
+        <div class='mui-row _padding-lr-1' itemscope itemtype='https://schema.org/CreativeWork'>
+            <div class='mui-column -s12 -m4 _separate-1'>
+                {% assign svgurl1 = './images/60076725e1884ee5b96a408abb277abc.jpg-1.svg' %}
+                {% assign svgurl2 = './images/60076725e1884ee5b96a408abb277abc.jpg-2.svg' %}
+                {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
+                <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
+                    {% svg '{{ svgurl1 }}' class='mui-image -rounded -placeholder' %}
+                    <img class='mui-image -rounded -js-lazy-load' data-src='/images/60076725e1884ee5b96a408abb277abc.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='My workspace' itemprop='thumbnailUrl'>
+                    <noscript>
+                        <img class='mui-image -rounded' src='/images/60076725e1884ee5b96a408abb277abc.jpg' alt='Promo Core preview' itemprop='thumbnailUrl'>
+                    </noscript>
+                </div>
+                <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
+                    <div class='window _shadow-3'>
+                        <div class='lazy-image-wrapper'>
+                            {% svg '{{ svgurl2 }}' class='mui-image -rounded -placeholder' %}
+                            <img class='mui-image -rounded -js-lazy-load' data-src='/images/60076725e1884ee5b96a408abb277abc.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='My workspace' itemprop='image'>
+                        </div>
+                        <div class='closeicon'>
+                            <svg class='mui-svg-icon'>
+                                <use xlink:href='#mui-svg-icon--close'></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class='mui-shadow-toggle'></div>
+                </div>
+            </div>
+            <div class='mui-column -s12 -m8 _separate-1 _padding-lr-1'>
+                <a href='https://github.com/sfi0zy/workspace-setup' itemprop='url'>
+                    <h3 class='_bigger-1' itemprop='name'>Workspace setup</h3>
+                </a>
+                <div class='mui-row -grey-4 _smaller-1'>
+                    <p itemprop='description'>My new workspace setup based on elementary OS 6</p>
+                </div>
+            </div>
+        </div>
+
+        <div class='mui-row _padding-lr-1' itemscope itemtype='https://schema.org/CreativeWork'>
+            <div class='mui-column -s12 -m4 _separate-1'>
+                {% assign svgurl1 = './images/3b98ce8d0c07f4af09e0390b30ea8224.jpg-1.svg' %}
+                {% assign svgurl2 = './images/3b98ce8d0c07f4af09e0390b30ea8224.jpg-2.svg' %}
+                {% assign modal_random_id = "now" | date: "%N" | modulo: 1000000 %}
+                <div class='lazy-image-wrapper' data-modal-opener='modal-{{ modal_random_id }}'>
+                    {% svg '{{ svgurl1 }}' class='mui-image -rounded -placeholder' %}
+                    <img class='mui-image -rounded -js-lazy-load' data-src='/images/3b98ce8d0c07f4af09e0390b30ea8224.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Promo Core preview' itemprop='thumbnailUrl'>
+                    <noscript>
+                        <img class='mui-image -rounded' src='/images/3b98ce8d0c07f4af09e0390b30ea8224.jpg' alt='Promo Core preview' itemprop='thumbnailUrl'>
+                    </noscript>
+                </div>
+                <div class='mui-modal-window' id='modal-{{ modal_random_id }}'>
+                    <div class='window _shadow-3'>
+                        <div class='lazy-image-wrapper'>
+                            {% svg '{{ svgurl2 }}' class='mui-image -rounded -placeholder' %}
+                            <img class='mui-image -rounded -js-lazy-load' data-src='/images/3b98ce8d0c07f4af09e0390b30ea8224.jpg' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='Promo Core preview' itemprop='image'>
+                        </div>
+                        <div class='closeicon'>
+                            <svg class='mui-svg-icon'>
+                                <use xlink:href='#mui-svg-icon--close'></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class='mui-shadow-toggle'></div>
+                </div>
+            </div>
+            <div class='mui-column -s12 -m8 _separate-1 _padding-lr-1'>
+                <a href='https://github.com/sfi0zy/void' itemprop='url'>
+                    <h3 class='_bigger-1' itemprop='name'>Void</h3>
+                </a>
+                <div class='mui-row -grey-4 _smaller-1'>
+                    <p itemprop='description'>Boilerplate for static promotional websites.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- /recommended projects -->
+<!--googleon: index-->
+<!--/noindex-->
+

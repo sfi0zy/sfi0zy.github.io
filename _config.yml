@@ -1,0 +1,96 @@
+# ------------------------------------------------------------------------------
+# MAIN INFO
+# ------------------------------------------------------------------------------
+
+url: 'https://sfi0zy.github.io'
+
+title: Ivan Bogachev
+email: sfi0zy@gmail.com
+description: >
+    Personal website. I post ideas for front-end developers, CSS, SVG and WebGL animations,
+    information about my music, printed books, photography, articles and other projects.
+
+
+# ------------------------------------------------------------------------------
+# CATEGORIES
+# ------------------------------------------------------------------------------
+
+categories: [
+    'codepen',
+    'dev',
+    'publications',
+    'other'
+]
+
+permalink: /:categories/:title
+
+
+# ------------------------------------------------------------------------------
+# TAGS
+# ------------------------------------------------------------------------------
+
+tags: [
+    'html', 'svg', 'css', 'javascript',
+    'canvas', 'webgl',
+    'animation',
+    'math',
+    'codepen', 'github', 'habrahabr',
+    'publications', 'books',
+    'photography', 'psychology', 'music',
+    'podcast',
+    'other',
+
+    'video', 'travel'
+]
+
+tags_dir: 'tag'
+
+
+# ------------------------------------------------------------------------------
+# PAGINATION
+# ------------------------------------------------------------------------------
+
+paginate: 10
+paginate_path: '/page:num/'
+
+
+# ------------------------------------------------------------------------------
+# SYNTAX
+# ------------------------------------------------------------------------------
+
+markdown: kramdown
+kramdown:
+    syntax_highlighter: rouge
+
+
+# ------------------------------------------------------------------------------
+# DEFAULTS
+# ------------------------------------------------------------------------------
+
+defaults:
+    -
+        scope:
+            path: 'tag'
+        values:
+            sitemap: false
+
+
+# ------------------------------------------------------------------------------
+# SVG INJECTION
+# ------------------------------------------------------------------------------
+
+svg:
+    optimize: true
+
+
+# ------------------------------------------------------------------------------
+# PLUGINS
+# ------------------------------------------------------------------------------
+
+plugins: [
+    'jekyll-less',
+    'jekyll-paginate',
+    'jekyll-sitemap',
+    'jekyll-inline-svg'
+]
+

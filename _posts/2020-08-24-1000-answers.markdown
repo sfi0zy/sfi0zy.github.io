@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "1000 answers"
+date:   2020-08-24 00:00:00 +0300
+categories: other
+icon: achievement
+tags: [html, css, javascript, webgl, codepen, habrahabr]
+thumb: "/images/713f3c8593b63fdd7e85857237e55da5.jpg"
+---
+
+Woohoo! I wrote 1000 answers to questions on <a href='https://qna.habr.com/user/sfi0zy'>qna.habr.com</a> (ex. toster.ru, the Russian alternative to StackOverflow). I don’t know, if it’s a lot or a little, but these answers helped me to learn, how to explain things in simple words, and they made me a reputation as a programmer. I think the 1000th answer is a good anniversary to celebrate!
+
