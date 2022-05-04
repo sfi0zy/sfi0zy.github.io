@@ -15,14 +15,16 @@
 {%- endcapture -%}
 
 {%- capture PAGE_CANONICAL_URL -%}
-    {{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}
+    {{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}
 {%- endcapture -%}
 
 {%- capture RSS_URL -%}
     {{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}
 {%- endcapture -%}
 
-{%- assign CODEPEN_JS_URL='https://cpwebassets.codepen.io/assets/embed/ei.js' -%}
+{%- assign CODEPEN_JS_URL = 'https://cpwebassets.codepen.io/assets/embed/ei.js' -%}
+
+{%- assign GTAG_JS_URL = 'https://www.googletagmanager.com/gtag/js?id=G-7Z19GLSZMX' -%}
 
 <!DOCTYPE html>
 <html lang='en'>
@@ -53,6 +55,7 @@
         <meta name='theme-color' content='#cccccc'>
 
         <link rel='prefetch' href='{{ CODEPEN_JS_URL }}'>
+        <link rel='prefetch' href='{{ GTAG_JS_URL }}'>
 
         {%- include style.html -%}
     </head>
@@ -129,6 +132,20 @@
         </script>
 
         <script src='{{ CODEPEN_JS_URL }}'></script>
+
+        <script src='{{ GTAG_JS_URL }}'></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'G-7Z19GLSZMX');
+        </script>
     </body>
 </html>
 
