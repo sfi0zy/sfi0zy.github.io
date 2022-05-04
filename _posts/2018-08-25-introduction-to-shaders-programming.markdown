@@ -13,8 +13,7 @@ My new article is a tutorial for front-end developers. It consists of 12 example
 
 Here is a couple of examples:
 
-<p data-height="265" data-theme-id="light" data-slug-hash="PdwZdX" data-default-tab="html,result" data-user="sfi0zy" data-pen-title="Fragment Shaders Ex.10" class="codepen">See the Pen <a href="https://codepen.io/sfi0zy/pen/PdwZdX/">Fragment Shaders Ex.10</a> by Ivan Bogachev (<a href="https://codepen.io/sfi0zy">@sfi0zy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="265" data-preview='true' data-theme-id="light" data-slug-hash="PdwZdX" data-default-tab="html,result" data-user="sfi0zy" data-pen-title="Fragment Shaders Ex.10" class="codepen">See the Pen <a href="https://codepen.io/sfi0zy/pen/PdwZdX/">Fragment Shaders Ex.10</a> by Ivan Bogachev (<a href="https://codepen.io/sfi0zy">@sfi0zy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
-<p data-height="265" data-theme-id="light" data-slug-hash="bxNEOP" data-default-tab="js,result" data-user="sfi0zy" data-pen-title="Fragment Shaders Ex.11" class="codepen">See the Pen <a href="https://codepen.io/sfi0zy/pen/bxNEOP/">Fragment Shaders Ex.11</a> by Ivan Bogachev (<a href="https://codepen.io/sfi0zy">@sfi0zy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="265" data-preview='true' data-theme-id="light" data-slug-hash="bxNEOP" data-default-tab="js,result" data-user="sfi0zy" data-pen-title="Fragment Shaders Ex.11" class="codepen">See the Pen <a href="https://codepen.io/sfi0zy/pen/bxNEOP/">Fragment Shaders Ex.11</a> by Ivan Bogachev (<a href="https://codepen.io/sfi0zy">@sfi0zy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>

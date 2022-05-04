@@ -2,12 +2,6 @@
 
 Hi! I'm Ivan Bogachev and this is the repository for my personal website - sfi0zy.github.io
 
-# License
-
-- The source code is distributed under the MIT license.
-- The images and pdf files are distributed under the CC BY-NC 3.0 license.
-- The third party fonts and icons have their own licenses.
-
 ## Development
 
 ```sh

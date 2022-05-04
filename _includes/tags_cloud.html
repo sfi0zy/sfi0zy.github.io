@@ -1,0 +1,13 @@
+<nav>
+    <ul>
+        {%- assign tags = site.tags | sort -%}
+        {%- for tag in tags -%}
+            <li>
+                <a href='/{{ site.tags_dir }}/{{ tag | first | slugify }}/'
+                        style='font-size: {{ tag | last | size  |  times: 1.5 | plus: 80  }}%'>
+                        {{ tag[0] | replace:'-', ' ' }}&nbsp;({{ tag | last | size }})&nbsp;</a>
+            </li>
+        {%- endfor -%}
+    </ul>
+</nav>
+

@@ -2,7 +2,6 @@ require "open-uri"
 require "mimemagic"
 require "base64"
 
-
 module Jekyll
     module UrlToBase64
         def urltobase64(url)
@@ -16,5 +15,5 @@ module Jekyll
     end
 end
 
-
 Liquid::Template.register_filter(Jekyll::UrlToBase64)
+
