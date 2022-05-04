@@ -26,7 +26,7 @@ layout: default
             </noscript>
         </div>
 
-        <div>{{ page.content }}</div>
+        <div itemprop='text'>{{ page.content }}</div>
     </div>
     <footer>
         <span>Tags:</span>
@@ -71,7 +71,7 @@ layout: default
                         {%- svg '{{ svgurl }}' -%}
                         <img data-src='{{ post.thumb }}' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='{{ post.title }}'>
                         <noscript>
-                            <img src='{{ post.thumb }}' alt='{{ post.title }}' itemprop='image'>
+                            <img src='{{ post.thumb }}' alt='{{ post.title }}'>
                         </noscript>
                     </div>
                     {%- assign posts_found = posts_found | plus: 1 -%}
