@@ -18,7 +18,7 @@ I see a lot of frontend developers which are tempted to create monstrous solutio
 
 UPD: <a href='https://twitter.com/anatudor'>Ana Tudor</a> created a more complex version of this effect for images of any aspect ratio. It also has parameters for panels. It may be hard to understand its logic, but it's really cool.
 
-<p class='codepen' data-preview='true' data-height='450' data-theme-id='light' data-default-tab='css,result' data-user='thebabydino' data-slug-hash='BaaLZjq' style='height: 450px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;' data-pen-title='Flexible multi-panel background'>
+<p class='codepen' data-preview='true' data-height='450' data-theme-id='light' data-default-tab='result' data-user='thebabydino' data-slug-hash='BaaLZjq' style='height: 450px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;' data-pen-title='Flexible multi-panel background'>
   <span>See the Pen <a href='https://codepen.io/thebabydino/pen/BaaLZjq'>
   Flexible multi-panel background</a> by Ana Tudor (<a href='https://codepen.io/thebabydino'>@thebabydino</a>)
   on <a href='https://codepen.io'>CodePen</a>.</span>
