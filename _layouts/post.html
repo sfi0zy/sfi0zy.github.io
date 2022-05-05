@@ -40,55 +40,59 @@ layout: default
     </footer>
 </article>
 
-<!--noindex-->
-<!--googleoff: index-->
-<aside>
-    <article>
-        <header>
-            <h2>Related posts</h2>
-        </header>
+{%- assign posts_needed = 3 -%}
+{%- assign posts_found = 0 -%}
+{%- assign shuffled_posts = site.posts | shuffle -%}
 
-        {%- assign posts_needed = 3 -%}
-        {%- assign posts_found = 0 -%}
-        {%- assign shuffled_posts = site.posts | shuffle -%}
-        {%- for common_tags_required in (1..2) reversed -%}
-            {%- for post in shuffled_posts -%}
-                {%- if post.outdated == true -%}
-                    {%- continue -%}
-                {%- elsif post.url == page.url -%}
-                    {%- continue -%}
-                {%- endif -%}
-                {%- assign number_of_common_tags = 0 -%}
-                {%- for tag in post.tags -%}
-                    {%- if page.tags contains tag -%}
-                        {%- assign number_of_common_tags = number_of_common_tags | plus: 1 -%}
-                    {%- endif -%}
-                {%- endfor -%}
-                {%- if number_of_common_tags >= common_tags_required -%}
-                    <h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
-                    {%- assign svgurl = '.' | append: post.thumb | append: '.svg' -%}
-                    <div class='lazy-image'>
-                        {%- svg '{{ svgurl }}' -%}
-                        <img data-src='{{ post.thumb }}' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='{{ post.title }}'>
-                        <noscript>
-                            <img src='{{ post.thumb }}' alt='{{ post.title }}'>
-                        </noscript>
-                    </div>
-                    {%- assign posts_found = posts_found | plus: 1 -%}
-                    {%- if posts_found >= posts_needed -%}
-                        {%- break -%}
-                    {%- endif -%}
+{%- capture related_posts_content -%}
+    {%- for common_tags_required in (1..2) reversed -%}
+        {%- for post in shuffled_posts -%}
+            {%- if post.outdated == true -%}
+                {%- continue -%}
+            {%- elsif post.url == page.url -%}
+                {%- continue -%}
+            {%- endif -%}
+            {%- assign number_of_common_tags = 0 -%}
+            {%- for tag in post.tags -%}
+                {%- if page.tags contains tag -%}
+                    {%- assign number_of_common_tags = number_of_common_tags | plus: 1 -%}
                 {%- endif -%}
             {%- endfor -%}
-            {%- if posts_found >= posts_needed -%}
-                {%- break -%}
+            {%- if number_of_common_tags >= common_tags_required -%}
+                <h3><a href='{{ post.url }}'>{{ post.title }}</a></h3>
+                {%- assign svgurl = '.' | append: post.thumb | append: '.svg' -%}
+                <div class='lazy-image'>
+                    {%- svg '{{ svgurl }}' -%}
+                    <img data-src='{{ post.thumb }}' src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt='{{ post.title }}'>
+                    <noscript>
+                        <img src='{{ post.thumb }}' alt='{{ post.title }}'>
+                    </noscript>
+                </div>
+                {%- assign posts_found = posts_found | plus: 1 -%}
+                {%- if posts_found >= posts_needed -%}
+                    {%- break -%}
+                {%- endif -%}
             {%- endif -%}
         {%- endfor -%}
-    </article>
-</aside>
-
-<!--googleon: index-->
-<!--/noindex-->
+        {%- if posts_found >= posts_needed -%}
+            {%- break -%}
+        {%- endif -%}
+    {%- endfor -%}
+{%- endcapture -%}
+{%- if posts_found > 0 -%}
+    <!--noindex-->
+    <!--googleoff: index-->
+    <aside>
+        <article>
+            <header>
+                <h2>Related posts</h2>
+            </header>
+            {{- related_posts_content -}}
+        </article>
+    </aside>
+    <!--googleon: index-->
+    <!--/noindex-->
+{%- endif -%}
 
 {%- include tags_cloud.html -%}
 
