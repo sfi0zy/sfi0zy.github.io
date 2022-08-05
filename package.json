@@ -9,9 +9,7 @@
   "author": "Ivan Bogachev",
   "license": "MIT",
   "devDependencies": {
-    "color-thief": "git+https://github.com/lokesh/color-thief#v2.3.0",
     "handlebars": "4.7.7",
-    "image-size": "0.7.4",
-    "rgb-hex": "3.0.0"
+    "image-size": "0.7.4"
   }
 }

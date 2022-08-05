@@ -1,6 +1,4 @@
 const Handlebars  = require('handlebars');
-const thief       = require('./node_modules/color-thief/dist/color-thief.js');
-const rgbHex      = require('rgb-hex');
 const sizeOf      = require('image-size');
 const fs          = require('fs');
 
@@ -21,24 +19,19 @@ fs.readdir('images/', (err, filenames) => {
         const height = size.height;
         const width  = size.width;
 
-        thief.getPalette(`images/${filename}`, 2).then((palette) => {
-            const startColor = '#' + rgbHex(...palette[0]);
-            const endColor   = '#' + rgbHex(...palette[1]);
+        const id = `svg-id-${Math.floor(Math.random() * 1000000)}`;
 
-            const id = `svg-id-${Math.floor(Math.random() * 1000000)}`;
-
-            const svg = template({
-                height,
-                width,
-                startColor,
-                endColor,
-                gradientUniqueID: id
-            });
-
-            fs.writeFileSync(`images/${filename}.svg`, svg, 'utf-8');
-
-            console.log(`jpg -> svg: ${filename}`);
+        const svg = template({
+            height,
+            width,
+            startColor: '#eeeeee',
+            endColor: '#ffffff',
+            gradientUniqueID: id
         });
+
+        fs.writeFileSync(`images/${filename}.svg`, svg, 'utf-8');
+
+        console.log(`jpg -> svg: ${filename}`);
     });
 });
 
