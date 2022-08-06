@@ -10,3 +10,7 @@ thumb: "/images/e435c94d9de43d7cc7507a55f528a932.jpg"
 
 My first photo book has been printed. It's a story about lockdown, about social isolation, loneliness and emptiness.
 
+<div class='youtube'>
+    <iframe src="https://www.youtube.com/embed/1mNOpmt4w6A" frameborder="0" allowfullscreen></iframe>
+</div>
+
