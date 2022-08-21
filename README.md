@@ -15,7 +15,7 @@ npm ci
 ## Deployment
 
 ```sh
-./commit-and-deploy.sh "Add new post..."
+./commit-and-deploy.sh
 ```
 
 Or, if you need to rebuild the *_site* only:

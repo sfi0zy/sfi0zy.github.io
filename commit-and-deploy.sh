@@ -1,9 +1,7 @@
-COMMIT_MESSAGE=$1
-
 git checkout source
 ./build.sh
 git add .
-git commit -m "$COMMIT_MESSAGE"
+git commit -m "Update"
 git push origin source
 
 git branch -D master
