@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Maze"
+date:   2022-11-23 00:00:00 +0300
+categories: codepen
+icon: hotoncodepen
+tags: [javascript, canvas, webgl, math, codepen]
+thumb: "/images/f95e2be1e4d18f655460ec7efbf4941e.jpg"
+---
+
+Yet another Three.js example! This time it's a simple maze with one light and shadows. It's easy to do, and it looks not bad at all.
+
+<p class='codepen' data-height='400' data-theme-id='light' data-default-tab='result' data-slug-hash='LYrQagq' data-preview='true' data-user='sfi0zy' style='height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;'>
+  <span>See the Pen <a href='https://codepen.io/sfi0zy/pen/LYrQagq'>
+  Maze (yet another three.js example)</a> by Ivan Bogachev (<a href='https://codepen.io/sfi0zy'>@sfi0zy</a>)
+  on <a href='https://codepen.io'>CodePen</a>.</span>
+</p>
+<script async src='https://cpwebassets.codepen.io/assets/embed/ei.js'></script>
+
