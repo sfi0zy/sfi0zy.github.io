@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "100000 lines"
+date:   2022-11-28 00:00:00 +0300
+categories: codepen
+icon: hotoncodepen
+tags: [javascript, canvas, animation, codepen]
+thumb: "/images/1268bfd82ab7b705b4c8f4506f147fe2.jpg"
+---
+
+Just published a new animated gallery on CodePen. As always, the ingredients are quite simple: two canvases, old trusty line-drawing algorithm and some junior-level image data calculations. But the result looks interesting:
+
+<p class='codepen' data-height='400' data-theme-id='light' data-default-tab='result' data-slug-hash='QWxBNVr' data-preview='true' data-user='sfi0zy' style='height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;'>
+  <span>See the Pen <a href='https://codepen.io/sfi0zy/pen/QWxBNVr'>
+  100000 lines gallery</a> by Ivan Bogachev (<a href='https://codepen.io/sfi0zy'>@sfi0zy</a>)
+  on <a href='https://codepen.io'>CodePen</a>.</span>
+</p>
+
+It's not for mobile devices, obviously. This amount of draw calls is kind of too much for them. It works fine on my smartphone, but I think it'll be a bad practice to run such thing for mobile devices in production.
+
+And here is another demo:
+
+<p class='codepen' data-height='400' data-theme-id='light' data-default-tab='result' data-slug-hash='wvXXYpP' data-preview='true' data-user='sfi0zy' style='height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;'>
+  <span>See the Pen <a href='https://codepen.io/sfi0zy/pen/wvXXYpP'>
+  100002 lines</a> by Ivan Bogachev (<a href='https://codepen.io/sfi0zy'>@sfi0zy</a>)
+  on <a href='https://codepen.io'>CodePen</a>.</span>
+</p>
+
+It was the first step in the development of that gallery. It's more simple, with only one canvas, but it may work as a base for future experiments.
+
+<script async src='https://cpwebassets.codepen.io/assets/embed/ei.js'></script>
+
