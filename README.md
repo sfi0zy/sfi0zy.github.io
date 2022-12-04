@@ -22,4 +22,3 @@ Or, if you need to rebuild the *_site* only:
 ```sh
 make build
 ```
-

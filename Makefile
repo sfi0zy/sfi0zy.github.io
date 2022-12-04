@@ -24,7 +24,7 @@ deploy:
 	git add .
 	git commit -m "Update"
 	git push origin source
-	git branch -D master
+	git branch -D master || true
 	git checkout --orphan master
 	rm -rf `find . | grep -v "_site" | grep -v ".git"`
 	cp -r _site/* .
