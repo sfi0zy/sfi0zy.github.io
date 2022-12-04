@@ -26,7 +26,7 @@ deploy:
 	git push origin source
 	git branch -D master
 	git checkout --orphan master
-	rm -r `find . | grep -v "_site" | grep -v ".git"`
+	rm -rf `find . | grep -v "_site" | grep -v ".git"`
 	cp -r _site/* .
 	git add .
 	git commit -m "Rebuild website"
