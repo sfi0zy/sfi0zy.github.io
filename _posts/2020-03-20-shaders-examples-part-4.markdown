@@ -15,5 +15,3 @@ This time I shared a pen with an example of usage of the noise generator. This p
   on <a href='https://codepen.io'>CodePen</a>.</span>
 </p>
 
-<a href='https://codepen.io/sfi0zy/'>Follow me on CodePen</a> to not miss the future updates of the collection of shaders!
-

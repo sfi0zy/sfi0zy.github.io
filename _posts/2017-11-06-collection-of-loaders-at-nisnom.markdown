@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Collection of loaders at nisnom.com"
+title:  "Collection of loaders"
 date:   2017-11-06 00:00:00 +0300
 categories: codepen
 tags: [html, css, animation, codepen]
 thumb: "/images/6147ab361a09aa3e315924cc1517ed57.jpg"
 ---
 
-Some of my CSS loaders were showcased at <a href='http://nisnom.com/preloadery-loader/'>nisnom.com</a>. It's really nice. Here are three of them, which I don't share on my website previously. They are simple, but look very attractive. The first one uses gooey SVG filter on seven moving dots, the second is the simple cube with animated backgrounds and the last animation consists of circles which change their sizes like waves.
+Some of my CSS loaders were showcased at nisnom.com. It's really nice. Here are three of them, which I don't share on my website previously. They are simple, but look very attractive. The first one uses gooey SVG filter on seven moving dots, the second is the simple cube with animated backgrounds and the last animation consists of circles which change their sizes like waves.
 
 <p data-preview='true' data-height="320" data-theme-id="light" data-slug-hash="NpZbJL" data-default-tab="result" data-user="sfi0zy" data-embed-version="2" data-pen-title="7 Dots Spinner (CSS Animations)" class="codepen">See the Pen <a href="https://codepen.io/sfi0zy/pen/NpZbJL/">7 Dots Spinner (CSS Animations)</a> by Ivan Bogachev (<a href="https://codepen.io/sfi0zy">@sfi0zy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 

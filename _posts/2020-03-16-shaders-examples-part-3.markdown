@@ -28,5 +28,3 @@ The show goes on! Three more examples are on CodePen now. These pens are the exa
   on <a href='https://codepen.io'>CodePen</a>.</span>
 </p>
 
-See more at <a href='https://codepen.io/sfi0zy/'>my profile on CodePen</a>!
-

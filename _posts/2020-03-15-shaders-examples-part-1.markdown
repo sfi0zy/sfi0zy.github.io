@@ -28,5 +28,3 @@ I played with vertex shaders recently and in addition to my main task I got a nu
   on <a href='https://codepen.io'>CodePen</a>.</span>
 </p>
 
-See more at <a href='https://codepen.io/sfi0zy/'>my profile on CodePen</a>!
-
