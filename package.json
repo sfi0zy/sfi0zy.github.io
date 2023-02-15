@@ -4,6 +4,9 @@
   "description": "My website",
   "author": "Ivan Bogachev",
   "license": "MIT",
+  "engines": {
+    "node": ">=19.5.0"
+  },
   "devDependencies": {
     "handlebars": "4.7.7",
     "image-size": "0.7.4"
