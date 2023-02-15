@@ -54,3 +54,10 @@ plugins: [
     'jekyll-inline-svg'
 ]
 
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - Makefile
+    - packaje-lock.json
+    - package.json
+
