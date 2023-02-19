@@ -11,14 +11,6 @@ thumb: "/images/fc9588ba03219d17c2d43f2afa3db036.jpg"
 
 A lot of people (I mean not regular people, but professional front-end developers) think that animations based on particles are difficult to implement. It's not true. Every developer with basic skills in JS+canvas can create amazing effects very easily. I wrote an article about these animations.
 
-<div class='lazy-image'>
-    {%- svg '/images/f91fd10dc2475215666cb9a0a9bef17a.jpg.svg' -%}
-    <img src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' data-src='/images/f91fd10dc2475215666cb9a0a9bef17a.jpg' alt='example'>
-    <noscript>
-        <img src='/images/f91fd10dc2475215666cb9a0a9bef17a.jpg' alt='example' itemprop='image'>
-    </noscript>
-</div>
-
 The article is in Russian, but the code examples and pens from CodePen are simple and should be understandable without knowledge of the language.
 
 <a href='https://habrahabr.ru/post/347962/'>Link to the article</a>.

@@ -2,9 +2,9 @@
 layout: post
 title:  "500 followers on CodePen"
 date:   2021-08-23 00:00:00 +0300
-categories: codepen
+categories: other
 icon: achievement
-tags: [html, css, javascript, webgl, codepen]
+tags: [other, codepen]
 thumb: "/images/4340a94f3ea2ccd3f085a9e574aec522.jpg"
 ---
 

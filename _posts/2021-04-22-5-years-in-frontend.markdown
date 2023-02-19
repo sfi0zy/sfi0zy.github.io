@@ -4,7 +4,7 @@ title:  "5 years in frontend development"
 date:   2021-04-22 00:00:00 +0300
 categories: other
 icon: achievement
-tags: [html, css, javascript, webgl, codepen, habrahabr, github, codepen]
+tags: [other]
 thumb: "/images/7d29e8d8f3df997f36fa810bded3fc4a.jpg"
 ---
 

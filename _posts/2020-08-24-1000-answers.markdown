@@ -4,7 +4,7 @@ title:  "1000 answers"
 date:   2020-08-24 00:00:00 +0300
 categories: other
 icon: achievement
-tags: [html, css, javascript, webgl, codepen, habrahabr]
+tags: [other]
 thumb: "/images/713f3c8593b63fdd7e85857237e55da5.jpg"
 ---
 

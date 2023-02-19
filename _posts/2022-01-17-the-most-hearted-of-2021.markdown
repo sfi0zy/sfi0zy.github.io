@@ -3,8 +3,8 @@ layout: post
 title:  "The most hearted of 2021"
 date:   2022-01-17 00:00:00 +0300
 icon: achievement
-categories: codepen
-tags: [html, css, javascript, animation, codepen]
+categories: other
+tags: [other, codepen]
 thumb: "/images/34ef09dc7d44ea8e01254898992a36a8.jpg"
 ---
 
