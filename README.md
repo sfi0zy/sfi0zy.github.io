@@ -22,3 +22,9 @@ Or, if you need to rebuild the *_site* only:
 ```sh
 make build
 ```
+
+## License
+
+CC BY 4.0
+
+Copyright (c) 2023 Ivan Bogachev
