@@ -20,6 +20,7 @@ watch:
 
 deploy:
 	git checkout source
+	git pull
 	make build
 	git add .
 	git commit -m "Update"
