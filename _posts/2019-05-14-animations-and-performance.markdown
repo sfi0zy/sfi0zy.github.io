@@ -9,4 +9,4 @@ tags: [css, javascript, animation, canvas, webgl, publications, habrahabr]
 thumb: "/images/f94c36f182d3d942be81b5764d146c5d.jpg"
 ---
 
-Performance is important, but I see a lot of websites with slow and laggy animations. It's awful. I wrote an article about this problem. I hope my advices and practical examples will help you make your animations better. The full article in Russian is <a href='https://habr.com/ru/post/450484/'>here</a>.
+Performance is important, but I see a lot of websites with slow and laggy animations. It's awful. I wrote an article about this problem. I hope my advices and practical examples will help you make your animations better. The full article is <a href='https://habr.com/ru/post/450484/'>here</a>.
