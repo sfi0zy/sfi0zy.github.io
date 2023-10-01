@@ -10,7 +10,4 @@ thumb: "/images/a28e4a4d776f2e9435bf5df85bb02b49.jpg"
 
 I took part in the Web Standards podcast. We discussed the recent front-end news and <a href='https://habr.com/ru/users/sfi0zy/posts/'>my articles on habr.com</a>.
 
-<div class='youtube'>
-    <iframe src="https://www.youtube.com/embed/Khtu7JbDubY" frameborder="0" allowfullscreen></iframe>
-</div>
-
+{% include youtube.html hash="Khtu7JbDubY" %}

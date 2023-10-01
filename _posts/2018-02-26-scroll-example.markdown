@@ -10,5 +10,4 @@ thumb: "/images/312f66ac192ac43c860a00a3bc4649b4.jpg"
 
 Another nice animation.
 
-<p data-preview='true' data-height="402" data-theme-id="light" data-slug-hash="xYyKyP" data-default-tab="result" data-user="sfi0zy" data-embed-version="2" data-pen-title="Scroll Example" class="codepen">See the Pen <a href="https://codepen.io/sfi0zy/pen/xYyKyP/">Scroll Example</a> by Ivan Bogachev (<a href="https://codepen.io/sfi0zy">@sfi0zy</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-
+{% include codepen.html hash="xYyKyP" height="402" %}

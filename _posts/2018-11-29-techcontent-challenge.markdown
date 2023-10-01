@@ -10,9 +10,7 @@ thumb: "/images/4f70e20db13f26fa607a5badf333982a.jpg"
 
 I took part in the TechContent challenge. This is a challenge for IT-authors organized by Habr - the biggest Russian platform for blogging. I won an award in the nomination "Programming" with my <a href='https://habr.com/post/420847/'>article about WebGL shaders</a>. It's really cool.
 
-<div class='youtube'>
-    <iframe src="https://www.youtube.com/embed/vSVKZTAwBH4" frameborder="0" allowfullscreen></iframe>
-</div>
+{% include youtube.html hash="vSVKZTAwBH4" %}
 
 The results of the challenge are published <a href='https://habr.com/company/tm/blog/431936/'>here</a>.
 
