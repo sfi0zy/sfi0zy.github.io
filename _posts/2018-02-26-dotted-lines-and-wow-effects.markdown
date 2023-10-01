@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Dotted lines and WOW effects"
-date:   2018-02-26 00:00:01 +0300
-categories: publications
-icon: publication
+title: "Dotted lines and WOW effects"
+date: 2018-02-26 00:00:01 +0300
 tags: [svg, javascript, animation, codepen, publications, habrahabr]
 thumb: "/images/5b185d797badb70acaeac38f688b7563.jpg"
 ---

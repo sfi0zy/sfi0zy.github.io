@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Schizotypal disorder"
-date:   2018-11-21 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Schizotypal disorder"
+date: 2018-11-21 00:00:00 +0300
 tags: [publications, habrahabr, psychology]
 thumb: "/images/d5bc3c9719ff0b396496fb29e1994cb2.jpg"
 ---

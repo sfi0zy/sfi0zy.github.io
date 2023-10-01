@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "The pyramid of adaptation"
-date:   2019-11-01 00:00:01 +0300
-categories: publications
-icon: publication
+title: "The pyramid of adaptation"
+date: 2019-11-01 00:00:01 +0300
 tags: [publications, books, psychology]
 thumb: "/images/61055f9a7f28608be0a3af090680e616.jpg"
 ---

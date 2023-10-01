@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Voronoi diagram and masks in shaders"
-date:   2018-09-02 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Voronoi diagram and masks in shaders"
+date: 2018-09-02 00:00:00 +0300
 tags: [javascript, animation, canvas, webgl, codepen, math, publications, habrahabr]
 thumb: "/images/92cd10434616ce9aab466c01324a47f8.jpg"
 ---

@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Shaders examples: Part I"
-date:   2020-03-15 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Shaders examples: Part I"
+date: 2020-03-15 00:00:00 +0300
 tags: [javascript, animation, canvas, webgl, codepen]
 thumb: "/images/6e4c1ec6c4ee3c01fe4839eebaa5c1a6.jpg"
 ---

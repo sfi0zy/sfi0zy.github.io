@@ -8,13 +8,6 @@ layout: default
         <div>
             <small itemprop='datePublished'>{{ page.date | date: '%B %-d, %Y' }}</small>
         </div>
-        <div>
-            {%- if page.icon == 'achievement' -%}
-                <svg><use xlink:href='#svg-icon--gem'></use></svg>
-            {%- elsif page.icon == 'publication' -%}
-                <svg><use xlink:href='#svg-icon--feather'></use></svg>
-            {%- endif -%}
-        </div>
     </header>
     <div>
         {%- assign svgurl = '.' | append: page.thumb | append: '.svg' -%}

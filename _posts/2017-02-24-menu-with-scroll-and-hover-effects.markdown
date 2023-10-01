@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Menu with scroll and hover effects"
-date:   2017-02-24 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Menu with scroll and hover effects"
+date: 2017-02-24 00:00:00 +0300
 tags: [html, css, animation, javascript, codepen]
 thumb: "/images/f4c8c77a6ccb4ff4818cd0d01eaa354d.jpg"
 ---

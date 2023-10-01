@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Shader materials and postprocessing"
-date:   2019-01-20 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Shader materials and postprocessing"
+date: 2019-01-20 00:00:00 +0300
 tags: [javascript, animation, canvas, webgl, codepen, publications, habrahabr]
 thumb: "/images/db6d61113fb8273fa651f5da22bd1331.jpg"
 ---

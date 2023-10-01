@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "16 squares animation"
-date:   2020-03-31 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "16 squares animation"
+date: 2020-03-31 00:00:00 +0300
 tags: [html, javascript, animation, codepen]
 thumb: "/images/915403d322c0d63fde1f396bf0f8af98.jpg"
 ---

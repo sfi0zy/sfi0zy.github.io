@@ -1,8 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Arcs and Bezier curves"
-date:   2021-01-18 00:00:00 +0300
-categories: codepen
+title: "Arcs and Bezier curves"
+date: 2021-01-18 00:00:00 +0300
 tags: [javascript, canvas, math, codepen]
 thumb: "/images/d3a998334da9e4faed3b4b74816ff158.jpg"
 ---

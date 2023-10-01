@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Maze"
-date:   2022-11-23 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Maze"
+date: 2022-11-23 00:00:00 +0300
 tags: [javascript, canvas, webgl, math, codepen]
 thumb: "/images/f95e2be1e4d18f655460ec7efbf4941e.jpg"
 ---

@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Yet another Three.js example"
-date:   2021-11-28 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Yet another Three.js example"
+date: 2021-11-28 00:00:00 +0300
 tags: [javascript, animation, canvas, webgl, math, codepen]
 thumb: "/images/353d5123535be65c2602da5f40c2e6e6.jpg"
 ---

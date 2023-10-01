@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Particles and WOW effects"
-date:   2018-02-01 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Particles and WOW effects"
+date: 2018-02-01 00:00:00 +0300
 tags: [javascript, animation, canvas, codepen, publications, habrahabr]
 thumb: "/images/fc9588ba03219d17c2d43f2afa3db036.jpg"
 ---

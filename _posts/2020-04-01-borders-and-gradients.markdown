@@ -1,8 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Borders and Gradients"
-date:   2020-04-01 00:00:00 +0300
-categories: codepen
+title: "Borders and Gradients"
+date: 2020-04-01 00:00:00 +0300
 tags: [html, css, codepen]
 thumb: "/images/a7807139cb7b35bdc21e8709ad620894.jpg"
 ---

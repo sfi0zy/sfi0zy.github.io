@@ -9,10 +9,7 @@ description: >
     information about my music, printed books, photography, articles and other projects.
 
 categories: [
-    'codepen',
-    'dev',
-    'publications',
-    'other'
+    'post',
 ]
 
 permalink: /:categories/:title

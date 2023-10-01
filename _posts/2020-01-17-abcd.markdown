@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "ABCD"
-date:   2020-01-17 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "ABCD"
+date: 2020-01-17 00:00:00 +0300
 tags: [html, css, javascript, codepen]
 thumb: "/images/b63b6f46f1c2bb13e3ef18875a712229.jpg"
 ---

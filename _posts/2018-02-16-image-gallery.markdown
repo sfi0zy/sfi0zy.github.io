@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Image carousel"
-date:   2018-02-16 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Image carousel"
+date: 2018-02-16 00:00:00 +0300
 tags: [svg, javascript, animation, codepen]
 thumb: "/images/2a8c114237a30578a2621b2a0e0b9143.jpg"
 ---

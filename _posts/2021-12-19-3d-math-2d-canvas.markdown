@@ -1,8 +1,8 @@
 ---
+category: post
 layout: post
-title:  "3D math + 2D canvas"
-date:   2021-12-21 00:00:00 +0300
-categories: codepen
+title: "3D math + 2D canvas"
+date: 2021-12-21 00:00:00 +0300
 tags: [javascript, canvas, math, codepen]
 thumb: "/images/0c04fe9c78d69f82a964e605028852c2.jpg"
 ---

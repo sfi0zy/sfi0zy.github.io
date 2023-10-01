@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Infinite tunnel"
-date:   2017-12-17 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Infinite tunnel"
+date: 2017-12-17 00:00:00 +0300
 tags: [html, css, animation, codepen]
 thumb: "/images/66250e5b8938f5608686742eea8eca2e.jpg"
 ---

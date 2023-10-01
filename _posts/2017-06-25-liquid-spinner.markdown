@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Liquid spinner"
-date:   2017-06-25 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Liquid spinner"
+date: 2017-06-25 00:00:00 +0300
 tags: [html, svg, css, animation, codepen]
 thumb: "/images/47647d1038d040009dfcdff66dfda053.jpg"
 ---

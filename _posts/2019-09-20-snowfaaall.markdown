@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Snowfaaall"
-date:   2019-09-20 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Snowfaaall"
+date: 2019-09-20 00:00:00 +0300
 tags: [html, css, animation, codepen]
 thumb: "/images/df7dca47dc3d6bce0bca33cea10e4357.jpg"
 ---

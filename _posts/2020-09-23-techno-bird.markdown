@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Techno Bird"
-date:   2020-09-23 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Techno Bird"
+date: 2020-09-23 00:00:00 +0300
 tags: [javascript, animation, canvas, webgl, math, codepen]
 thumb: "/images/fe76f54cb649d00acdfa3273e4a5913f.jpg"
 ---

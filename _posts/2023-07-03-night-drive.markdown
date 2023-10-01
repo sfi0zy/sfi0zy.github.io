@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Night Drive"
-date:   2023-07-03 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Night Drive"
+date: 2023-07-03 00:00:00 +0300
 tags: [javascript, canvas, webgl, animation, math, codepen]
 thumb: "/images/8f91de27b5939861062851b098ac8e7e.jpg"
 ---

@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "CSS Images"
-date:   2017-03-03 00:00:00 +0300
-categories: publications
-icon: publication
+title: "CSS Images"
+date: 2017-03-03 00:00:00 +0300
 tags: [html, css, codepen, publications, habrahabr]
 thumb: "/images/fa2cca370abf4f7497f7ee2ec1e2051b.jpg"
 ---

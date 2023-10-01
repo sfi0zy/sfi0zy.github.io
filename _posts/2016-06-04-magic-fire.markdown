@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Magic fire CSS animation"
-date:   2016-06-04 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Magic fire CSS animation"
+date: 2016-06-04 00:00:00 +0300
 tags: [html, css, animation, codepen]
 thumb: "/images/e3493c62234646eb80edbc5d834a692b.jpg"
 ---

@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Conceptual Minimalism 2022"
-date:   2022-05-05 00:00:00 +0300
-categories: other
-icon: achievement
+title: "Conceptual Minimalism 2022"
+date: 2022-05-05 00:00:00 +0300
 tags: [photography]
 thumb: "/images/3570a97a05b78a0a3bd4daaa1a5339ce.jpg"
 ---

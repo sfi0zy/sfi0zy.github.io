@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Animations and performance"
-date:   2019-05-14 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Animations and performance"
+date: 2019-05-14 00:00:00 +0300
 tags: [css, javascript, animation, canvas, webgl, publications, habrahabr]
 thumb: "/images/f94c36f182d3d942be81b5764d146c5d.jpg"
 ---

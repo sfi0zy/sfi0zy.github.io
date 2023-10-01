@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Web Standards 247"
-date:   2020-09-15 00:00:00 +0300
-categories: other
-icon: achievement
+title: "Web Standards 247"
+date: 2020-09-15 00:00:00 +0300
 tags: [publications, math, habrahabr, podcast]
 thumb: "/images/a28e4a4d776f2e9435bf5df85bb02b49.jpg"
 ---

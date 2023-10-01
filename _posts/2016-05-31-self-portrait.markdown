@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Pure CSS self portrait animation"
-date:   2016-05-31 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Pure CSS self portrait animation"
+date: 2016-05-31 00:00:00 +0300
 tags: [html, css, animation, codepen]
 thumb: "/images/681f34721437445f908dad336d596658.jpg"
 ---

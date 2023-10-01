@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "CSS animation concept"
-date:   2021-01-29 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "CSS animation concept"
+date: 2021-01-29 00:00:00 +0300
 tags: [html, css, animation, codepen]
 thumb: "/images/f4406225c340b08dd162614a0e18ef5a.jpg"
 ---

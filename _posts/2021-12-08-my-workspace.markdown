@@ -1,8 +1,8 @@
 ---
+category: post
 layout: post
-title:  "My workspace"
-date:   2021-12-08 00:00:00 +0300
-categories: dev
+title: "My workspace"
+date: 2021-12-08 00:00:00 +0300
 tags: [github, linux]
 thumb: "/images/60076725e1884ee5b96a408abb277abc.jpg"
 ---

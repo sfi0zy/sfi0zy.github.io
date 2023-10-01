@@ -1,8 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Waves"
-date:   2023-08-18 00:00:00 +0300
-categories: codepen
+title: "Waves"
+date: 2023-08-18 00:00:00 +0300
 tags: [javascript, canvas, webgl, animation, math, codepen]
 thumb: "/images/f2f13a897a3c58fca0065ffd85f86cc1.jpg"
 ---

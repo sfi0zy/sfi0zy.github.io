@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Pieces for piano and violin"
-date:   2018-08-02 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Pieces for piano and violin"
+date: 2018-08-02 00:00:00 +0300
 tags: [publications, books, music]
 thumb: "/images/2980530a86179302a582ca7e7751cefa.jpg"
 ---

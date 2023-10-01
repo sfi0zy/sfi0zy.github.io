@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "One background for multiple divs"
-date:   2019-10-17 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "One background for multiple divs"
+date: 2019-10-17 00:00:00 +0300
 tags: [html, css, codepen]
 thumb: "/images/0f59337b71d1f7dd998a6dac6bf36a4e.jpg"
 ---

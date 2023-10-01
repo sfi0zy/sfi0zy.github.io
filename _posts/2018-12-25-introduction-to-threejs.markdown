@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Introduction to Three.js"
-date:   2018-12-25 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Introduction to Three.js"
+date: 2018-12-25 00:00:00 +0300
 tags: [javascript, canvas, webgl, publications, habrahabr]
 thumb: "/images/8f2cfdd0b219dca9f077262159c9584d.jpg"
 ---

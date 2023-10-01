@@ -1,8 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Christmas Waltz"
-date:   2018-02-11 00:00:01 +0300
-categories: other
+title: "Christmas Waltz"
+date: 2018-02-11 00:00:01 +0300
 tags: [music]
 thumb: "/images/b4b319c1d98d487b34493c3185694c7b.jpg"
 ---

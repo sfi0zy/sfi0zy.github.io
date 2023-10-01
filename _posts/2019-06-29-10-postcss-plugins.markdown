@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "10 PostCSS plugins"
-date:   2019-06-29 00:00:00 +0300
-categories: publications
-icon: publication
+title: "10 PostCSS plugins"
+date: 2019-06-29 00:00:00 +0300
 tags: [css, publications, habrahabr]
 thumb: "/images/afd830e376382c87bcbf1a9c82367dee.jpg"
 ---

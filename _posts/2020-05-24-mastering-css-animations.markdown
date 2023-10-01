@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Mastering CSS animations"
-date:   2020-05-24 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Mastering CSS animations"
+date: 2020-05-24 00:00:00 +0300
 tags: [css, svg, animation, codepen, publications, habrahabr]
 thumb: "/images/dad597faea0b780fb4cb10b13b3578d9.jpg"
 ---

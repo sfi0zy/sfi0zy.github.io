@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Pieces for piano"
-date:   2018-06-08 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Pieces for piano"
+date: 2018-06-08 00:00:00 +0300
 tags: [publications, books, music]
 thumb: "/images/6033a5ba2eabb57a8d7979107e959ed4.jpg"
 ---

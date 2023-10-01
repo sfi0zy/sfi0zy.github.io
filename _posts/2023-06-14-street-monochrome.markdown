@@ -1,8 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Street Monochrome"
-date:   2023-06-14 00:00:00 +0300
-categories: other
+title: "Street Monochrome"
+date: 2023-06-14 00:00:00 +0300
 tags: [photography]
 thumb: "/images/6ee42db47ab362ad306c93f5ccd32afe.jpg"
 ---

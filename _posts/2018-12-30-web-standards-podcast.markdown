@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Web Standards podcast"
-date:   2018-12-30 00:00:00 +0300
-categories: other
-icon: achievement
+title: "Web Standards podcast"
+date: 2018-12-30 00:00:00 +0300
 tags: [publications, habrahabr, podcast]
 thumb: "/images/8ef7bd6830397090b401a3b3185ecf45.jpg"
 ---

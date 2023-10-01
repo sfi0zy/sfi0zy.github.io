@@ -1,8 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Let&apos;s talk about writing"
-date:   2019-10-23 00:00:00 +0300
-categories: other
+title: "Let&apos;s talk about writing"
+date: 2019-10-23 00:00:00 +0300
 tags: [publications, habrahabr]
 thumb: "/images/970dc736d4c9bd0d960fdb7815bf9c36.jpg"
 ---

@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Menu concept"
-date:   2019-07-07 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Menu concept"
+date: 2019-07-07 00:00:00 +0300
 tags: [html, svg, css, javascript, animation, codepen]
 thumb: "/images/fd61ee218cdf9e3ce733ae551fd98a70.jpg"
 ---

@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Isolation"
-date:   2022-08-05 00:00:01 +0300
-categories: publications
-icon: publication
+title: "Isolation"
+date: 2022-08-05 00:00:01 +0300
 tags: [publications, books, photography]
 thumb: "/images/e435c94d9de43d7cc7507a55f528a932.jpg"
 ---

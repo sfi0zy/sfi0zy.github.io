@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Texture projection"
-date:   2019-08-11 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Texture projection"
+date: 2019-08-11 00:00:00 +0300
 tags: [javascript, animation, canvas, webgl, codepen]
 thumb: "/images/4443002de602f75a39fb4c2f6daedbe1.jpg"
 ---

@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Math for UI developers"
-date:   2020-09-11 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Math for UI developers"
+date: 2020-09-11 00:00:00 +0300
 tags: [javascript, animation, math, publications, habrahabr]
 thumb: "/images/81b070d910249dab2083a3efaa63fe18.jpg"
 ---

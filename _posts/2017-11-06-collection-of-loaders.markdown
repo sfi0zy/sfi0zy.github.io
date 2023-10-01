@@ -1,8 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Collection of loaders"
-date:   2017-11-06 00:00:00 +0300
-categories: codepen
+title: "Collection of loaders"
+date: 2017-11-06 00:00:00 +0300
 tags: [html, css, animation, codepen]
 thumb: "/images/6147ab361a09aa3e315924cc1517ed57.jpg"
 ---

@@ -1,8 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Medium"
-date:   2023-02-19 00:00:00 +0300
-categories: dev
+title: "Medium"
+date: 2023-02-19 00:00:00 +0300
 tags: [css, javascript, animation, github]
 thumb: "/images/a26a2b8b45126d206cc81d3c9c85657d.jpg"
 ---

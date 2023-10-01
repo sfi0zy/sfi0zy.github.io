@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Animated 404 page"
-date:   2017-08-07 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Animated 404 page"
+date: 2017-08-07 00:00:00 +0300
 tags: [html, css, animation, codepen]
 thumb: "/images/472d28ca5fc340cda337ad185bc423f7.jpg"
 ---

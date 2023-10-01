@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Another scroll animation"
-date:   2019-07-30 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Another scroll animation"
+date: 2019-07-30 00:00:00 +0300
 tags: [svg, css, javascript, animation, codepen]
 thumb: "/images/d49801b1faf52d6abcfb137d3f83a2de.jpg"
 ---

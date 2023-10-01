@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Five CSS tricks"
-date:   2018-08-19 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Five CSS tricks"
+date: 2018-08-19 00:00:00 +0300
 tags: [html, css, svg, codepen, publications, habrahabr]
 thumb: "/images/682a61c07abca42b8f36f21fce746858.jpg"
 ---

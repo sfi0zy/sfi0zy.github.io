@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Arrow animation"
-date:   2017-10-06 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Arrow animation"
+date: 2017-10-06 00:00:00 +0300
 tags: [html, css, animation, codepen]
 thumb: "/images/60fc863ef7bf4b71520ea9b043e7463b.jpg"
 ---

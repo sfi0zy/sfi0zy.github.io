@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Golden canon grid"
-date:   2019-12-12 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Golden canon grid"
+date: 2019-12-12 00:00:00 +0300
 tags: [css, publications, habrahabr]
 thumb: "/images/6c76230a92f264c4cfa1983087f2ab39.jpg"
 ---

@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Introduction to SVG Animation"
-date:   2022-05-22 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Introduction to SVG Animation"
+date: 2022-05-22 00:00:00 +0300
 tags: [svg, css, javascript, publications, habrahabr]
 thumb: "/images/8ff4e2013f0b46657d82c6a1521c93a5.jpg"
 ---

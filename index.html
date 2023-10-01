@@ -13,13 +13,6 @@ layout: default
             <div>
                 <small itemprop='datePublished'>{{ post.date | date: '%B %-d, %Y' }}</small>
             </div>
-            <div>
-                {%- if post.icon == 'achievement' -%}
-                    <svg><use xlink:href='#svg-icon--gem'></use></svg>
-                {%- elsif post.icon == 'publication' -%}
-                    <svg><use xlink:href='#svg-icon--feather'></use></svg>
-                {%- endif -%}
-            </div>
         </header>
         <div>
             {%- assign svgurl = '.' | append: post.thumb | append: '.svg' -%}

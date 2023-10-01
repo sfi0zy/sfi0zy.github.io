@@ -1,8 +1,8 @@
 ---
+category: post
 layout: post
-title:  "300 pens on CodePen"
-date:   2019-09-27 00:00:00 +0300
-categories: codepen
+title: "300 pens on CodePen"
+date: 2019-09-27 00:00:00 +0300
 tags: [codepen]
 thumb: "/images/3a0a7c8484829c56c554a94e09d2ad68.jpg"
 ---

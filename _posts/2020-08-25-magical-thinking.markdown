@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Magical thinking"
-date:   2020-08-25 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Magical thinking"
+date: 2020-08-25 00:00:00 +0300
 tags: [publications, psychology]
 thumb: "/images/def3a3ac132aaa6218201e22a7ff6445.jpg"
 ---

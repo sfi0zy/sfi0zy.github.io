@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Loaders (WebGL shaders)"
-date:   2018-05-28 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Loaders (WebGL shaders)"
+date: 2018-05-28 00:00:00 +0300
 tags: [javascript, animation, canvas, webgl, codepen]
 thumb: "/images/e27d84b33cd0a44e1e4a0199feee1af6.jpg"
 ---

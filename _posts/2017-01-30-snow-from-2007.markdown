@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Snow from 2007"
-date:   2017-01-30 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Snow from 2007"
+date: 2017-01-30 00:00:00 +0300
 tags: [javascript, animation, codepen]
 thumb: "/images/f46c023f6f06476289be22d45a28480a.jpg"
 ---

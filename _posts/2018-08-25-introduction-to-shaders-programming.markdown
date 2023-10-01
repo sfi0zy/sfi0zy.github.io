@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Introduction to shaders programming"
-date:   2018-08-25 00:00:00 +0300
-categories: publications
-icon: publication
+title: "Introduction to shaders programming"
+date: 2018-08-25 00:00:00 +0300
 tags: [javascript, animation, canvas, webgl, codepen, math, publications, habrahabr]
 thumb: "/images/f896c97e1ab32138bd4c99b345797d65.jpg"
 ---

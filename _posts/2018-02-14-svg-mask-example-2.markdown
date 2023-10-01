@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "SVG mask example #2"
-date:   2018-02-14 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "SVG mask example #2"
+date: 2018-02-14 00:00:00 +0300
 tags: [svg, javascript, animation, codepen]
 thumb: "/images/92f096e0fa2c0950a1543b76f82e4154.jpg"
 ---

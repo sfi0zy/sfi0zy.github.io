@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "Double helix"
-date:   2019-06-02 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "Double helix"
+date: 2019-06-02 00:00:00 +0300
 tags: [css, animation, codepen]
 thumb: "/images/ce76b37d9d4057152708ab05be6ffba5.jpg"
 ---

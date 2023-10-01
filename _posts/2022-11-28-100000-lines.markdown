@@ -1,9 +1,8 @@
 ---
+category: post
 layout: post
-title:  "100000 lines"
-date:   2022-11-28 00:00:00 +0300
-categories: codepen
-icon: hotoncodepen
+title: "100000 lines"
+date: 2022-11-28 00:00:00 +0300
 tags: [javascript, canvas, animation, codepen]
 thumb: "/images/1268bfd82ab7b705b4c8f4506f147fe2.jpg"
 ---
