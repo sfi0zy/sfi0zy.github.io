@@ -1,0 +1,6 @@
+_site/*
+images/*.svg
+*.swp
+node_modules
+.jekyll-metadata
+.jekyll-cache
