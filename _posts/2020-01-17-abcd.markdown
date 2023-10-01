@@ -8,6 +8,6 @@ tags: [html, css, javascript, codepen]
 thumb: "/images/b63b6f46f1c2bb13e3ef18875a712229.jpg"
 ---
 
-A couple of days ago I found an <a href='https://qna.habr.com/q/700893'>interesting question on Habr Q&amp;A</a>. A man asked how to create a design concept with HTML and CSS. It's a common question for this website and the concept looked simple, but nobody knew how to create it. The thing is the sides of the triangles in the concept must be parallel on all screen sizes, not only on fullhd. I accepted the challenge and created a prototype for modern browsers. It looks like we can't create such design using CSS only, even for evergreen browsers, so I used JS to calculate the widths of the triangles based on the heights of the cards. But maybe someone will invent a new CSS trick for this type of calculations.
+A couple of days ago I found an interesting question on Habr Q&A. A man asked how to create a design concept with HTML and CSS. It's a common question for this website and the concept looked simple, but nobody knew how to create it. The thing is the sides of the triangles in the concept must be parallel on all screen sizes, not only on fullhd. I accepted the challenge and created a prototype for the modern browsers. It looks like we can't create such design using CSS only, even for evergreen browsers, so I used some JS to calculate the widths of the triangles based on the heights of the cards. But maybe someone will invent a new CSS trick for this type of calculations.
 
-{% include codepen.html hash="zYxJNmG" height="370" %}
+{% include codepen.html hash="zYxJNmG" %}

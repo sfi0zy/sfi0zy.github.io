@@ -7,5 +7,4 @@ tags: [github, linux]
 thumb: "/images/60076725e1884ee5b96a408abb277abc.jpg"
 ---
 
-Winter is my time for major upgrades. This week I upgraded my [elementary OS](https://elementary.io/), installed tons of programs, re-created my settings for terminal, my vim configuration for frontend development, and saved every action in [this repository](https://github.com/sfi0zy/workspace-setup). These bash scripts will work as a setup wizard next time. Feel free to fork this repository and create your own workspace setups.
-
+Winter is my time for major upgrades. This week I upgraded my elementary OS, installed tons of programs, re-created my settings for terminal, my vim configuration for frontend development, and saved every action in [this repository](https://github.com/sfi0zy/workspace-setup). These bash scripts will work as a setup wizard next time. Feel free to fork this repository and create your own workspace setups.

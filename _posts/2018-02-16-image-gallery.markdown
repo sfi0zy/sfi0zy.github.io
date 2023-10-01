@@ -8,6 +8,6 @@ tags: [svg, javascript, animation, codepen]
 thumb: "/images/2a8c114237a30578a2621b2a0e0b9143.jpg"
 ---
 
-Image carousel is one of the most popular components. It's being used by millions of websites. But usually we see pretty simple effects in it. SVG gives us the ability to greatly improve our carousels. And again I've used masking. It's simple, but very powerful technology.
+Image carousel is one of the most popular components nowadays. It's being used by millions of websites. But usually we see pretty simple effects in them. SVG gives us the ability to greatly improve our carousels in the visual terms. And again, I've used SVG masks for that.
 
-{% include codepen.html hash="OQOExE" height="380" %}
+{% include codepen.html hash="OQOExE" %}

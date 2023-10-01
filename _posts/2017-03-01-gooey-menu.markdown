@@ -7,6 +7,6 @@ tags: [html, svg, css, animation, javascript, codepen]
 thumb: "/images/059e5daaec164ba787de90d6503a56a6.jpg"
 ---
 
-Previously I thought that the creation of gooey elements is a kind of magic... I've created a simple gooey menu with six additional buttons and now I can say - it's not a magic.
+Previously I thought that the creation of the gooey elements is a kind of magic... After creating a gooey menu myself I can say that it's much easier to do than it may look like.
 
-{% include codepen.html hash="EWVbXy" height="400" %}
+{% include codepen.html hash="EWVbXy" %}

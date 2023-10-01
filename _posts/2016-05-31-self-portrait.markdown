@@ -8,6 +8,6 @@ tags: [html, css, animation, codepen]
 thumb: "/images/681f34721437445f908dad336d596658.jpg"
 ---
 
-My self portrait with some animations in pure CSS. Without any images, without any SVG elements.
+Here is my self portrait with some animations in pure CSS. Without any images, without any SVG elements.
 
-{% include codepen.html hash="KMwdpR" height="675" %}
+{% include codepen.html hash="KMwdpR" %}

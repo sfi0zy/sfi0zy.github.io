@@ -7,6 +7,6 @@ tags: [html, javascript, codepen]
 thumb: "/images/c7a72863570c4d3c8c2b0dd23253cf2b.jpg"
 ---
 
-Have you even seen the reflection of the website? I'm not. The idea is very interesting, but unfortunately it has a very bad performance.
+Have you even seen the reflection of the website? I have no idea where it can be used, but the concept itself is quite interesting.
 
-{% include codepen.html hash="WxNWZe" height="420" %}
+{% include codepen.html hash="WxNWZe" %}

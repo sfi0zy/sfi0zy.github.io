@@ -10,4 +10,4 @@ thumb: "/images/887bb415eac5dc1bb7258a8e9cc0c453.jpg"
 
 After a break, I've returned to the CodePen with a new effect based on Three.js. I don't know where I can use it in this form, but it looks interesting.
 
-{% include codepen.html hash="MGExMb" height="430" %}
+{% include codepen.html hash="MGExMb" %}

@@ -8,6 +8,6 @@ tags: [svg, javascript, animation, codepen]
 thumb: "/images/312f66ac192ac43c860a00a3bc4649b4.jpg"
 ---
 
-Another nice animation.
+Yet another animation.
 
-{% include codepen.html hash="xYyKyP" height="402" %}
+{% include codepen.html hash="xYyKyP" %}

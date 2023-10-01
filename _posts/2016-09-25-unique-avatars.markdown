@@ -8,6 +8,6 @@ tags: [javascript, canvas, codepen]
 thumb: "/images/6695fa6cd734434d9f29efbca763a2e2.jpg"
 ---
 
-This is a generator of avatars (I created it for one of my answers on toster.ru).
+This is a simple generator of avatars. I created it for the one of my answers on Habr Q&A.
 
-{% include codepen.html hash="kkBAjd" height="414" %}
+{% include codepen.html hash="kkBAjd" %}

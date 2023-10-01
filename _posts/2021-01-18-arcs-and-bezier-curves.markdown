@@ -9,4 +9,4 @@ thumb: "/images/d3a998334da9e4faed3b4b74816ff158.jpg"
 
 Here is another demo with Bezier curves. I created it for my students as an additional example for my articles on math for UI developers.
 
-{% include codepen.html hash="VwKgQPB" height="400" %}
+{% include codepen.html hash="VwKgQPB" %}

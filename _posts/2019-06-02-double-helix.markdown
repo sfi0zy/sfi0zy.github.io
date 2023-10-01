@@ -8,7 +8,7 @@ tags: [css, animation, codepen]
 thumb: "/images/ce76b37d9d4057152708ab05be6ffba5.jpg"
 ---
 
-A few days ago I played with different LESS mixins. It was boring a little and I've added some keyframes to my demo and got this nice animation. It was a Sunday, I wasn't concentrated and made a couple of stupid mistakes in the code. Its performance can be improved, I know. Ana Tudor fixed them and created an alternative version of the animation. It doesn't work in IE/Edge, but it's very interesting. I like it.
+A few days ago I played with different LESS mixins. It was boring a little and I've added some keyframes to my demo and got this nice animation. I made a couple of stupid mistakes in the code. I know. Its performance can be improved. Ana Tudor fixed them and created an alternative version of the animation. It doesn't work in IE/Edge, but it's very interesting.
 
-{% include codepen.html hash="ZNJWzx" height="400" %}
+{% include codepen.html hash="ZNJWzx" %}
 {% include youtube.html hash="eMDOU8LqGM4" %}

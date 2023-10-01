@@ -8,7 +8,6 @@ tags: [publications, books, music]
 thumb: "/images/2980530a86179302a582ca7e7751cefa.jpg"
 ---
 
-My new book has been published. This is a collection of my pieces for piano and violin.
+The second part of the collection of my pieces has been published. This is a collection of the pieces for the piano and violin.
 
-UPD: The <a href='/other/free-pdf-versions-of-my-books'>free PDF version is available</a>.
-
+UPD: The [free PDF version is available](/free-books/).

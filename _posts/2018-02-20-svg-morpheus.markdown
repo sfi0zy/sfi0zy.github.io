@@ -7,6 +7,6 @@ tags: [svg, javascript, animation, codepen]
 thumb: "/images/ad802cbb83f0c44a2ba643bae68a04e8.jpg"
 ---
 
-Just another animation.
+Just another SVG animation.
 
-{% include codepen.html hash="ZrxpGB" height="410" %}
+{% include codepen.html hash="ZrxpGB" %}

@@ -10,4 +10,4 @@ thumb: "/images/015380ea2c786cf795d86ee16932ac20.jpg"
 
 Fibonacci sphere + rotation matrix + some CSS magic = tags cloud. You don't need tons of scripts to create things like that.
 
-{% include codepen.html hash="jOKzGgO" height="400" %}
+{% include codepen.html hash="jOKzGgO" %}

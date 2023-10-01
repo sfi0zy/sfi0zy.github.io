@@ -8,6 +8,6 @@ tags: [html, css, animation, javascript, codepen]
 thumb: "/images/604d85275197b8d2341f96d9b86fcf7e.jpg"
 ---
 
-Nick Babich writes very interesting articles on UX Planet and usually they include amazing animations. But it seems like they are created using After Effects or similar program. I got the idea from <a href='https://uxplanet.org/microinteractions-the-secret-to-great-app-design-4cfe70fbaccf'>this article</a> and tried to create the animation of the funny face using CSS and JS.
+Nick Babich writes very interesting articles on UX Planet and usually they include amazing animations. But it seems like they are created using the Adobe After Effects. I got the idea of this funny face from the one of his article and tried to re-create it using CSS and JS. Let's see what I got:
 
-{% include codepen.html hash="QOKGXy" height="380" %}
+{% include codepen.html hash="QOKGXy" %}

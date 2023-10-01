@@ -8,6 +8,6 @@ tags: [svg, javascript, animation, codepen]
 thumb: "/images/92f096e0fa2c0950a1543b76f82e4154.jpg"
 ---
 
-Today is St Valentine's day. I've painted a heart. This example consists of one mask, two paths and a couple of lines of javascript to start the action.
+Today is St. Valentine's day. So I've painted a heart. One mask, two paths and a couple of lines of javascript to start the action.
 
-{% include codepen.html hash="vdJVNd" height="340" %}
+{% include codepen.html hash="vdJVNd" %}

@@ -8,6 +8,6 @@ tags: [javascript, animation, codepen]
 thumb: "/images/f46c023f6f06476289be22d45a28480a.jpg"
 ---
 
-This is an example of usage of <a href='https://github.com/loktar00/JQuery-Snowfall'>jQuery-Snowfall</a> plugin. I wrote this pen for my <a href='https://toster.ru/q/392648#answer_960282'>answer</a> on toster.ru. But it looks so pretty - I can't not to share it here.
+This is an example of usage of the [jQuery-Snowfall](https://github.com/loktar00/JQuery-Snowfall) plugin. I wrote this pen for the one of my answers on Habr Q&A, but it looks so pretty, I can't not to share it here.
 
-{% include codepen.html hash="zNpPKZ" height="430" %}
+{% include codepen.html hash="zNpPKZ" %}

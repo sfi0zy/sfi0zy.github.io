@@ -8,6 +8,6 @@ tags: [html, svg, css, animation, codepen]
 thumb: "/images/837781cca65246f18477729b4bf78e48.jpg"
 ---
 
-This is a simple spinner with interesting effects. It can be used as full-page loading indicator.
+This is a simple spinner with some interesting effects. It can be used as full-page loading indicator.
 
-{% include codepen.html hash="aJVGOd" height="430" %}
+{% include codepen.html hash="aJVGOd" %}

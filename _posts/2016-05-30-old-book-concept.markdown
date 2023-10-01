@@ -8,6 +8,6 @@ tags: [html, css, animation, codepen]
 thumb: "/images/7704b6e9a0084df39400e5dc433fe6db.jpg"
 ---
 
-This is a concept of the old book that can be integrated into the website.
+This is my CSS/JS concept of the old book with the "turn the page" animation that can be integrated into the website.
 
-{% include codepen.html hash="ezYLgz" height="700" %}
+{% include codepen.html hash="ezYLgz" %}

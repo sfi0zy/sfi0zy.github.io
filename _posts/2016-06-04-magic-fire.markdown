@@ -8,8 +8,6 @@ tags: [html, css, animation, codepen]
 thumb: "/images/e3493c62234646eb80edbc5d834a692b.jpg"
 ---
 
-I originally wrote this fire for the quest on [CSSQuests.com][demo-on-cssquests], and now it's available on CodePen. This is a pure CSS animation of fire, without any JavaScript or SVG.
+Yet another CSS example is here! Originally, I wrote this fire for the [quest on CSSQuests](https://cssquests.com/camp-fire/), but now it's available on CodePen too. This is a pure CSS animation, without any JavaScript or SVG.
 
-{% include codepen.html hash="OXgmLA" height="430" %}
-
-[demo-on-cssquests]: https://cssquests.com/camp-fire/
+{% include codepen.html hash="OXgmLA" %}

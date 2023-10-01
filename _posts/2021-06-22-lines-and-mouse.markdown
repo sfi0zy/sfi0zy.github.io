@@ -10,4 +10,4 @@ thumb: "/images/319265fc325b66c4b84ff417f56b4b1a.jpg"
 
 Just another WebGL example.
 
-{% include codepen.html hash="zYZQJJV" height="400" %}
+{% include codepen.html hash="zYZQJJV" %}

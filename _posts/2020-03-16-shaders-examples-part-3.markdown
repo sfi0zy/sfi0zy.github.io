@@ -8,8 +8,8 @@ tags: [javascript, animation, canvas, webgl, codepen]
 thumb: "/images/284c12877e6dc7e2c2d38b82d9d5ddcd.jpg"
 ---
 
-The show goes on! Three more examples are on CodePen now. These pens are the examples of usage of shader material with point cloud. Also, you can find a nice trick in them - I used third dimension to create 2D animations. It's much easier than puzzle out all the math to calculate such animations in two-dimensional space.
+The show goes on! Three more examples are on CodePen now. These pens are the examples of usage of the shader material with the point cloud. Also, you can find a nice trick in them - I used third dimension to create 2D animations. It's much easier than puzzle out all the math to calculate such animations in two-dimensional space.
 
-{% include codepen.html hash="ZEGovzm" height="500" %}
-{% include codepen.html hash="VwLxyzm" height="500" %}
-{% include codepen.html hash="yLNjpEW" height="500" %}
+{% include codepen.html hash="ZEGovzm" %}
+{% include codepen.html hash="VwLxyzm" %}
+{% include codepen.html hash="yLNjpEW" %}

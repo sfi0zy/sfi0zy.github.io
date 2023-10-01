@@ -8,6 +8,6 @@ tags: [html, svg, css, animation, codepen]
 thumb: "/images/175c534ef93744c4a06d77fd7ca30ae5.jpg"
 ---
 
-Here is another amazing spinner. It has been showcased at <a href='https://site.uplabs.com/posts/gooey-spinner'>uplabs.com</a>. This spinner works correctly only in Google Chrome because SVG filters have different behaviors in modern browsers.
+Here is another amazing spinner. It works correctly in Google Chrome only because the SVG filters have different behaviors in the modern browsers, but this is still a nice example.
 
-{% include codepen.html hash="PpdgXY" height="410" %}
+{% include codepen.html hash="PpdgXY" %}

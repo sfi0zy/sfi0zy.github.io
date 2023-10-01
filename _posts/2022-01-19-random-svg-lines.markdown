@@ -10,4 +10,4 @@ thumb: "/images/8a01446243a81a07274c23c66102a463.jpg"
 
 Yet another example. This script generates website backgrounds with various lines. Simple, but looks cool.
 
-{% include codepen.html hash="WNZWZaz" height="400" %}
+{% include codepen.html hash="WNZWZaz" %}

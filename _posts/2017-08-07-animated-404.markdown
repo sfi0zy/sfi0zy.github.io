@@ -8,6 +8,6 @@ tags: [html, css, animation, codepen]
 thumb: "/images/472d28ca5fc340cda337ad185bc423f7.jpg"
 ---
 
-This is a nice 404 page with CSS animations. I created it for <a href='https://toster.ru/q/449441'>one of my answers</a> on toster.ru. I was inspired by GIF animation from dribbble, but unfortunately I don't remember the name of its author. This animation is pretty simple and lightweight - only four circles, twelve numbers and 'Oops....' message.
+This is a nice 404 page with some CSS animations. And again, I created it for the one of my answers on Habr Q&A. I was inspired by some GIF animations from dribbble, but unfortunately I don't remember the name of the designer.
 
-{% include codepen.html hash="gxmOda" height="540" %}
+{% include codepen.html hash="gxmOda" %}

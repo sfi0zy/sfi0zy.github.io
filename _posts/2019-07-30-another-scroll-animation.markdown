@@ -8,9 +8,6 @@ tags: [svg, css, javascript, animation, codepen]
 thumb: "/images/d49801b1faf52d6abcfb137d3f83a2de.jpg"
 ---
 
-Just another scroll animation. It's based on <a href='https://sfi0zy.github.io/codepen/scroll-example'>this one</a>, but works in the opposite direction. I got the idea from <a href='https://toster.ru/q/652712'>this question</a>. The animation is quite simple, but it can be used in different situations and I think it's a good idea to save it for the future.
+Just another scroll animation. It's based on [this one](https://sfi0zy.github.io/codepen/scroll-example), but it works in the opposite direction.
 
-{% include codepen.html hash="wVJBGB" height="577" %}
-
-UPD: Found an article about this trick: <a href='https://programmer.group/5d6641e54727f.html'>programmer.group/5d6641e54727f.html</a>.
-
+{% include codepen.html hash="wVJBGB" %}

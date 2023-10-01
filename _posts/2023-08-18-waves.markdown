@@ -9,4 +9,4 @@ thumb: "/images/f2f13a897a3c58fca0065ffd85f86cc1.jpg"
 
 Yet another WebGL example is here! Three planes + some noise = beautiful waves for the background effects.
 
-{% include codepen.html hash="VwqwPZz" height="400" %}
+{% include codepen.html hash="VwqwPZz" %}

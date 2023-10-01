@@ -8,8 +8,8 @@ tags: [javascript, animation, canvas, webgl, codepen]
 thumb: "/images/6bf4801495aef544004aeb6d216e0539.jpg"
 ---
 
-I continue posting beautiful shaders examples to CodePen. I started with colorful ones and now the time has come for monochrome ones. They look very futuristic, and I associate them with Sci-Fi movies.
+I continue posting beautiful shader examples to CodePen. I started with colorful ones and now the time has come for the monochrome ones. They look very futuristic, and I associate them with Sci-Fi movies.
 
-{% include codepen.html hash="QWbrjyp" height="500" %}
-{% include codepen.html hash="wvajMVN" height="500" %}
-{% include codepen.html hash="qBdYZbP" height="500" %}
+{% include codepen.html hash="QWbrjyp" %}
+{% include codepen.html hash="wvajMVN" %}
+{% include codepen.html hash="qBdYZbP" %}
