@@ -15,5 +15,3 @@ Ok. It's time to refresh my CodePen profile a bit. In the last years I published
   Night Drive</a> by Ivan Bogachev (<a href='https://codepen.io/sfi0zy'>@sfi0zy</a>)
   on <a href='https://codepen.io'>CodePen</a>.</span>
 </p>
-<script async src='https://cpwebassets.codepen.io/assets/embed/ei.js'></script>
-

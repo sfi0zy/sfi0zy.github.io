@@ -26,5 +26,3 @@ I continue my experiments with <a href='https://github.com/sfi0zy/medium'>Medium
   Yet another mouse-controlled background concept</a> by Ivan Bogachev (<a href='https://codepen.io/sfi0zy'>@sfi0zy</a>)
   on <a href='https://codepen.io'>CodePen</a>.</span>
 </p>
-
-<script async src='https://cpwebassets.codepen.io/assets/embed/ei.js'></script>

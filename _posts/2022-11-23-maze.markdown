@@ -15,5 +15,4 @@ Yet another Three.js example! This time it's a simple maze with one light and sh
   Maze (yet another three.js example)</a> by Ivan Bogachev (<a href='https://codepen.io/sfi0zy'>@sfi0zy</a>)
   on <a href='https://codepen.io'>CodePen</a>.</span>
 </p>
-<script async src='https://cpwebassets.codepen.io/assets/embed/ei.js'></script>
 

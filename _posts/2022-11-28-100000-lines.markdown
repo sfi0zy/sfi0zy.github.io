@@ -28,5 +28,3 @@ And here is another demo:
 
 It was the first step in the development of that gallery. It's more simple, with only one canvas, but it may work as a base for future experiments.
 
-<script async src='https://cpwebassets.codepen.io/assets/embed/ei.js'></script>
-

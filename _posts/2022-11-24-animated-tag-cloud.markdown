@@ -15,5 +15,4 @@ Fibonacci sphere + rotation matrix + some CSS magic = tags cloud. You don't need
   Animated tag cloud</a> by Ivan Bogachev (<a href='https://codepen.io/sfi0zy'>@sfi0zy</a>)
   on <a href='https://codepen.io'>CodePen</a>.</span>
 </p>
-<script async src='https://cpwebassets.codepen.io/assets/embed/ei.js'></script>
 
