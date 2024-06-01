@@ -27,4 +27,4 @@ make build
 
 CC BY 4.0
 
-Copyright (c) 2023 Ivan Bogachev
+Copyright (c) 2024 Ivan Bogachev
