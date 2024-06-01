@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Ivan Bogachev</title>
+        <description>Personal website. I post ideas for front-end developers, CSS, SVG and WebGL animations, information about my articles, books and other projects.
+</description>
+        <link>https://sfi0zy.github.io/</link>
+        <atom:link href="https://sfi0zy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 01 Jun 2024 11:30:07 +0300</pubDate>
+        <lastBuildDate>Sat, 01 Jun 2024 11:30:07 +0300</lastBuildDate>
+        <generator>Jekyll v4.3.2</generator>
+
+        
+            <item>
+                <title>Canvas &amp; borders</title>
+                <description>&lt;p&gt;Some time has passed since the CSS Painting API was born, but it’s still not supported by all major browsers. Meanwhile, we can use the standard canvas to do everything. Actually we were able to do that for many years, but for some reason I didn’t post any good examples of that trick. Now it’s here.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;eYavdeq&quot; data-preview=&quot;true&quot; data-user=&quot;sfi0zy&quot;&gt;
+  &lt;span&gt;The Pen by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;).&lt;/span&gt;
+&lt;/p&gt;
+
+</description>
+                <pubDate>Sat, 01 Jun 2024 00:00:00 +0300</pubDate>
+                <link>https://sfi0zy.github.io/post/canvas-and-borders</link>
+                <guid isPermaLink="true">https://sfi0zy.github.io/post/canvas-and-borders</guid>
+
+                
+                    <category>javascript</category>
+                
+                    <category>canvas</category>
+                
+                    <category>math</category>
+                
+                    <category>codepen</category>
+                
+
+                
+                    <category>post</category>
+                
+            </item>
+        
+            <item>
+                <title>Waves</title>
+                <description>&lt;p&gt;Yet another WebGL example is here! Three planes + some noise = beautiful waves for the background effects.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;VwqwPZz&quot; data-preview=&quot;true&quot; data-user=&quot;sfi0zy&quot;&gt;
+  &lt;span&gt;The Pen by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;).&lt;/span&gt;
+&lt;/p&gt;
+
+</description>
+                <pubDate>Fri, 18 Aug 2023 00:00:00 +0300</pubDate>
+                <link>https://sfi0zy.github.io/post/waves</link>
+                <guid isPermaLink="true">https://sfi0zy.github.io/post/waves</guid>
+
+                
+                    <category>javascript</category>
+                
+                    <category>canvas</category>
+                
+                    <category>webgl</category>
+                
+                    <category>animation</category>
+                
+                    <category>math</category>
+                
+                    <category>codepen</category>
+                
+
+                
+                    <category>post</category>
+                
+            </item>
+        
+            <item>
+                <title>Night Drive</title>
+                <description>&lt;p&gt;Ok. It’s time to refresh my CodePen profile a bit. In the last years I published mostly educational examples for my students, but it feels like they can’t really work as an example of my own skills. A lot of people can do the same tricks nowadays. They looked cool five years ago, but not anymore. I needed something that will look impressive enough, so I created a new demo, “Night Drive”. It’ll show what I can do with Three.js in one day.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;GRwEQjd&quot; data-preview=&quot;true&quot; data-user=&quot;sfi0zy&quot;&gt;
+  &lt;span&gt;The Pen by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;).&lt;/span&gt;
+&lt;/p&gt;
+
+</description>
+                <pubDate>Mon, 03 Jul 2023 00:00:00 +0300</pubDate>
+                <link>https://sfi0zy.github.io/post/night-drive</link>
+                <guid isPermaLink="true">https://sfi0zy.github.io/post/night-drive</guid>
+
+                
+                    <category>javascript</category>
+                
+                    <category>canvas</category>
+                
+                    <category>webgl</category>
+                
+                    <category>animation</category>
+                
+                    <category>math</category>
+                
+                    <category>codepen</category>
+                
+
+                
+                    <category>post</category>
+                
+            </item>
+        
+            <item>
+                <title>Street Monochrome</title>
+                <description>&lt;p&gt;It’s been a while, isn’t it? I haven’t posted anything for a few months now. I’m working on a new photography-related project. It’s a lot of work. Meanwhile, I decided to share the darktable styles that I use for the street photography. Why not? My main style is the &lt;a href=&quot;https://github.com/sfi0zy/street-monochrome&quot;&gt;Street Monochrome&lt;/a&gt;. This is a high contrast black and white style, it works well in almost every situation that I encounter on the street, and now it’s available as a .dtstyle file and as a LUT.&lt;/p&gt;
+</description>
+                <pubDate>Wed, 14 Jun 2023 00:00:00 +0300</pubDate>
+                <link>https://sfi0zy.github.io/post/street-monochrome</link>
+                <guid isPermaLink="true">https://sfi0zy.github.io/post/street-monochrome</guid>
+
+                
+                    <category>photography</category>
+                
+
+                
+                    <category>post</category>
+                
+            </item>
+        
+            <item>
+                <title>Animated CSS backgrounds</title>
+                <description>&lt;p&gt;I continue my experiments with &lt;a href=&quot;https://github.com/sfi0zy/medium&quot;&gt;Medium&lt;/a&gt;, and I got a few animated backgrounds. Check them out!&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;XWPmqzX&quot; data-preview=&quot;true&quot; data-user=&quot;sfi0zy&quot;&gt;
+  &lt;span&gt;The Pen by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;).&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;WNgQrgV&quot; data-preview=&quot;true&quot; data-user=&quot;sfi0zy&quot;&gt;
+  &lt;span&gt;The Pen by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;).&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;JjaYeGz&quot; data-preview=&quot;true&quot; data-user=&quot;sfi0zy&quot;&gt;
+  &lt;span&gt;The Pen by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;).&lt;/span&gt;
+&lt;/p&gt;
+
+</description>
+                <pubDate>Sun, 19 Feb 2023 00:00:01 +0300</pubDate>
+                <link>https://sfi0zy.github.io/post/animated-css-backgrounds</link>
+                <guid isPermaLink="true">https://sfi0zy.github.io/post/animated-css-backgrounds</guid>
+
+                
+                    <category>html</category>
+                
+                    <category>css</category>
+                
+                    <category>javascript</category>
+                
+                    <category>animation</category>
+                
+                    <category>codepen</category>
+                
+
+                
+                    <category>post</category>
+                
+            </item>
+        
+            <item>
+                <title>Medium</title>
+                <description>&lt;p&gt;For a long time, I was thinking about a tool that will provide a set of CSS custom properties with the mouse position, scroll position, random values etc. And since I didn’t find anything that I would like, I decided to write the tool myself. I called it “Medium” because it connects CSS and JS worlds. The library itself is quite simple, but I used it for a few demos on CodePen and it really speeds things up. Now it’s &lt;a href=&quot;https://github.com/sfi0zy/medium&quot;&gt;available on GitHub&lt;/a&gt; and as &lt;a href=&quot;https://www.npmjs.com/package/css.medium.js&quot;&gt;NPM package&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <pubDate>Sun, 19 Feb 2023 00:00:00 +0300</pubDate>
+                <link>https://sfi0zy.github.io/post/medium</link>
+                <guid isPermaLink="true">https://sfi0zy.github.io/post/medium</guid>
+
+                
+                    <category>css</category>
+                
+                    <category>javascript</category>
+                
+                    <category>animation</category>
+                
+                    <category>github</category>
+                
+
+                
+                    <category>post</category>
+                
+            </item>
+        
+            <item>
+                <title>100000 lines</title>
+                <description>&lt;p&gt;Just published a new animated gallery on CodePen. As always, the ingredients are quite simple: two canvases, old trusty line-drawing algorithm and some junior-level image data calculations. But the result looks interesting:&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;QWxBNVr&quot; data-preview=&quot;true&quot; data-user=&quot;sfi0zy&quot;&gt;
+  &lt;span&gt;The Pen by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;).&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p&gt;It’s not for mobile devices, obviously. This amount of draw calls is kind of too much for them. It works fine on my smartphone, but I think it’ll be a bad practice to run such thing for mobile devices in production.&lt;/p&gt;
+
+&lt;p&gt;And here is another demo:&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;wvXXYpP&quot; data-preview=&quot;true&quot; data-user=&quot;sfi0zy&quot;&gt;
+  &lt;span&gt;The Pen by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;).&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p&gt;It was the first step in the development of that gallery. It’s more simple, with only one canvas, but it may work as a base for future experiments.&lt;/p&gt;
+</description>
+                <pubDate>Mon, 28 Nov 2022 00:00:00 +0300</pubDate>
+                <link>https://sfi0zy.github.io/post/100000-lines</link>
+                <guid isPermaLink="true">https://sfi0zy.github.io/post/100000-lines</guid>
+
+                
+                    <category>javascript</category>
+                
+                    <category>canvas</category>
+                
+                    <category>animation</category>
+                
+                    <category>codepen</category>
+                
+
+                
+                    <category>post</category>
+                
+            </item>
+        
+            <item>
+                <title>Animated tag cloud</title>
+                <description>&lt;p&gt;Fibonacci sphere + rotation matrix + some CSS magic = tags cloud. You don’t need tons of scripts to create things like that.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;jOKzGgO&quot; data-preview=&quot;true&quot; data-user=&quot;sfi0zy&quot;&gt;
+  &lt;span&gt;The Pen by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;).&lt;/span&gt;
+&lt;/p&gt;
+
+</description>
+                <pubDate>Thu, 24 Nov 2022 00:00:00 +0300</pubDate>
+                <link>https://sfi0zy.github.io/post/animated-tag-cloud</link>
+                <guid isPermaLink="true">https://sfi0zy.github.io/post/animated-tag-cloud</guid>
+
+                
+                    <category>html</category>
+                
+                    <category>css</category>
+                
+                    <category>javascript</category>
+                
+                    <category>animation</category>
+                
+                    <category>math</category>
+                
+                    <category>codepen</category>
+                
+
+                
+                    <category>post</category>
+                
+            </item>
+        
+            <item>
+                <title>Maze</title>
+                <description>&lt;p&gt;Yet another Three.js example! This time it’s a simple maze with one light and shadows. It’s easy to do, and it looks not bad at all.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-slug-hash=&quot;LYrQagq&quot; data-preview=&quot;true&quot; data-user=&quot;sfi0zy&quot;&gt;
+  &lt;span&gt;The Pen by Ivan Bogachev (&lt;a href=&quot;https://codepen.io/sfi0zy&quot;&gt;@sfi0zy&lt;/a&gt;).&lt;/span&gt;
+&lt;/p&gt;
+
+</description>
+                <pubDate>Wed, 23 Nov 2022 00:00:00 +0300</pubDate>
+                <link>https://sfi0zy.github.io/post/maze</link>
+                <guid isPermaLink="true">https://sfi0zy.github.io/post/maze</guid>
+
+                
+                    <category>javascript</category>
+                
+                    <category>canvas</category>
+                
+                    <category>webgl</category>
+                
+                    <category>math</category>
+                
+                    <category>codepen</category>
+                
+
+                
+                    <category>post</category>
+                
+            </item>
+        
+            <item>
+                <title>Isolation</title>
+                <description>&lt;p&gt;My first photo book has been printed. It’s a story about lockdown, about social isolation, loneliness and emptiness.&lt;/p&gt;
+
+&lt;div class=&quot;youtube&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/1mNOpmt4w6A&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+                <pubDate>Fri, 05 Aug 2022 00:00:01 +0300</pubDate>
+                <link>https://sfi0zy.github.io/post/isolation</link>
+                <guid isPermaLink="true">https://sfi0zy.github.io/post/isolation</guid>
+
+                
+                    <category>publications</category>
+                
+                    <category>books</category>
+                
+                    <category>photography</category>
+                
+
+                
+                    <category>post</category>
+                
+            </item>
+        
+    </channel>
+</rss>
