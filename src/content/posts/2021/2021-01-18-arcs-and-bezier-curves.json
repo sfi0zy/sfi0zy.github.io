@@ -1,0 +1,10 @@
+{
+    "title": "Arcs and Bezier curves",
+    "date": "2021-01-18",
+    "tags": ["javascript", "canvas", "math", "codepen"],
+    "thumb": "d3a998334da9e4faed3b4b74816ff158",
+    "content": [
+        "Here is another demo with Bezier curves. I created it for my students as an additional example for my articles on math for UI developers.",
+        ["codepen", "VwKgQPB"]
+    ]
+}

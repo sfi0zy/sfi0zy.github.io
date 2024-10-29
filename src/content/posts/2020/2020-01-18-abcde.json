@@ -1,0 +1,10 @@
+{
+    "title": "ABCDE",
+    "date": "2020-01-18",
+    "tags": ["html", "css", "codepen"],
+    "thumb": "948d6503a000ad7500d1af9c3d2ed5fc",
+    "content": [
+        "This time I created an example of the responsive infographics with hexagons. Probably you've already seen the similar design concepts. This one doesn't work in IE/Edge because I used clip-path with polygon to create the hexagonal elements, but if you need to support these browsers, you can simply replace the clip-path solution with SVG images.",
+        ["codepen", "JjomEKQ"]
+    ]
+}

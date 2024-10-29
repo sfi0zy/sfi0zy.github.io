@@ -1,0 +1,51 @@
+{
+    "url": "https://sfi0zy.github.io",
+    "title": "Ivan Bogachev",
+    "name": "Ivan Bogachev",
+    "username": "sfi0zy",
+    "position": "Creative frontend developer",
+    "email": "sfi0zy@gmail.com",
+    "description": "Personal website. I post ideas for front-end developers, CSS, SVG and WebGL animations, information about my articles, books and other projects.",
+    "tags": [
+        "html", "svg", "css", "javascript",
+        "canvas", "webgl",
+        "animation",
+        "math",
+        "linux",
+        "codepen", "github", "habrahabr",
+        "publications", "books",
+        "photography", "psychology", "music",
+        "podcast"
+    ],
+    "nav": [
+        {
+            "url": "/about",
+            "text": "About"
+        },
+        {
+            "url": "/tag/publications",
+            "text": "Publications"
+        },
+        {
+            "url": "/free-books",
+            "text": "Free books"
+        }
+    ],
+    "static": {
+        "about": {
+            "title": "About me",
+            "description": ""
+        },
+        "free-books": {
+            "title": "My free books",
+            "description": ""
+        }
+    },
+    "homeIndexLimit": "10",
+    "icons": {
+        "v": "1",
+        "themeColor": "#cccccc",
+        "tileColor": "#1c1c1c"
+    },
+    "gtagid": "G-7Z19GLSZMX"
+}

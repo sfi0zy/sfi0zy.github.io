@@ -1,0 +1,16 @@
+{
+  "name": "sfi0zy.github.io",
+  "version": "3.0.0",
+  "description": "My website",
+  "author": "Ivan Bogachev",
+  "license": "MIT",
+  "engines": {
+    "node": ">=19.5.0"
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "image-size": "0.7.4"
+  }
+}
