@@ -7,9 +7,7 @@ export default function $Header(config, logo) {
 <hr>
 <nav>
     <ul>
-        ${config.nav.reduce((result, link) => {
-            return `${result}<li><a href='${link.url}'>${link.text}</a></li>`;
-        }, '')}
+        ${config.nav.reduce((result, link) => `${result}<li><a href='${link.url}'>${link.text}</a></li>`, '')}
     </ul>
 </nav>
 <hr>`;

@@ -32,4 +32,3 @@ export default function $FooterScripts(config) {
     gtag('config', '${config.gtagid}');
 </script>`;
 }
-

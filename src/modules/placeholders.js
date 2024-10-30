@@ -5,10 +5,11 @@ export default function generatePlaceholders(imagesList) {
 
     imagesList.forEach((name) => {
         const size = sizeOf(`./src/content/images/${name}.jpg`);
-        const height = size.height;
-        const width  = size.width;
+        const { width, height } = size;
         const startColor = '#eeeeee';
         const endColor = '#ffffff';
+
+        // eslint-disable-next-line sonarjs/pseudo-random
         const id = `svg-id-${Math.floor(Math.random() * 1000000)}`;
 
         placeholders[name] = `<svg version='1.1' xmlns='http://www.w3.org/2000/svg'
@@ -21,7 +22,7 @@ export default function generatePlaceholders(imagesList) {
         </linearGradient>
     </defs>
     <rect x='0' y='0' height='100' width='100' fill='url(#${id})' />
-</svg>`
+</svg>`;
     });
 
     return placeholders;

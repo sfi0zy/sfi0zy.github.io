@@ -37,7 +37,7 @@ function loadPostsData(postsDir) {
                 postsData.push(post);
 
                 id++;
-            } catch (e) {
+            } catch (e) { // eslint-disable-line sonarjs/no-ignored-exceptions
                 console.log(`ERR: invalid post: ${filename}`);
             }
         });
@@ -62,25 +62,21 @@ function main() {
 
     const parts = { header, tagsCloud, footerScripts, css };
 
-    const posts = postsData.map((post) => {
-        return {
-            ...post,
-            compiled: $Post(config, post, placeholders),
-        };
-    }).map((post) => {
-        return {
-            ...post,
-            compiledPage: $Page(
-                `${config.url}/post/${post.slug}.html`,
-                config,
-                `${post.title} | ${config.title}`,
-                post.title,
-                `${post.compiled} ${
-                    $RelatedPosts(postsData, post, placeholders)}`,
-                parts,
-            ),
-        };
-    });
+    const posts = postsData.map((post) => ({
+        ...post,
+        compiled: $Post(config, post, placeholders),
+    })).map((post) => ({
+        ...post,
+        compiledPage: $Page(
+            `${config.url}/post/${post.slug}.html`,
+            config,
+            `${post.title} | ${config.title}`,
+            post.title,
+            `${post.compiled} ${
+                $RelatedPosts(postsData, post, placeholders)}`,
+            parts,
+        ),
+    }));
 
     const rss = $RSS(config, posts);
 
@@ -114,19 +110,17 @@ function main() {
         parts,
     );
 
-    const tagPages = config.tags.map((tag) => {
-        return {
-            slug: tag,
-            compiled: $Page(
-                `${config.url}/tag/${tag}/`,
-                config,
-                `Search for ${tag}`,
-                `Search for the posts tagged with #${tag}`,
-                $Index(config, posts, tag),
-                parts,
-            ),
-        };
-    });
+    const tagPages = config.tags.map((tag) => ({
+        slug: tag,
+        compiled: $Page(
+            `${config.url}/tag/${tag}/`,
+            config,
+            `Search for ${tag}`,
+            `Search for the posts tagged with #${tag}`,
+            $Index(config, posts, tag),
+            parts,
+        ),
+    }));
 
     fs.rmSync('./dist', { recursive: true, force: true });
     fs.mkdirSync('./dist');
