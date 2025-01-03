@@ -11,9 +11,19 @@ script {
     display: none;
 }
 
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
 :root {
     --foreground: #000000;
     --background: #ffffff;
+    --temp: #eeeeee;
     --accent: #0000ff;
     --active: #ffaa00;
 
@@ -257,6 +267,17 @@ img {
     aspect-ratio: 16 / 9;
     position: relative;
     width: 100%;
+    background: var(--temp);
+}
+
+.youtube::after {
+    content: 'Loading...';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    animation: fade-out 2s ease-out infinite alternate;
 }
 
 .youtube iframe {
@@ -265,6 +286,7 @@ img {
     left: 0;
     height: 100%;
     width: 100%;
+    z-index: 2;
     border: none;
 }
 
@@ -274,9 +296,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
     margin: 1em 0;
     padding: 1em;
+    background: var(--temp);
 }
 
 .cp_embed_iframe {
