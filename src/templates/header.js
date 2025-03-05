@@ -2,7 +2,6 @@ export default function $Header(config, logo) {
     return `<header>
     <div>${logo}</div>
     <h1><a href='/'>${config.name}</a></h1>
-    <p>${config.position}</p>
 </header>
 <hr>
 <nav>
