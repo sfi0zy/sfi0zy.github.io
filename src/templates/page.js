@@ -8,6 +8,7 @@ export default function $Page(url, config, title, description, content, parts) {
         <title>${title}</title>
         <meta name='description' content='${description}'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta name='google-site-verification' content='U2bDWZUhJfke-2dwiUdGRjEZ_HSPdg6s3e37lPRHgjQ'>
         <link rel='canonical' href='${url}'>
         <link rel='alternate' type='application/rss+xml'
             title='${config.title}' href='${config.url}/feed.xml'>
