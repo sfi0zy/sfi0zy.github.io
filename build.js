@@ -9,6 +9,7 @@ import $Page from './src/templates/page.js';
 import $Post from './src/templates/post.js';
 import $RelatedPosts from './src/templates/related-posts.js';
 import $RSS from './src/templates/rss.js';
+import $Sitemap from './src/templates/sitemap.js';
 import $TagsCloud from './src/templates/tags-cloud.js';
 
 import generatePlaceholders from './src/modules/placeholders.js';
@@ -122,6 +123,38 @@ function main() {
         ),
     }));
 
+    const urls = [];
+
+    urls.push({ url: `${config.url}` });
+
+    fs.readdirSync('./src/static').forEach((filename) => {
+        if (filename[0] === '.') {
+            return;
+        }
+
+        const slug = path.parse(filename).name;
+
+        urls.push({ url: `${config.url}/${slug}.html`, priority: 1 });
+    });
+
+    fs.readdirSync('./src/content/files').forEach((file) => {
+        const slug = file.replaceAll(' ', '%20');
+
+        urls.push({ url: `${config.url}/files/${slug}`, priority: 1 });
+    });
+
+    postsData.reverse().forEach((post) => {
+        urls.push({ url: `${config.url}/post/${post.slug}.html` });
+    });
+
+    config.tags.forEach((tag) => {
+        urls.push({ url: `${config.url}/tag/${tag}/`, priority: 0.25 });
+    });
+
+    const sitemap = $Sitemap(urls);
+
+    console.log(sitemap);
+
     fs.rmSync('./dist', { recursive: true, force: true });
     fs.mkdirSync('./dist');
     fs.cpSync('./src/content/files', './dist/files', { recursive: true });
@@ -129,6 +162,7 @@ function main() {
     fs.cpSync('./src/icons', './dist', { recursive: true });
     fs.cpSync('./src/robots.txt', './dist/robots.txt');
     fs.writeFileSync('./dist/feed.xml', rss, 'utf-8');
+    fs.writeFileSync('./dist/sitemap.xml', sitemap, 'utf-8');
 
     fs.mkdirSync('./dist/post');
     posts.forEach((post) => {
