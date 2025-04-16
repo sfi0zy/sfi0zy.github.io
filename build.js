@@ -153,8 +153,6 @@ function main() {
 
     const sitemap = $Sitemap(urls);
 
-    console.log(sitemap);
-
     fs.rmSync('./dist', { recursive: true, force: true });
     fs.mkdirSync('./dist');
     fs.cpSync('./src/content/files', './dist/files', { recursive: true });
