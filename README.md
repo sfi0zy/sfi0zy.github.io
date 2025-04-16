@@ -23,4 +23,4 @@ npm run serve
 
 CC BY 4.0
 
-Copyright (c) 2024 Ivan Bogachev
+Copyright (c) 2025 Ivan Bogachev
