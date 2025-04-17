@@ -69,7 +69,7 @@ function main() {
     })).map((post) => ({
         ...post,
         compiledPage: $Page(
-            `${config.url}/post/${post.slug}.html`,
+            `${config.url}/post/${post.slug}`,
             config,
             `${post.title} | ${config.title}`,
             post.title,
@@ -91,7 +91,7 @@ function main() {
         const page = fs.readFileSync(`./src/static/${filename}`, 'utf-8');
         const slug = path.parse(filename).name;
         const compiled = $Page(
-            `${config.url}/${slug}.html`,
+            `${config.url}/${slug}`,
             config,
             `${config.static[slug].title} | ${config.title}`,
             config.static[slug].title,
@@ -103,7 +103,7 @@ function main() {
     });
 
     const index = $Page(
-        `${config.url}/index.html`,
+        `${config.url}`,
         config,
         config.title,
         config.title,
@@ -114,7 +114,7 @@ function main() {
     const tagPages = config.tags.map((tag) => ({
         slug: tag,
         compiled: $Page(
-            `${config.url}/tag/${tag}/`,
+            `${config.url}/tag/${tag}`,
             config,
             `Search for ${tag}`,
             `Search for the posts tagged with #${tag}`,
@@ -134,7 +134,7 @@ function main() {
 
         const slug = path.parse(filename).name;
 
-        urls.push({ url: `${config.url}/${slug}.html`, priority: 1 });
+        urls.push({ url: `${config.url}/${slug}`, priority: 1 });
     });
 
     fs.readdirSync('./src/content/files').forEach((file) => {
@@ -144,11 +144,11 @@ function main() {
     });
 
     postsData.reverse().forEach((post) => {
-        urls.push({ url: `${config.url}/post/${post.slug}.html` });
+        urls.push({ url: `${config.url}/post/${post.slug}` });
     });
 
     config.tags.forEach((tag) => {
-        urls.push({ url: `${config.url}/tag/${tag}/`, priority: 0.25 });
+        urls.push({ url: `${config.url}/tag/${tag}`, priority: 0.25 });
     });
 
     const sitemap = $Sitemap(urls);
