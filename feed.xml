@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Ivan Bogachev</title>
+<description>Personal website. I post ideas for front-end developers, CSS, SVG and WebGL animations, information about my articles, books and other projects.</description>
+<link>https://sfi0zy.github.io/</link>
+<atom:link href="https://sfi0zy.github.io/feed.xml" rel="self"
+type="application/rss+xml"/>
+<pubDate>Sun, 04 May 2025 10:41:47 GMT</pubDate>
+<lastBuildDate>Sun, 04 May 2025 10:41:47 GMT</lastBuildDate>
+
+    <item>
+    <title>The magical number 6</title>
+    <description><p>What is the capacity of our working memory? Some classical researches suggest it's a magical number 7 for a human. Plus-minus. Some other say it's 4. Plus-minus. And something like 2 for a chimpanzee. Plus-minus. In any case, it seems that the test subjects count things and that is being used as the evidence. The rules of counting affect the results and our interpretations of them.</p><p>But how many things do we really need to hold in working memory in order to learn new things? Not just count some objects, not just mirror the actions (monkey see, monkey do), but to understand what's going on? To be intelligent?</p><p>In order to learn, the biological processor should be able to work with transitivity and Euclidean relations. So, how many memory cells do we need to put in its cache to make everything work?</p><p>Let's start with transitivity. We need three memory cells to work with one connection from A to B. We need to save A, to save B, and to save the connection. We need five memory cells to work with two connections. A to B. B to C. We need to save A, B, C, and two connections. Five memory cells in total. If we want to use this data to create a new connection from A to C, to learn something, we need the sixth memory cell. We need to save that new connection somewhere. The same logic works with the Euclidean relations as well. The same 6 memory cells are required.</p><p>This means that the evolution from 5 to 6 memory cells is the step from the intellectually disabled monkey to the organism that can learn things. It's quite an important step. I'm surprised that the cognitive psychologists don't talk about this elephant in the room.</p></description>
+    <pubDate>Sun, 04 May 2025 00:00:00 GMT</pubDate>
+    <link>https://sfi0zy.github.io/post/the-magical-number-6</link>
+    <guid isPermaLink="true">https://sfi0zy.github.io/post/the-magical-number-6</guid>
+    
+        <category>math</category>
+        <category>psychology</category>
+        <category>evolution</category>
+    </item>
+    <item>
+    <title>The evolutionary theory of behavior</title>
+    <description><p>In the fields of psychiatry, psychology, we have a lot of problems right now. The causes of the diseases are not really determined. The symptoms are vague and hard to differentiate. The treatments often look like an alchemy. Maybe it will work. Maybe not. Who knows. Maybe another will work. Or not. The psychological theories allow some very loose interpretations, where the chemical processes behind the processes in the psyche should be very precise. In the world of neurochemistry, we have a lot of scattered pieces of information, but they do not explain how all these things work together.</p><p>We definitely need some fresh eyes. So I started the project, that is supposed to bring the new approaches, the new ways to interpret the collected information in the world of psychaitry. I use the ideas from the completely different fields, from the ancient philosophy to the modern computer science and engineering, to shake things a bit.</p><p>The first part of the project was <a href='/free-books/'>published</a> as a small book, The evolutionary theory of behavior. This is a theory that connects the parts of the psyche, the basic impulses, the observable patterns of behavior, the diseases and the effects in the social groups, attaching everything to the one purely mechanical model.</p><p>The second part of the project is the search for this model, or the similar one, in the field of neurochemistry. Instead of trying to explain every little fact on its own, I look for the similar graph of connections between things. My main hypothesis is that if we can connect things from the outside, the similar graph of connections should be somewhere on the inside. If we find it, it will show us the exact places where the diseases begin. This is a long shot. I know. But it is worth trying.</p></description>
+    <pubDate>Fri, 14 Mar 2025 00:00:00 GMT</pubDate>
+    <link>https://sfi0zy.github.io/post/the-evolutionary-theory-of-behavior</link>
+    <guid isPermaLink="true">https://sfi0zy.github.io/post/the-evolutionary-theory-of-behavior</guid>
+    
+        <category>publications</category>
+        <category>books</category>
+        <category>psychology</category>
+        <category>evolution</category>
+    </item>
+    <item>
+    <title>Radar Chart</title>
+    <description><p>Yet another demo. This time it's a radar chart with a custom fill gradient. There is nothing special here, it's just some old-school pixel manipulations on 2D canvas, but the example itself can be used by my students at some point. It'll wait for them here.</p></description>
+    <pubDate>Fri, 30 Aug 2024 00:00:00 GMT</pubDate>
+    <link>https://sfi0zy.github.io/post/radar-chart</link>
+    <guid isPermaLink="true">https://sfi0zy.github.io/post/radar-chart</guid>
+    
+        <category>javascript</category>
+        <category>canvas</category>
+        <category>math</category>
+        <category>codepen</category>
+    </item>
+    <item>
+    <title>Canvas and borders</title>
+    <description><p>Some time has passed since the CSS Painting API was born, but it's still not supported by all major browsers. Meanwhile, we can use the standard canvas to do everything. Actually we were able to do that for many years, but for some reason I didn't post any good examples of that trick. Now it's here.</p></description>
+    <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+    <link>https://sfi0zy.github.io/post/canvas-and-borders</link>
+    <guid isPermaLink="true">https://sfi0zy.github.io/post/canvas-and-borders</guid>
+    
+        <category>javascript</category>
+        <category>canvas</category>
+        <category>math</category>
+        <category>codepen</category>
+    </item>
+    <item>
+    <title>Waves</title>
+    <description><p>Yet another WebGL example is here! Three planes + some noise = beautiful waves for the background effects.</p></description>
+    <pubDate>Fri, 18 Aug 2023 00:00:00 GMT</pubDate>
+    <link>https://sfi0zy.github.io/post/waves</link>
+    <guid isPermaLink="true">https://sfi0zy.github.io/post/waves</guid>
+    
+        <category>javascript</category>
+        <category>canvas</category>
+        <category>webgl</category>
+        <category>animation</category>
+        <category>math</category>
+        <category>codepen</category>
+    </item>
+    <item>
+    <title>Night Drive</title>
+    <description><p>Ok. It's time to refresh my CodePen profile a bit. In the last years I published mostly educational examples for my students, but it feels like they can't really work as an example of my own skills. A lot of people can do the same tricks nowadays. They looked cool five years ago, but not anymore. I needed something that will look impressive enough, so I created a new demo, "Night Drive". It'll show what I can do with Three.js in one day.</p></description>
+    <pubDate>Mon, 03 Jul 2023 00:00:00 GMT</pubDate>
+    <link>https://sfi0zy.github.io/post/night-drive</link>
+    <guid isPermaLink="true">https://sfi0zy.github.io/post/night-drive</guid>
+    
+        <category>javascript</category>
+        <category>canvas</category>
+        <category>webgl</category>
+        <category>animation</category>
+        <category>math</category>
+        <category>codepen</category>
+    </item>
+    <item>
+    <title>Street Monochrome</title>
+    <description><p>It's been a while, isn't it? I haven't posted anything for a few months now. I'm working on a new photography-related project. It's a lot of work. Meanwhile, I decided to share the darktable styles that I use for the street photography. Why not? My main style is the <a href='https://github.com/sfi0zy/street-monochrome'>Street Monochrome</a>. This is a high contrast black and white style, it works well in almost every situation that I encounter on the street, and now it's available as a .dtstyle file and as a LUT.</p></description>
+    <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
+    <link>https://sfi0zy.github.io/post/street-monochrome</link>
+    <guid isPermaLink="true">https://sfi0zy.github.io/post/street-monochrome</guid>
+    
+        <category>photography</category>
+    </item>
+    <item>
+    <title>Medium</title>
+    <description><p>For a long time, I was thinking about a tool that will provide a set of CSS custom properties with the mouse position, scroll position, random values etc. And since I didn't find anything that I would like, I decided to write the tool myself. I called it "Medium" because it connects CSS and JS worlds. The library itself is quite simple, but I used it for a few demos on CodePen and it really speeds things up. Now it's <a href='https://github.com/sfi0zy/medium'>available on GitHub</a> and as <a href='https://www.npmjs.com/package/css.medium.js'>NPM package</a>.</p></description>
+    <pubDate>Sun, 19 Feb 2023 00:00:00 GMT</pubDate>
+    <link>https://sfi0zy.github.io/post/medium</link>
+    <guid isPermaLink="true">https://sfi0zy.github.io/post/medium</guid>
+    
+        <category>css</category>
+        <category>javascript</category>
+        <category>animation</category>
+        <category>github</category>
+    </item>
+    <item>
+    <title>Animated CSS backgrounds</title>
+    <description><p>I continue my experiments with <a href='https://github.com/sfi0zy/medium'>Medium</a>, and I got a few animated backgrounds. Check them out!</p></description>
+    <pubDate>Sun, 19 Feb 2023 00:00:00 GMT</pubDate>
+    <link>https://sfi0zy.github.io/post/animated-css-backgrounds</link>
+    <guid isPermaLink="true">https://sfi0zy.github.io/post/animated-css-backgrounds</guid>
+    
+        <category>html</category>
+        <category>css</category>
+        <category>javascript</category>
+        <category>animation</category>
+        <category>codepen</category>
+    </item>
+    <item>
+    <title>100000 lines</title>
+    <description><p>Just published a new animated gallery on CodePen. As always, the ingredients are quite simple: two canvases, old trusty line-drawing algorithm and some junior-level image data calculations. But the result looks interesting:</p><p>It's not for mobile devices, obviously. This amount of draw calls is kind of too much for them. It works fine on my smartphone, but I think it'll be a bad practice to run such thing for mobile devices in production.</p><p>And here is another demo:</p><p>It was the first step in the development of that gallery. It's more simple, with only one canvas, but it may work as a base for future experiments.</p></description>
+    <pubDate>Mon, 28 Nov 2022 00:00:00 GMT</pubDate>
+    <link>https://sfi0zy.github.io/post/100000-lines</link>
+    <guid isPermaLink="true">https://sfi0zy.github.io/post/100000-lines</guid>
+    
+        <category>javascript</category>
+        <category>canvas</category>
+        <category>animation</category>
+        <category>codepen</category>
+    </item>
+</channel>
+</rss>
