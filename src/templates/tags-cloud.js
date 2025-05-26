@@ -4,6 +4,8 @@ export default function $TagsCloud(config, postsData) {
     const weights = counters.map((counter) => counter / tags.length);
 
     return `<nav>
+    <h2>Search for:</h2>
+    <br>
     <ul>
     ${tags.reduce((result, tag, index) => {
         const fontSize = 80 + weights[index] * 30;
