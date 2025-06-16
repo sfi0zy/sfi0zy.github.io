@@ -140,11 +140,21 @@ function main() {
     fs.readdirSync('./src/content/files').forEach((file) => {
         const slug = file.replaceAll(' ', '%20');
 
-        urls.push({ url: `${config.url}/files/${slug}`, priority: 1 });
+        const isArchived = slug.includes('2018');
+
+        urls.push({
+            url: `${config.url}/files/${slug}`,
+            priority: isArchived ? 0.25 : 1,
+        });
     });
 
     postsData.reverse().forEach((post) => {
-        urls.push({ url: `${config.url}/post/${post.slug}` });
+        const isImportant = post.tags.includes('evolution');
+
+        urls.push({
+            url: `${config.url}/post/${post.slug}`,
+            priority: isImportant ? 0.75 : 0.5,
+        });
     });
 
     config.tags.forEach((tag) => {
