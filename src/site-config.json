@@ -19,12 +19,12 @@
     ],
     "nav": [
         {
-            "url": "/about",
-            "text": "About"
+            "url": "/",
+            "text": "Home"
         },
         {
-            "url": "/tag/publications",
-            "text": "Publications"
+            "url": "/about",
+            "text": "About"
         },
         {
             "url": "/free-books",

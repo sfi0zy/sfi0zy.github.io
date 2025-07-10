@@ -1,7 +1,7 @@
 export default function $Header(config, logo) {
     return `<header>
     <div>${logo}</div>
-    <h1><a href='/'>${config.name}</a></h1>
+    <h1>${config.name}</h1>
 </header>
 <hr>
 <nav>
