@@ -41,7 +41,7 @@
             "description": ""
         }
     },
-    "homeIndexLimit": "12",
+    "homeIndexLimit": "13",
     "icons": {
         "v": "1",
         "themeColor": "#cccccc",
