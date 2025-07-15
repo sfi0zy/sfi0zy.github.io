@@ -140,7 +140,7 @@ function main() {
     fs.readdirSync('./src/content/files').forEach((file) => {
         const slug = file.replaceAll(' ', '%20');
 
-        const isArchived = slug.includes('2018');
+        const isArchived = slug.includes('2018') || slug.includes('2019');
 
         urls.push({
             url: `${config.url}/files/${slug}`,
