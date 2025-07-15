@@ -13,7 +13,7 @@
         "linux",
         "codepen", "github", "habrahabr",
         "publications", "books",
-        "psychology", "evolution", "philosophy",
+        "psychology", "evolution", "philosophy", "religion",
         "photography", "music",
         "podcast"
     ],
@@ -41,7 +41,7 @@
             "description": ""
         }
     },
-    "homeIndexLimit": "13",
+    "homeIndexLimit": "14",
     "icons": {
         "v": "1",
         "themeColor": "#cccccc",
