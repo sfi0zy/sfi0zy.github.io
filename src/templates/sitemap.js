@@ -7,6 +7,7 @@ export default function $Sitemap(urls) {
     <url>
         <loc>${url.url}</loc>
         <priority>${url.priority ? url.priority : 0.5}</priority>
+        <lastmod>${url.lastmod}</lastmod>
     </url>`, '')}
 </urlset>
 `;

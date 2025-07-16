@@ -38,10 +38,12 @@
     "static": {
         "about": {
             "title": "About me",
+            "lastmod": "2025-07-16",
             "description": ""
         },
         "free-books": {
             "title": "My free books",
+            "lastmod": "2025-01-01",
             "description": ""
         }
     },

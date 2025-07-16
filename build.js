@@ -125,7 +125,10 @@ function main() {
 
     const urls = [];
 
-    urls.push({ url: `${config.url}` });
+    urls.push({
+        url: `${config.url}`,
+        lastmod: postsData.at(-1).date,
+    });
 
     fs.readdirSync('./src/static').forEach((filename) => {
         if (filename[0] === '.') {
@@ -134,17 +137,23 @@ function main() {
 
         const slug = path.parse(filename).name;
 
-        urls.push({ url: `${config.url}/${slug}`, priority: 1 });
+        urls.push({
+            url: `${config.url}/${slug}`,
+            priority: 1,
+            lastmod: config.static[slug]?.lastmod,
+        });
     });
 
     fs.readdirSync('./src/content/files').forEach((file) => {
         const slug = file.replaceAll(' ', '%20');
 
-        const isArchived = slug.includes('2018') || slug.includes('2019');
+        const year = slug.match(/\d{4}/)[0];
+        const isArchived = ['2018', '2019'].includes(year);
 
         urls.push({
             url: `${config.url}/files/${slug}`,
             priority: isArchived ? 0.25 : 1,
+            lastmod: `${year}-01-01`,
         });
     });
 
@@ -154,11 +163,17 @@ function main() {
         urls.push({
             url: `${config.url}/post/${post.slug}`,
             priority: isImportant ? 0.75 : 0.5,
+            lastmod: post.date,
         });
     });
 
     config.tags.forEach((tag) => {
-        urls.push({ url: `${config.url}/tag/${tag}`, priority: 0.25 });
+        urls.push({
+            url: `${config.url}/tag/${tag}`,
+            priority: 0.25,
+            lastmod: [...postsData]
+                .filter((post) => post.tags.includes(tag))[0].date,
+        });
     });
 
     const sitemap = $Sitemap(urls);
