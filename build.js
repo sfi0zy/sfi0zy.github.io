@@ -17,6 +17,18 @@ import $TagsCloud from './src/templates/tags-cloud.js';
 
 import generatePlaceholders from './src/modules/placeholders.js';
 
+const UTF_8 = 'utf-8';
+
+const PRIORITY = Object.freeze({
+    TOP: 1,
+    HIGH: 0.75,
+    NORMAL: 0.5,
+    LOW: 0.25,
+});
+
+const DEFAULT_DAY = '01';
+const DEFAULT_MONTH = '01';
+
 function loadPostsData(postsDir) {
     const postsData = [];
     let id = 0;
@@ -31,7 +43,7 @@ function loadPostsData(postsDir) {
                 const post = JSON.parse(
                     fs.readFileSync(
                         `${postsDir}/${year}/${filename}`,
-                        'utf-8',
+                        UTF_8,
                     ),
                 );
 
@@ -50,27 +62,20 @@ function loadPostsData(postsDir) {
     return postsData;
 }
 
-async function main() {
-    const config = JSON.parse(fs.readFileSync('./src/site-config.json', 'utf-8'));
-    const postsData = loadPostsData('./src/content/posts');
+function generateParts(config, postsData) {
+    return {
+        header: $Header(config, fs.readFileSync('./src/logo.svg', UTF_8)),
+        tagsCloud: $TagsCloud(config, postsData),
+        footerScripts: $FooterScripts(config),
+        css: minifyCSS(
+            fs.readFileSync('./src/style.css', UTF_8),
+            { restructure: false },
+        ).css,
+    };
+}
 
-    const placeholders = generatePlaceholders(
-        fs.readdirSync('./src/content/images')
-            .map((name) => path.parse(name).name),
-    );
-
-    const header = $Header(config, fs.readFileSync('./src/logo.svg', 'utf-8'));
-    const tagsCloud = $TagsCloud(config, postsData);
-    const footerScripts = $FooterScripts(config);
-
-    const { css } = minifyCSS(
-        fs.readFileSync('./src/style.css', 'utf-8'),
-        { restructure: false },
-    );
-
-    const parts = { header, tagsCloud, footerScripts, css };
-
-    const posts = postsData.map((post) => ({
+function generatePosts(config, postsData, placeholders, parts) {
+    return postsData.map((post) => ({
         ...post,
         compiled: $Post(config, post, placeholders),
     })).map((post) => ({
@@ -85,9 +90,20 @@ async function main() {
             parts,
         ),
     }));
+}
 
-    const rss = $RSS(config, posts);
+function generateIndex(config, posts, parts) {
+    return $Page(
+        `${config.url}`,
+        config,
+        config.title,
+        config.title,
+        $Index(config, posts, null),
+        parts,
+    );
+}
 
+function generateStaticPages(config, placeholders, parts) {
     const staticPages = [];
 
     fs.readdirSync('./src/static').forEach((filename) => {
@@ -95,8 +111,9 @@ async function main() {
             return;
         }
 
-        const page = fs.readFileSync(`./src/static/${filename}`, 'utf-8');
+        const page = fs.readFileSync(`./src/static/${filename}`, UTF_8);
         const slug = path.parse(filename).name;
+
         const compiled = $Page(
             `${config.url}/${slug}`,
             config,
@@ -109,16 +126,11 @@ async function main() {
         staticPages.push({ slug, compiled });
     });
 
-    const index = $Page(
-        `${config.url}`,
-        config,
-        config.title,
-        config.title,
-        $Index(config, posts, null),
-        parts,
-    );
+    return staticPages;
+}
 
-    const tagPages = config.tags.map((tag) => ({
+function generateTagPages(config, posts, parts) {
+    return config.tags.map((tag) => ({
         slug: tag,
         compiled: $Page(
             `${config.url}/tag/${tag}`,
@@ -129,7 +141,9 @@ async function main() {
             parts,
         ),
     }));
+}
 
+function generateSitemap(config, postsData) {
     const urls = [];
 
     urls.push({
@@ -146,7 +160,7 @@ async function main() {
 
         urls.push({
             url: `${config.url}/${slug}`,
-            priority: 1,
+            priority: PRIORITY.TOP,
             lastmod: config.static[slug]?.lastmod,
         });
     });
@@ -155,21 +169,21 @@ async function main() {
         const slug = file.replaceAll(' ', '%20');
 
         const year = slug.match(/\d{4}/)[0];
-        const isArchived = ['2018', '2019'].includes(year);
+        const isArchived = config.books.archivedYears.includes(year);
 
         urls.push({
             url: `${config.url}/files/${slug}`,
-            priority: isArchived ? 0.25 : 1,
-            lastmod: `${year}-01-01`,
+            priority: isArchived ? PRIORITY.LOW : PRIORITY.TOP,
+            lastmod: `${year}-${DEFAULT_MONTH}-${DEFAULT_DAY}`,
         });
     });
 
     postsData.reverse().forEach((post) => {
-        const isImportant = post.tags.includes('evolution');
+        const isImportant = post.tags.includes(config.importantTag);
 
         urls.push({
             url: `${config.url}/post/${post.slug}`,
-            priority: isImportant ? 0.75 : 0.5,
+            priority: isImportant ? PRIORITY.HIGH : PRIORITY.NORMAL,
             lastmod: post.date,
         });
     });
@@ -177,24 +191,24 @@ async function main() {
     config.tags.forEach((tag) => {
         urls.push({
             url: `${config.url}/tag/${tag}`,
-            priority: 0.25,
+            priority: PRIORITY.LOW,
             lastmod: [...postsData]
                 .filter((post) => post.tags.includes(tag))[0].date,
         });
     });
 
-    const sitemap = $Sitemap(urls);
+    return $Sitemap(urls);
+}
 
+async function write(index, posts, staticPages, tagPages, rss, sitemap) {
     fs.rmSync('./dist', { recursive: true, force: true });
     fs.mkdirSync('./dist');
     fs.cpSync('./src/content/files', './dist/files', { recursive: true });
     fs.cpSync('./src/content/images', './dist/images', { recursive: true });
     fs.cpSync('./src/icons', './dist', { recursive: true });
     fs.cpSync('./src/robots.txt', './dist/robots.txt');
-    fs.writeFileSync('./dist/feed.xml', rss, 'utf-8');
-    fs.writeFileSync('./dist/sitemap.xml', sitemap, 'utf-8');
-
-    fs.mkdirSync('./dist/post');
+    fs.writeFileSync('./dist/feed.xml', rss, UTF_8);
+    fs.writeFileSync('./dist/sitemap.xml', sitemap, UTF_8);
 
     const htmlMinificationSettings = {
         collapseWhitespace: true,
@@ -202,21 +216,29 @@ async function main() {
         minifyJS: true,
     };
 
+    fs.mkdirSync('./dist/post');
+
     // eslint-disable-next-line no-restricted-syntax
     for (const post of posts) {
         // eslint-disable-next-line no-await-in-loop
-        const html = await minifyHTML(post.compiledPage, htmlMinificationSettings);
+        const html = await minifyHTML(
+            post.compiledPage,
+            htmlMinificationSettings,
+        );
 
-        fs.writeFileSync(`./dist/post/${post.slug}.html`, html, 'utf-8');
+        fs.writeFileSync(`./dist/post/${post.slug}.html`, html, UTF_8);
     }
 
     // eslint-disable-next-line no-restricted-syntax
     for (const page of staticPages) {
         // eslint-disable-next-line no-await-in-loop
-        const html = await minifyHTML(page.compiled, htmlMinificationSettings);
+        const html = await minifyHTML(
+            page.compiled,
+            htmlMinificationSettings,
+        );
 
         fs.mkdirSync(`./dist/${page.slug}`);
-        fs.writeFileSync(`./dist/${page.slug}/index.html`, html, 'utf-8');
+        fs.writeFileSync(`./dist/${page.slug}/index.html`, html, UTF_8);
     }
 
     fs.mkdirSync('./dist/tag');
@@ -224,15 +246,40 @@ async function main() {
     // eslint-disable-next-line no-restricted-syntax
     for (const page of tagPages) {
         // eslint-disable-next-line no-await-in-loop
-        const html = await minifyHTML(page.compiled, htmlMinificationSettings);
+        const html = await minifyHTML(
+            page.compiled,
+            htmlMinificationSettings,
+        );
 
         fs.mkdirSync(`./dist/tag/${page.slug}`);
-        fs.writeFileSync(`./dist/tag/${page.slug}/index.html`, html, 'utf-8');
+        fs.writeFileSync(`./dist/tag/${page.slug}/index.html`, html, UTF_8);
     }
 
-    const html = await minifyHTML(index, htmlMinificationSettings);
+    const indexHtml = await minifyHTML(index, htmlMinificationSettings);
 
-    fs.writeFileSync('./dist/index.html', html, 'utf-8');
+    fs.writeFileSync('./dist/index.html', indexHtml, UTF_8);
+}
+
+function main() {
+    const config = JSON.parse(
+        fs.readFileSync('./src/site-config.json', UTF_8),
+    );
+
+    const postsData = loadPostsData('./src/content/posts');
+
+    const imagesList = fs.readdirSync('./src/content/images')
+        .map((i) => path.parse(i).name);
+
+    const placeholders = generatePlaceholders(imagesList);
+    const parts = generateParts(config, postsData);
+    const posts = generatePosts(config, postsData, placeholders, parts);
+    const index = generateIndex(config, posts, parts);
+    const staticPages = generateStaticPages(config, placeholders, parts);
+    const tagPages = generateTagPages(config, posts, parts);
+    const rss = $RSS(config, posts);
+    const sitemap = generateSitemap(config, postsData);
+
+    write(index, posts, staticPages, tagPages, rss, sitemap);
 }
 
 main();

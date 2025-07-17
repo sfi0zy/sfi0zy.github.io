@@ -17,6 +17,7 @@
         "photography", "music",
         "podcast"
     ],
+    "importantTag": "evolution",
     "nav": [
         {
             "url": "/",
@@ -46,6 +47,9 @@
             "lastmod": "2025-01-01",
             "description": ""
         }
+    },
+    "books": {
+        "archivedYears": ["2018", "2019"]
     },
     "homeIndexLimit": "6",
     "icons": {
