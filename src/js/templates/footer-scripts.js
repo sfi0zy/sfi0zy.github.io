@@ -1,20 +1,15 @@
 export default function $FooterScripts(config) {
     return `<script>
     const images = document.querySelectorAll('img');
-    const attributes = ['src', 'srcset', 'sizes'];
 
     images.forEach((image) => {
-        image.addEventListener('load', () => {
+        if (image.complete) {
             image.setAttribute('data-lazy-loaded', true);
-        });
-
-        attributes.forEach((attribute) => {
-            const value = image.getAttribute('data-' + attribute, '');
-
-            if (value) {
-                image.setAttribute(attribute, value);
-            }
-        });
+        } else {
+            image.addEventListener('load', () => {
+                image.setAttribute('data-lazy-loaded', true);
+            });
+        }
     });
 </script>
 
