@@ -1,6 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 
+import { minify as minifyCSS } from 'csso';
+import { minify as minifyHTML } from 'html-minifier-terser';
+
 import $FooterScripts from './src/templates/footer-scripts.js';
 import $Header from './src/templates/header.js';
 import $HTML from './src/templates/html.js';
@@ -47,7 +50,7 @@ function loadPostsData(postsDir) {
     return postsData;
 }
 
-function main() {
+async function main() {
     const config = JSON.parse(fs.readFileSync('./src/site-config.json', 'utf-8'));
     const postsData = loadPostsData('./src/content/posts');
 
@@ -59,7 +62,11 @@ function main() {
     const header = $Header(config, fs.readFileSync('./src/logo.svg', 'utf-8'));
     const tagsCloud = $TagsCloud(config, postsData);
     const footerScripts = $FooterScripts(config);
-    const css = fs.readFileSync('./src/style.css', 'utf-8');
+
+    const { css } = minifyCSS(
+        fs.readFileSync('./src/style.css', 'utf-8'),
+        { restructure: false },
+    );
 
     const parts = { header, tagsCloud, footerScripts, css };
 
@@ -188,26 +195,44 @@ function main() {
     fs.writeFileSync('./dist/sitemap.xml', sitemap, 'utf-8');
 
     fs.mkdirSync('./dist/post');
-    posts.forEach((post) => {
-        fs.writeFileSync(
-            `./dist/post/${post.slug}.html`,
-            post.compiledPage,
-            'utf-8',
-        );
-    });
 
-    staticPages.forEach((page) => {
+    const htmlMinificationSettings = {
+        collapseWhitespace: true,
+        conservativeCollapse: true,
+        minifyJS: true,
+    };
+
+    // eslint-disable-next-line no-restricted-syntax
+    for (const post of posts) {
+        // eslint-disable-next-line no-await-in-loop
+        const html = await minifyHTML(post.compiledPage, htmlMinificationSettings);
+
+        fs.writeFileSync(`./dist/post/${post.slug}.html`, html, 'utf-8');
+    }
+
+    // eslint-disable-next-line no-restricted-syntax
+    for (const page of staticPages) {
+        // eslint-disable-next-line no-await-in-loop
+        const html = await minifyHTML(page.compiled, htmlMinificationSettings);
+
         fs.mkdirSync(`./dist/${page.slug}`);
-        fs.writeFileSync(`./dist/${page.slug}/index.html`, page.compiled, 'utf-8');
-    });
+        fs.writeFileSync(`./dist/${page.slug}/index.html`, html, 'utf-8');
+    }
 
     fs.mkdirSync('./dist/tag');
-    tagPages.forEach((page) => {
-        fs.mkdirSync(`./dist/tag/${page.slug}`);
-        fs.writeFileSync(`./dist/tag/${page.slug}/index.html`, page.compiled, 'utf-8');
-    });
 
-    fs.writeFileSync('./dist/index.html', index, 'utf-8');
+    // eslint-disable-next-line no-restricted-syntax
+    for (const page of tagPages) {
+        // eslint-disable-next-line no-await-in-loop
+        const html = await minifyHTML(page.compiled, htmlMinificationSettings);
+
+        fs.mkdirSync(`./dist/tag/${page.slug}`);
+        fs.writeFileSync(`./dist/tag/${page.slug}/index.html`, html, 'utf-8');
+    }
+
+    const html = await minifyHTML(index, htmlMinificationSettings);
+
+    fs.writeFileSync('./dist/index.html', html, 'utf-8');
 }
 
 main();
