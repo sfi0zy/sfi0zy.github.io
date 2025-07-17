@@ -9,7 +9,7 @@
   },
   "type": "module",
   "scripts": {
-    "lint": "npx eslint build.js src/modules/*.js src/templates/*.js src/utils/*.js",
+    "lint": "npx eslint build.js src/modules/*.js src/templates/*.js src/templates/pages/*.js src/utils/*.js",
     "build": "node build.js",
     "serve": "npx http-server ./dist -c-1"
   },
