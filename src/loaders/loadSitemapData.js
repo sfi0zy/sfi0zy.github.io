@@ -60,8 +60,7 @@ export default function loadSitemapData(config, dirs, postsData) {
         urls.push({
             url: `${config.url}/tag/${tag}`,
             priority: PRIORITY.LOW,
-            lastmod: [...postsData]
-                .filter((post) => post.tags.includes(tag))[0].date,
+            lastmod: posts.filter((post) => post.tags.includes(tag))[0].date,
         });
     });
 
