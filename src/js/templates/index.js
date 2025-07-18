@@ -1,8 +1,7 @@
 export default function $Index(config, posts, tag) {
     const isHome = !tag;
 
-    const selectedPosts = isHome ? posts
-        : [...posts].filter((post) => post.tags.includes(tag));
+    const selectedPosts = isHome ? posts : [...posts].filter((post) => post.tags.includes(tag));
 
     let result = isHome ? '' : `<br><br><header><h2>Search results for "${tag}"</h2></header>`;
 

@@ -12,10 +12,7 @@ export default function $HTML(raw, placeholders) {
             const alt = link.match(/\[(.*?)\]/)[1]; // eslint-disable-line sonarjs/slow-regex
             const id = link.match(/\((.*?)\)/)[1]; // eslint-disable-line sonarjs/slow-regex
 
-            result = result.replace(
-                link,
-                $LazyImage(placeholders, id, alt),
-            );
+            result = result.replace(link, $LazyImage(placeholders, id, alt));
         });
     }
 

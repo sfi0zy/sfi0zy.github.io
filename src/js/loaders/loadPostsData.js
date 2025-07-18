@@ -12,12 +12,7 @@ export default function loadPostsData(postsDir) {
             }
 
             try {
-                const post = JSON.parse(
-                    fs.readFileSync(
-                        `${postsDir}/${year}/${filename}`,
-                        'utf-8',
-                    ),
-                );
+                const post = JSON.parse(fs.readFileSync(`${postsDir}/${year}/${filename}`, 'utf-8'));
 
                 post.slug = path.parse(filename).name.slice(11);
                 post.id = id;

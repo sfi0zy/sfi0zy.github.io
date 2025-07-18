@@ -1,5 +1,4 @@
 import fs from 'fs';
-import path from 'path';
 
 import { minify as minifyCSS } from 'csso';
 import { minify as minifyHTML } from 'html-minifier-terser';
@@ -26,48 +25,21 @@ import generatePlaceholders from './src/js/modules/placeholders.js';
 // 1
 
 const config = JSON.parse(fs.readFileSync('./src/site-config.json', 'utf-8'));
+const postsData = loadPostsData('./src/content/posts');
+const placeholders = generatePlaceholders('./src/content/images');
+const header = $Header(config, fs.readFileSync('./src/logo.svg', 'utf-8'));
+const tagsCloud = $TagsCloud(config, postsData);
+const footerScripts = $FooterScripts(config);
+const { css } = minifyCSS(fs.readFileSync('./src/css/style.css', 'utf-8'), { restructure: false });
+const parts = { header, tagsCloud, footerScripts, css };
 
-const data = {
-    posts: loadPostsData('./src/content/posts'),
-    static: loadStaticPagesData('./src/content/static'),
-};
-
-data.sitemap = loadSitemapData(
-    config,
-    { static: './src/content/static', files: './src/content/files' },
-    data.posts,
-);
-
-const placeholders = generatePlaceholders(
-    fs.readdirSync('./src/content/images')
-        .map((i) => path.parse(i).name),
-);
-
-const parts = {
-    header: $Header(config, fs.readFileSync('./src/logo.svg', 'utf-8')),
-    tagsCloud: $TagsCloud(config, data.posts),
-    footerScripts: $FooterScripts(config),
-    css: minifyCSS(
-        fs.readFileSync('./src/css/style.css', 'utf-8'),
-        { restructure: false },
-    ).css,
-};
-
-const posts = $$Posts(config, data.posts, placeholders, parts);
-
-const home = $Page(
-    `${config.url}`,
-    config,
-    config.title,
-    config.title,
-    $Index(config, posts, null),
-    parts,
-);
-
-const staticPages = $$StaticPages(config, data.static, placeholders, parts);
+const posts = $$Posts(config, postsData, placeholders, parts);
+const home = $Page(`${config.url}`, config, config.title, config.title, $Index(config, posts, null), parts);
+const staticPages = $$StaticPages(config, loadStaticPagesData('./src/content/static'), placeholders, parts);
 const tagPages = $$TagPages(config, posts, parts);
 const rss = $RSS(config, posts);
-const sitemap = $Sitemap(data.sitemap);
+const dirs = { static: './src/content/static', files: './src/content/files' };
+const sitemap = $Sitemap(loadSitemapData(config, dirs, postsData));
 
 // 2
 

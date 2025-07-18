@@ -1,6 +1,9 @@
+import fs from 'fs';
+import path from 'path';
 import sizeOf from 'image-size';
 
-export default function generatePlaceholders(imagesList) {
+export default function generatePlaceholders(dir) {
+    const imagesList = fs.readdirSync(dir).map((i) => path.parse(i).name);
     const placeholders = {};
 
     imagesList.forEach((name) => {
