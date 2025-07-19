@@ -4,7 +4,7 @@
     "tags": ["javascript", "publications", "habrahabr"],
     "thumb": "9a215f7cf3de4368b573ba71ed13e4e0",
     "content": [
-        "I wrote an article about the [one of my VR experiments](https://habrahabr.ru/post/333400/). I created a website that can be viewed using a Google Cardboard or similar devices. The experiment works in the desktop browsers only due to the bad support of the device orientation detection in the mobile browsers for today, but it can be a starting point for the future experiments.",
+        "I wrote an article about [one of my VR experiments](https://habrahabr.ru/post/333400/). I created a website that can be viewed using Google Cardboard or similar devices. The experiment works in the desktop browsers only due to the bad support of device orientation detection in the mobile browsers for today, but it can be a starting point for future experiments.",
         ["youtube", "JUTNqw-Wwaw"]
     ]
 }

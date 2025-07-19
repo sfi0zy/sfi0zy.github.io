@@ -4,7 +4,7 @@
     "tags": ["svg", "javascript", "animation", "codepen"],
     "thumb": "5fa0386425ee66c801540bb096a265c5",
     "content": [
-        "SVG masks. That's a very interesting technology. It allows us to create a lot of cool effects, even in IE. Here is a example:",
+        "SVG masks. That's a very interesting technology. It allows us to create a lot of cool effects, even in IE. Here is an example:",
         ["codepen", "gvmpBL"]
     ]
 }

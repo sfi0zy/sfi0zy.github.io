@@ -4,6 +4,6 @@
     "tags": ["svg", "javascript", "animation", "codepen", "publications", "habrahabr"],
     "thumb": "9e90291bc58127aed1fbbcb01c7fc22b",
     "content": [
-        "Finally, after all these pens on CodePen, I wrote an [article about the SVG masks](https://habrahabr.ru/post/349362/). This is the continuation of the previous <a href='/post/particles-animations'>article about the effects based on the particles</a>. Today I explained the basic principles of usage of the masks and showed some cool examples."
+        "Finally, after all these pens on CodePen, I wrote an [article about the SVG masks](https://habrahabr.ru/post/349362/). This is the continuation of the previous <a href='/post/particles-animations'>article about the effects based on the particles</a>. Today I explained the basic principles of the usage of the masks and showed some cool examples."
     ]
 }
