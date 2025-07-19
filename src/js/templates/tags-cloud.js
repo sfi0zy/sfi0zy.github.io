@@ -9,7 +9,8 @@ export default function $TagsCloud(config, postsData) {
     <ul>
     ${tags.reduce((result, tag, index) => {
         const fontSize = 80 + weights[index] * 30;
-        const text = `${tag}&nbsp;(${counters[index]})&nbsp;`;
+        const prefix = config.importantTag === tag ? '&starf;&nbsp;' : '';
+        const text = `${prefix}${tag}&nbsp;(${counters[index]})&nbsp;`;
 
         return `${result}<li>
             <a href='/tag/${tag}/'
