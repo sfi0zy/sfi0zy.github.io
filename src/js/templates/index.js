@@ -14,6 +14,7 @@ export default function $Index(config, posts, tag) {
     }
 
     if (isHome) {
+        result = `${result}<div class='center'>.&nbsp;.&nbsp;.</div>`;
         result = `${result}<br><br><div class='center'>Looking for something?</div>`;
     }
 
