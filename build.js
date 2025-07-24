@@ -34,7 +34,7 @@ const { css } = minifyCSS(fs.readFileSync('./src/css/style.css', 'utf-8'), { res
 const parts = { header, tagsCloud, footerScripts, css };
 
 const posts = $$Posts(config, postsData, placeholders, parts);
-const home = $Page(`${config.url}`, config, config.title, config.title, $Index(config, posts, null), parts);
+const home = $Page(`${config.url}`, config, config.title, config.description, $Index(config, posts, null), parts);
 const staticPages = $$StaticPages(config, loadStaticPagesData('./src/content/static'), placeholders, parts);
 const tagPages = $$TagPages(config, posts, parts);
 const rss = $RSS(config, posts);
