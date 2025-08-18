@@ -13,7 +13,6 @@ export default function $Page(url, config, title, description, content, parts) {
         <link rel='alternate' type='application/rss+xml'
             title='${config.title}' href='${config.url}/feed.xml'>
         <link rel='prefetch' href='https://cpwebassets.codepen.io/assets/embed/ei.js'>
-        <link rel='prefetch' href='https://www.googletagmanager.com/gtag/js?id=${config.gtagid}'>
         ${$Icons(config)}
         <style>${parts.css}</style>
     </head>

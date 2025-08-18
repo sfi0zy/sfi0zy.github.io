@@ -1,4 +1,4 @@
-export default function $FooterScripts(config) {
+export default function $FooterScripts() {
     return `<script>
     const images = document.querySelectorAll('img');
 
@@ -14,16 +14,5 @@ export default function $FooterScripts(config) {
 </script>
 
 <script src='https://cpwebassets.codepen.io/assets/embed/ei.js'></script>
-<script src='https://www.googletagmanager.com/gtag/js?id=${config.gtagid}'></script>
-
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-    gtag('config', '${config.gtagid}');
-</script>`;
+`;
 }
