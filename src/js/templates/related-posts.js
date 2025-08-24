@@ -13,6 +13,10 @@ export default function $RelatedPosts(postsData, post, placeholders) {
         for (let i = 0; i < shuffledPostsData.length; i++) {
             const candidate = shuffledPostsData[i];
 
+            if (candidate.is_archived === 'true') {
+                continue; // eslint-disable-line no-continue
+            }
+
             if ((candidate.id === post.id)
                 || (relatedPostsData.find((p) => p.id === candidate.id))) {
                 continue; // eslint-disable-line no-continue
