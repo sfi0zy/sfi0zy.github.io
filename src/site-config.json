@@ -53,7 +53,7 @@
     "books": {
         "archivedYears": ["2018", "2019"]
     },
-    "homeIndexLimit": "5",
+    "homeIndexLimit": "4",
     "icons": {
         "v": "1",
         "themeColor": "#cccccc",
