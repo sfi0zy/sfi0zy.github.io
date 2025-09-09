@@ -56,11 +56,13 @@ export default function loadSitemapData(config, dirs, postsData) {
         });
     });
 
-    config.tags.forEach((tag) => {
-        urls.push({
-            url: `${config.url}/tag/${tag}`,
-            priority: PRIORITY.LOW,
-            lastmod: posts.filter((post) => post.tags.includes(tag))[0].date,
+    config.tags.forEach((group) => {
+        group.forEach((tag) => {
+            urls.push({
+                url: `${config.url}/tag/${tag}`,
+                priority: PRIORITY.LOW,
+                lastmod: posts.filter((post) => post.tags.includes(tag))[0].date,
+            });
         });
     });
 

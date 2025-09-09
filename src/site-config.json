@@ -6,18 +6,22 @@
     "email": "sfi0zy@gmail.com",
     "description": "Personal blog. A mix of programming and behavioral psychology with a touch of philosophy.",
     "tags": [
-        "html", "svg", "css", "javascript",
-        "canvas", "webgl",
-        "animation",
-        "math",
-        "linux",
-        "codepen", "github", "habrahabr",
-        "publications", "books",
-        "psychology", "evolution", "schizophrenia", "emotions", "memory",
-        "philosophy", "religion", "free_will", "morality",
-        "methodology", "language",
-        "photography", "music",
-        "podcast"
+        [
+            "evolution",
+            "psychology", "schizophrenia", "emotions", "memory",
+            "philosophy", "religion", "free_will", "morality",
+            "methodology", "language"
+        ],
+        [
+            "html", "svg", "css", "javascript", "canvas", "webgl",
+            "animation",
+            "math",
+            "linux",
+            "codepen", "github", "habrahabr",
+            "publications", "books",
+            "photography", "music",
+            "podcast"
+        ]
     ],
     "importantTag": "evolution",
     "nav": [
