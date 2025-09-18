@@ -1,0 +1,341 @@
+@namespace svg "http://www.w3.org/2000/svg";
+
+:not(svg|*) {
+    all: unset;
+    box-sizing: border-box;
+}
+
+title,
+style,
+script {
+    display: none;
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+:root {
+    --foreground: #000000;
+    --background: #ffffff;
+    --temp: #eeeeee;
+    --accent: #0000ff;
+    --active: #ffaa00;
+
+    height: 100%;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+
+    font-size: calc(14px + (20 - 14) * ((100vw - 400px) / (1200 - 400)));
+    line-height: 1.5;
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+@media screen and (max-width: 400px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    :root {
+        font-size: 20px;
+    }
+}
+
+h1 {
+    display: block;
+    font-size: 2rem;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5rem;
+}
+
+h3 {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+h4 {
+    display: block;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+a {
+    cursor: pointer;
+    color: var(--accent);
+    fill: var(--accent);
+}
+
+a:hover,
+a:focus,
+a:visited:hover,
+a:visited:focus {
+    text-decoration: underline;
+}
+
+a:active,
+a:visited:active {
+    color: var(--active);
+    fill: var(--active);
+}
+
+::selection {
+    color: var(--background);
+    background: var(--foreground);
+}
+
+:focus {
+    outline: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-width: 320px;
+}
+
+main {
+    flex: 1 0 auto;
+    overflow: auto;
+}
+
+section {
+    display: block;
+    max-width: 35rem;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+article {
+    display: block;
+    max-width: 35rem;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+aside {
+    display: block;
+    max-width: 20rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+}
+
+small {
+    font-size: .8rem;
+}
+
+nav {
+    display: block;
+    max-width: 35rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+article ~ nav {
+    margin: 2rem auto 0;
+}
+
+nav a {
+    padding: 0 1rem;
+}
+
+p {
+    display: block;
+}
+
+i {
+    font-style: italic;
+}
+
+b,
+pre b {
+    font-weight: 600;
+}
+
+pre {
+    font-family: monospace;
+    white-space: pre;
+    font-size: .8em;
+}
+
+ol {
+    display: block;
+    margin: 1rem auto;
+    list-style-position: inside;
+}
+
+ol[type='I'] {
+    list-style-type: upper-roman;
+}
+
+ol li {
+    display: list-item;
+}
+
+hr {
+    height: 1px;
+    background: var(--foreground);
+}
+
+article div {
+    margin: 0 0 1rem;
+}
+
+article header div:last-of-type {
+    margin: 0;
+}
+
+article p {
+    margin: 0 0 1rem;
+    text-align: justify;
+}
+
+article footer {
+    padding: 0;
+    margin: 0 0 1rem;
+    text-align: justify;
+    font-size: .8rem;
+}
+
+article footer a {
+    padding-left: .2rem;
+}
+
+article footer li:not(:last-of-type) a::after {
+    content: ',';
+}
+
+footer {
+    margin: 2rem 0 0;
+    text-align: center;
+    padding: 1rem;
+}
+
+svg {
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.lazy-image {
+    position: relative;
+}
+
+.avatar .lazy-image {
+    max-width: 10rem;
+    margin: 0 auto 1rem;
+}
+
+.lazy-image svg {
+    height: auto;
+    width: 100%;
+}
+
+.lazy-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .5s ease-out;
+}
+
+.lazy-image noscript img,
+.lazy-image img[data-lazy-loaded] {
+    opacity: 1;
+}
+
+#logo-image {
+    height: 3rem;
+    width: 3rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.center p {
+    text-align: center;
+}
+
+.youtube {
+    aspect-ratio: 16 / 9;
+    position: relative;
+    width: 100%;
+    background: var(--temp);
+}
+
+.youtube::after {
+    content: 'Loading...';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    animation: fade-out 2s ease-out infinite alternate;
+}
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    border: none;
+}
+
+.codepen {
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0;
+    padding: 1em;
+    background: var(--temp);
+}
+
+.cp_embed_iframe {
+    aspect-ratio: 1 / 1;
+}

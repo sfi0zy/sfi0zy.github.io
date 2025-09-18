@@ -1,0 +1,9 @@
+{
+    "title": "SVG masks and WOW effects",
+    "date": "2018-02-18",
+    "tags": ["svg", "javascript", "animation", "codepen", "publications", "habrahabr"],
+    "thumb": "9e90291bc58127aed1fbbcb01c7fc22b",
+    "content": [
+        "Finally, after all these pens on CodePen, I wrote an [article about SVG masks](https://habrahabr.ru/post/349362/). This is the continuation of the previous <a href='/post/particles-animations'>article about the effects based on particles</a>. Today I explained the basic principles of usage of masks and showed some cool examples."
+    ]
+}

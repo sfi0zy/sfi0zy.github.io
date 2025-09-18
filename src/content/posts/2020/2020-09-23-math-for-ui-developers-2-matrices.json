@@ -1,0 +1,9 @@
+{
+    "title": "Math for UI developers 2: Matrices",
+    "date": "2020-09-23",
+    "tags": ["javascript", "math", "publications", "habrahabr"],
+    "thumb": "f2c89efc1a9a4834297884de597ff62e",
+    "content": [
+        "The [second lecture on mathematics](https://habr.com/ru/post/520078/) for front-end developers has been published. I explained how to make 3D scenes with our own hands, without Three.js or other heavy tools, and how to create filters for images. Hope it'll be helpful."
+    ]
+}

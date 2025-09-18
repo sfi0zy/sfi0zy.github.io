@@ -1,0 +1,10 @@
+{
+    "title": "3 dots spinner",
+    "date": "2017-03-19",
+    "tags": ["html", "svg", "css", "animation", "codepen"],
+    "thumb": "837781cca65246f18477729b4bf78e48",
+    "content": [
+        "This is a simple spinner with some interesting effects. It can be used as a full-page loading indicator.",
+        ["codepen", "aJVGOd"]
+    ]
+}

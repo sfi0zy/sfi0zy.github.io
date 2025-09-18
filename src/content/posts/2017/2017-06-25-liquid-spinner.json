@@ -1,0 +1,10 @@
+{
+    "title": "Liquid spinner",
+    "date": "2017-06-25",
+    "tags": ["html", "svg", "css", "animation", "codepen"],
+    "thumb": "47647d1038d040009dfcdff66dfda053",
+    "content": [
+        "This is an amazing liquid spinner. Unfortunately, it doesn't work in IE and Edge browsers because they don't support SVG filters yet. This is a very interesting experiment that shows the real power of SVG. Let's hope we'll be able to use this kinds of things in production one day.",
+        ["codepen", "weKOEy"]
+    ]
+}

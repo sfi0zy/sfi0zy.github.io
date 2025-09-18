@@ -1,0 +1,10 @@
+{
+    "title": "Image carousel",
+    "date": "2018-02-16",
+    "tags": ["svg", "javascript", "animation", "codepen"],
+    "thumb": "2a8c114237a30578a2621b2a0e0b9143",
+    "content": [
+        "Image carousel is one of the most popular components nowadays. It's being used by millions of websites. But usually we see pretty simple effects in them. SVG gives us the ability to greatly improve our carousels in visual terms. And again, I've used SVG masks for that.",
+        ["codepen", "OQOExE"]
+    ]
+}

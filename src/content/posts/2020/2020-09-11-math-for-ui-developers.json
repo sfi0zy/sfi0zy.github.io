@@ -1,0 +1,9 @@
+{
+    "title": "Math for UI developers",
+    "date": "2020-09-11",
+    "tags": ["javascript", "animation", "math", "publications", "habrahabr"],
+    "thumb": "81b070d910249dab2083a3efaa63fe18",
+    "content": [
+        "I published [the first lecture](https://habr.com/ru/post/518006/) in the series of lectures on mathematics for UI developers. This subject is not the most important thing for our job, and a lot of programmers didn't learn it even in school, but if you create custom projects with WebGL or animations, you need it. I don't know when I'll publish the rest of the articles in this series. It requires a lot of time to convert them into the text format, but I hope I'll complete the set this year."
+    ]
+}

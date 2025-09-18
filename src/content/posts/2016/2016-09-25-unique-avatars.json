@@ -1,0 +1,10 @@
+{
+    "title": "Unique avatars",
+    "date": "2016-09-25",
+    "tags": ["javascript", "canvas", "codepen"],
+    "thumb": "6695fa6cd734434d9f29efbca763a2e2",
+    "content": [
+        "This is a simple generator of avatars. I created it for one of my answers on Habr Q&A.",
+        ["codepen", "kkBAjd"]
+    ]
+}
