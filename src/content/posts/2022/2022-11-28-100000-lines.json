@@ -1,0 +1,14 @@
+{
+    "title": "100000 lines",
+    "date": "2022-11-28",
+    "tags": ["javascript", "canvas", "animation", "codepen"],
+    "thumb": "1268bfd82ab7b705b4c8f4506f147fe2",
+    "content": [
+        "Just published a new animated gallery on CodePen. As always, the ingredients are quite simple: two canvases, an old trusty line-drawing algorithm and some junior-level image data calculations. But the result looks interesting:",
+        ["codepen", "QWxBNVr"],
+        "It's not for mobile devices, obviously. This amount of draw calls is kind of too much for them. It works fine on my smartphone, but I think it'll be a bad practice to run such a thing for mobile devices in production.",
+        "And here is another demo:",
+        ["codepen", "wvXXYpP"],
+        "It was the first step in the development of that gallery. It's simpler, with only one canvas, but it may work as a base for future experiments."
+    ]
+}

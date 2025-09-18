@@ -1,0 +1,14 @@
+{
+    "title": "One background for multiple divs",
+    "date": "2019-10-17",
+    "tags": ["html", "css", "codepen"],
+    "thumb": "0f59337b71d1f7dd998a6dac6bf36a4e",
+    "content": [
+        "I see a lot of frontend developers who are tempted to create monstrous solutions, even if they don't need to. I'm not sure if it happens because a lot of people don't know basic CSS or they think it's cool to do everything with WebGL, but it happens too often to be a coincidence. Todays demo is pretty simple, but it can show you how to split an image between multiple divs with pure CSS.",
+        ["codepen", "XWWKqWZ"],
+        "UPD: Ana Tudor created a more complex version of this effect for the images of any aspect ratio. It also has the parameters for the panels. It may be hard to understand its logic, but it's really really cool.",
+        ["codepen", "BaaLZjq"],
+        "UPD: Check out the speed coding of this example on the FreeFrontend YouTube channel:",
+        ["youtube", "OqmMff6f9_A"]
+    ]
+}

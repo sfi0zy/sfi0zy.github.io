@@ -1,0 +1,10 @@
+{
+    "title": "Yet another Three.js example",
+    "date": "2021-11-28",
+    "tags": ["javascript", "animation", "canvas", "webgl", "math", "codepen"],
+    "thumb": "353d5123535be65c2602da5f40c2e6e6",
+    "content": [
+        "Just another WebGL example for my students. I noticed that I don't have a good example of the onBeforeCompile method of the materials in Three.js, but I use it in my work fairly often. So I created it. Nothing really important here, but it looks nice.",
+        ["codepen", "XWerBEM"]
+    ]
+}
