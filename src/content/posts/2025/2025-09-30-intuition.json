@@ -1,0 +1,21 @@
+{
+    "title": "Intuition",
+    "date": "2025-09-30",
+    "tags": ["evolution", "memory", "intelligence"],
+    "thumb": "75f5eaea3a54f919f623f12c82d28e2b",
+    "content": [
+        "Sequences of data are basic building blocks of memory. They may have various functional roles. Let's take a look at some.",
+        "Facts. These are your most standard pieces of information. If a sequence is a fact, then it exists. It's true.",
+        "Associations. They may look differently, depending on your technical design, but their role is to connect other sequences. These are like edges of the graph of memories.",
+        "Rules. These are like instructions for reasoning and behavior, based on one-directional associations. It's your program.",
+        "Patterns. We save them as symbols and build an [internal world](/post/internal-world). When we combine them with fuzzy transitivity and create complex associations, we get some understanding of reality.",
+        "These roles exist without any languages. Yes, it may sound odd outside of the IT world, but that's the fact. Programs in our computers don't speak, but they work with all these things.",
+        "What happens when we add a language? We add a bunch of facts. Words. We find more patterns for grammar and stuff. We add associations to connect words with our facts and symbols.",
+        "When you walk through your graph of memories, you can grab the words that are connected to your path. Make a sentence. It doesn't have to be grammatically perfect, but you can explain your line of thought to others. But what if your path goes through multiple sequences with no words associated with them?",
+        "Fact can be reproduced as it is. You can draw a picture, make a sound, or whatever your design allows you to do. If your listener has similar experiences, it can be enough to make the right guess. It's not a silver bullet, but it works.",
+        "Associations are easy to explain. Things come together. We connect them. Rules are the same. You can forget why you created some rules, but you can share them with us. If you use transitivity, then just explain everything step by step.",
+        "But what about patterns? If you don't have any words for a symbol or its parts, then you have a problem. It would be practically impossible to explain it. You may share every fact in a symbolic group, but it's highly unlikely that your opponent will find some tricky pattern immediately.",
+        "If you spend some time with data from the same environment, you find a lot of patterns and get a good understanding of it, but there are no words to explain it. Everything works, but you can't share anything. It's like personal magic.",
+        "Intuition."
+    ]
+}
