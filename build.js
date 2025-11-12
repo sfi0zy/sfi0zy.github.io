@@ -50,7 +50,7 @@ fs.cpSync('./src/content/images', './dist/images', { recursive: true });
 fs.cpSync('./src/icons', './dist', { recursive: true });
 fs.cpSync('./src/robots.txt', './dist/robots.txt');
 fs.writeFileSync('./dist/feed.xml', rss, 'utf-8');
-fs.writeFileSync('./dist/sitemap.xml', sitemap, 'utf-8');
+fs.writeFileSync('./dist/map.xml', sitemap, 'utf-8');
 fs.mkdirSync('./dist/post');
 fs.mkdirSync('./dist/tag');
 
