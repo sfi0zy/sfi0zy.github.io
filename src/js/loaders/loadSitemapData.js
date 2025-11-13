@@ -2,10 +2,10 @@ import fs from 'fs';
 import path from 'path';
 
 const PRIORITY = Object.freeze({
-    TOP: 1,
-    HIGH: 0.75,
-    NORMAL: 0.5,
-    LOW: 0.25,
+    TOP: 1.0,
+    HIGH: 0.8,
+    NORMAL: 0.4,
+    LOW: 0.1,
 });
 
 export default function loadSitemapData(config, dirs, postsData) {

@@ -6,7 +6,7 @@ export default function $Sitemap(urls) {
     ${urls.reduce((res, url) => `${res}
     <url>
         <loc>${url.url}</loc>
-        <priority>${url.priority ? url.priority : 0.5}</priority>
+        <priority>${url.priority ? url.priority.toLocaleString('en', { minimumFractionDigits: 1 }) : 0.5}</priority>
         <lastmod>${url.lastmod}</lastmod>
     </url>`, '')}
 </urlset>
