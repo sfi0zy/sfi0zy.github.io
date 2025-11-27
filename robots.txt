@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /tag/evolution/
+Disallow: /tag/*
+
+Sitemap: https://sfi0zy.github.io/map.xml
