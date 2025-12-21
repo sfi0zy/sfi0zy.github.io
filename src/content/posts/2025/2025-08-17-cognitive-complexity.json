@@ -3,6 +3,7 @@
     "date": "2025-08-17",
     "tags": ["evolution", "philosophy", "language"],
     "thumb": "0d68820e696f80bac30faf43d797aaef",
+    "pinned": "true",
     "content": [
         "Scientific theories tend to be much simpler than IT systems. On the frontiers of science, demons hide themselves in novelty, but not in complexity. We use Occam's razor and appreciate elegant solutions for our problems.",
         "In contrast, programmers rarely create completely new things these days, but the complexity of our systems can be overwhelming. We constantly work on the methods to decrease it. This is one of the main topics for debates in the field.",
