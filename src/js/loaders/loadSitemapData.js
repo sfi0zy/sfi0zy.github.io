@@ -36,6 +36,11 @@ export default function loadSitemapData(config, dirs, postsData) {
 
         const year = slug.match(/\d{4}/)[0];
         const isArchived = config.books.archivedYears.includes(year);
+
+        if (isArchived) {
+            return;
+        }
+
         const defaultDay = '01';
         const defaultMonth = '01';
 
@@ -58,9 +63,11 @@ export default function loadSitemapData(config, dirs, postsData) {
 
     config.tags.forEach((group) => {
         group.forEach((tag) => {
+            const isImportant = tag === config.importantTag;
+
             urls.push({
                 url: `${config.url}/tag/${tag}`,
-                priority: PRIORITY.LOW,
+                priority: isImportant ? PRIORITY.TOP : PRIORITY.LOW,
                 lastmod: posts.filter((post) => post.tags.includes(tag))[0].date,
             });
         });
