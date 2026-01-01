@@ -3,13 +3,12 @@
   "version": "3.0.0",
   "description": "My website",
   "author": "Ivan Bogachev",
-  "license": "MIT",
   "engines": {
     "node": ">=22.0.0"
   },
   "type": "module",
   "scripts": {
-    "lint": "npx eslint build.js src/modules/*.js src/templates/*.js src/templates/pages/*.js src/utils/*.js",
+    "lint": "npx eslint build.js src/js/loaders/*.js src/js/modules/*.js src/js/templates/*.js src/js/templates/collections/*.js src/js/utils/*.js",
     "build": "node build.js",
     "serve": "npx http-server ./dist -c-1"
   },
