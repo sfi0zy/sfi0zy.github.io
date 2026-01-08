@@ -1,0 +1,17 @@
+{
+    "title": "Broken timelines",
+    "date": "2025-07-23",
+    "tags": ["evolution", "schizophrenia", "memory"],
+    "thumb": "dd6e8024a8d553a94a70399c0bb4c4ed",
+    "content": [
+        "I did that. Then I did that. Then I don't remember. Then I found myself on the other side of the city. I heard this story many times from the patients with schizo-spectrum disorders in private conversations. Minutes. Hours. Durations can be different, but the story is the same. The main timeline in the memory is broken.",
+        "According to the patients' observations, this problem correlates with bad sleep. It looks like a negative symptom of schizophrenia, but technically seems to be more like a version of the dissociative disorder, added on top of it.",
+        "Previously, I described how we design memory [from an engineering perspective](/post/the-evolutionary-theory-of-behavior). Why do we need sleep? What happens during memory maintenance? How do we get the dissociations? The broken timelines look exactly as we expect the data to look after the malfunctions of this kind. It's one of the possible scenarios. If it's the case, the memories are split, scattered, but not deleted. We can try to recover them.",
+        "We don't save data in one-dimensional data structures that are easy to break into halves, like lists or stacks. They're more like graphs. Many connections are all over the place. If you break the graph during the mentioned memory malfunction, some connections will be lost, but some have all the chances to be preserved. Yes, it depends on the actual storing algorithm. We don't know all the details yet. But it's likely that one minor glitch will not break all the connections at once.",
+        "This is the time to remember the old, trusty, much criticized psychoanalysis. And free associations. We need to find the alternative connections between the events in the accessible parts of the timeline and the events in the lost parts. This way we reconnect and reinforce the graph of memories.",
+        "In most cases we can use logic and find the evidence of what was going on during the blackout. These events can be good starting points in our investigations.",
+        "I tried to do this analysis/reconnection a few times, and it worked. Seemingly lost memories were coming back. The timings were mixed up, but most logical connections between the events were there. The results are not perfect, but this is something. And something is better than nothing.",
+        "We will definitely need proper research here. More patients. Standardized conditions. Focus on different types of associations. These thoughts and interpretations are a little bit premature at this point. We have to understand that. But maybe they'll help somebody find something new.",
+        "P.S.: Failed defragmentation of the memory graph can lead to several kinds of long-term impairments. Not every one of them is technically reversible. The most dangerous problem is the accidental creation of new connections between things. Some would probably use the term \"delusions\" for them. Memory may look intact and be completely messed up at the same time. When working with memory, we should always validate data. Always. If something doesn't fit, we have to use logic and external evidence to fix it."
+    ]
+}

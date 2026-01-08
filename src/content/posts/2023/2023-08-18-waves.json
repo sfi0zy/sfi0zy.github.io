@@ -1,0 +1,10 @@
+{
+    "title": "Waves",
+    "date": "2023-08-18",
+    "tags": ["javascript", "canvas", "webgl", "animation", "math", "codepen"],
+    "thumb": "f2f13a897a3c58fca0065ffd85f86cc1",
+    "content": [
+        "Yet another WebGL example is here! Three planes + some noise = beautiful waves for background effects.",
+        ["codepen", "VwqwPZz"]
+    ]
+}

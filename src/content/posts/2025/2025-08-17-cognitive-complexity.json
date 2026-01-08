@@ -1,0 +1,18 @@
+{
+    "title": "Cognitive complexity",
+    "date": "2025-08-17",
+    "tags": ["evolution", "philosophy", "language"],
+    "thumb": "0d68820e696f80bac30faf43d797aaef",
+    "pinned": "true",
+    "content": [
+        "Scientific theories tend to be much simpler than IT systems. On the frontiers of science, demons hide themselves in novelty, but not in complexity. We use Occam's razor and appreciate elegant solutions for our problems.",
+        "In contrast, programmers rarely create completely new things these days, but the complexity of our systems can be overwhelming. We constantly work on the methods to decrease it. This is one of the main topics for debates in the field.",
+        "We use all sorts of design patterns to organize large amounts of code. They help a lot. No need to keep the whole project in your head all the time. But also we have discussions on how to write instructions that would be easy to understand.",
+        "If you have millions of lines of code in the project, the last thing you want is to read every one of them several times to get the logic. You don't write code for machines, you write it for people. By writing simple code you help your colleagues to spend their resources on actual development, instead of solving your puzzles with zero business value.",
+        "When you increase cognitive complexity with no reason, you create technical debt. It gradually slows down the development process. Increases the costs. It can kill the project eventually. There are rare exceptions where we accept dirty code in some utils to get better performance, but they're write-only things. Once they start to work, you leave them alone and never get back.",
+        "Some people used to argue that complex tasks require complex code, or that precision in algorithms makes code dense, or that abstract concepts are hard to understand by their nature, and that you need to grow as a professional to get it. None of this is true.",
+        "The moment we started to introduce the tools for static code analysis, to automatically prevent the obfuscated code from entering our projects, we realized that complex systems can be written in simple language. Of course, you need to learn the basics. You need to know the words. But the code can be easy to understand. When you write intricate code, it's likely not because you actually need it, it's because you choose it.",
+        "When I look at the language in academic publications, I feel like it's much more complex than it should be. Often, I have to read the same sentence many times to understand it. Not because of the subject matter, but because of the language.",
+        "It seems like people use the same arguments to protect this obscure language that programmers used back in the days to protect their bad code. But why?"
+    ]
+}

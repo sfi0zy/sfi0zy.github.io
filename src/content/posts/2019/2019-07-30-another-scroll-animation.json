@@ -1,0 +1,10 @@
+{
+    "title": "Another scroll animation",
+    "date": "2019-07-30",
+    "tags": ["svg", "css", "javascript", "animation", "codepen"],
+    "thumb": "d49801b1faf52d6abcfb137d3f83a2de",
+    "content": [
+        "Just another scroll animation. It's based on [this one](/post/scroll-example), but it works in the opposite direction.",
+        ["codepen", "wVJBGB"]
+    ]
+}

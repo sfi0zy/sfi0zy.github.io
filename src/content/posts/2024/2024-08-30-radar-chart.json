@@ -1,0 +1,10 @@
+{
+    "title": "Radar Chart",
+    "date": "2024-08-30",
+    "tags": ["javascript", "canvas", "math", "codepen"],
+    "thumb": "89cc76b32138198c31514ecd5de5ac11",
+    "content": [
+        "Yet another demo. This time it's a radar chart with a custom fill gradient. There is nothing special here, it's just some old-school pixel manipulations on 2D canvas, but the example itself can be used by my students at some point. It'll wait for them here.",
+        ["codepen", "abgaJrB"]
+    ]
+}

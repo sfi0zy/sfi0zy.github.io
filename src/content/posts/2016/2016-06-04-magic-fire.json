@@ -1,0 +1,10 @@
+{
+    "title": "Magic fire CSS animation",
+    "date": "2016-06-04",
+    "tags": ["html", "css", "animation", "codepen"],
+    "thumb": "e3493c62234646eb80edbc5d834a692b",
+    "content": [
+        "Yet another CSS example is here! Originally, I wrote this fire for the [quest on CSSQuests](https://cssquests.com/camp-fire/), but now it's available on CodePen too. This is a pure CSS animation, without any JavaScript or SVG.",
+        ["codepen", "OXgmLA"]
+    ]
+}

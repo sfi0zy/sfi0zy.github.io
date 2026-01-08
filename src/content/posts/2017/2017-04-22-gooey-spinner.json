@@ -1,0 +1,10 @@
+{
+    "title": "Gooey spinner",
+    "date": "2017-04-22",
+    "tags": ["html", "svg", "css", "animation", "codepen"],
+    "thumb": "175c534ef93744c4a06d77fd7ca30ae5",
+    "content": [
+        "Here is another amazing spinner. It works correctly in Google Chrome only because SVG filters have different behaviors in modern browsers, but this is still a nice example.",
+        ["codepen", "PpdgXY"]
+    ]
+}

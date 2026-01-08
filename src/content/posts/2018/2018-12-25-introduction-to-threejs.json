@@ -1,0 +1,9 @@
+{
+    "title": "Introduction to Three.js",
+    "date": "2018-12-25",
+    "tags": ["javascript", "canvas", "webgl", "publications", "habrahabr"],
+    "thumb": "8f2cfdd0b219dca9f077262159c9584d",
+    "content": [
+        "My new article is an [introduction to WebGL presentations](https://habr.com/post/433876/). We'll create a nice christmas tree with some pop-up elements and mouse controls using Three.js."
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Shaders examples: Part III",
+    "date": "2020-03-16",
+    "tags": ["javascript", "animation", "canvas", "webgl", "codepen"],
+    "thumb": "284c12877e6dc7e2c2d38b82d9d5ddcd",
+    "content": [
+        "The show goes on! Three more examples are on CodePen now. These pens are the examples of usage of the shader material with the point cloud. Also, you can find a nice trick in them - I used third dimension to create 2D animations. It's much easier than puzzle out all the math to calculate such animations in two-dimensional space.",
+        ["codepen", "ZEGovzm"],
+        ["codepen", "VwLxyzm"],
+        ["codepen", "yLNjpEW"]
+    ]
+}

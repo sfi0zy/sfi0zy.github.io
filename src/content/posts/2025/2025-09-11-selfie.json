@@ -1,0 +1,22 @@
+{
+    "title": "Selfie",
+    "date": "2025-09-11",
+    "tags": ["evolution", "philosophy", "memory"],
+    "thumb": "9e6948dc12b7fe7cfb9409bb3105d4ef",
+    "content": [
+        "I'm more interested in answering the question \"how the machine works?\" first, rather than speculating on \"how it sees itself?\" with no blueprints on hand. But there are some limitations to the process that we can predict for any system. Let's dive into that.",
+        "In order to save any picture of anything, we need a memory mechanism. Then we add sensors to collect data and channels to transfer it into that memory. Once an image is created, we can use it.",
+        "Sometimes we have degenerate cases, like where the sensor and memory are located in the same place and we could say that the channel has zero length. Think about a film camera.",
+        "But, technically, that's it. We don't need much to save data. Later, we'll need a processor to process everything, but not right now.",
+        "If a system has sensors to scan itself, it'll be able to make a selfie. And yes, if we have enough energy, we can make this work for every part of it.",
+        "Series of snapshots of sensors and data channels allow us to monitor things. Ideally, it's a more or less real-time log of everything that happens with data in the system.",
+        "Logs constantly accumulate. In the real world we may have recent copies, but we don't save all logs from the beginning of time. We'll need to constantly add more storage for that.",
+        "Snapshots of data in memory can be done as well. But again, we can't create a full copy of a storing device and save it in itself. It'll not fit. We can make a partial image. By saving these images, we create a history of some part of the system.",
+        "Most likely we don't have sensors for everything. This means that our logs and snapshots include just some part of the story. There are things that we don't see. It's expected.",
+        "On average, people associate data in recent logs with consciousness and qualia, data in history with self-identity, and data in unmonitored channels with unconscious.",
+        "Some would say that our hardware is a material body and data is an immaterial soul. We definitely have some functional differences here. However, data is the same matter or energy as everything else, so this is just poetry, not physics.",
+        "Logs and snapshots show us events in the past. Looking at them, the system sees itself not only partially, but always has outdated information as well. And it doesn't depend on how the observer module actually works.",
+        "How do you see yourself in this situation?",
+        "Are you the selfie, or the system that looks at its selfie?"
+    ]
+}

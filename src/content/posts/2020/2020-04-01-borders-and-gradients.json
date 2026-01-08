@@ -1,0 +1,10 @@
+{
+    "title": "Borders and Gradients",
+    "date": "2020-04-01",
+    "tags": ["html", "css", "codepen"],
+    "thumb": "a7807139cb7b35bdc21e8709ad620894",
+    "content": [
+        "The development of custom borders for the HTML elements always was a nightmare for junior developers. The main thing is that such elements usually must be responsive. Their sizes must depend on the content inside. The old-school solution with an image in the background of the element is not responsive. It works sometimes, but not always. In more complicated cases we have two opinions: use border images or draw everything with CSS gradients. I like the second one. I use it in most cases because usually the borders in my designs are not so complex. I don't see any reason to create a lot of images for them. Anyway, I created a cute example of such borders for one of my answers on Habr Q&A.",
+        ["codepen", "mdJowdy"]
+    ]
+}

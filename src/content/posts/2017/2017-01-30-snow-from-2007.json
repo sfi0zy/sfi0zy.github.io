@@ -1,0 +1,10 @@
+{
+    "title": "Snow from 2007",
+    "date": "2017-01-30",
+    "tags": ["javascript", "animation", "codepen"],
+    "thumb": "f46c023f6f06476289be22d45a28480a",
+    "content": [
+        "This is an example of usage of the [jQuery-Snowfall](https://github.com/loktar00/JQuery-Snowfall) plugin. I wrote this pen for one of my answers on Habr Q&A, but it looks so pretty, I can't not to share it here.",
+        ["codepen", "zNpPKZ"]
+    ]
+}

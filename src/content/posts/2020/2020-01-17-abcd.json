@@ -1,0 +1,10 @@
+{
+    "title": "ABCD",
+    "date": "2020-01-17",
+    "tags": ["html", "css", "javascript", "codepen"],
+    "thumb": "b63b6f46f1c2bb13e3ef18875a712229",
+    "content": [
+        "A couple of days ago I found an interesting question on Habr Q&A. A man asked how to create a design concept with HTML and CSS. It's a common question for this website and the concept looked simple, but nobody knew how to create it. The thing is the sides of the triangles in the concept must be parallel on all screen sizes, not only on full hd. I accepted the challenge and created a prototype for the modern browsers. It looks like we can't create such a design using CSS only, even for evergreen browsers, so I used some JS to calculate the widths of the triangles based on the heights of the cards. But maybe someone will invent a new CSS trick for this type of calculations.",
+        ["codepen", "zYxJNmG"]
+    ]
+}

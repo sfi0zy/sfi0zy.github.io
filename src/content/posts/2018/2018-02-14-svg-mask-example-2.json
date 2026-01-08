@@ -1,0 +1,10 @@
+{
+    "title": "SVG mask example #2",
+    "date": "2018-02-14",
+    "tags": ["svg", "javascript", "animation", "codepen"],
+    "thumb": "92f096e0fa2c0950a1543b76f82e4154",
+    "content": [
+        "Today is St. Valentine's Day. So I've painted a heart. One mask, two paths and a couple of lines of JavaScript to start the action.",
+        ["codepen", "vdJVNd"]
+    ]
+}

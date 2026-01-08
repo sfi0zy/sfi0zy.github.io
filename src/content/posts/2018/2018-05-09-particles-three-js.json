@@ -1,0 +1,10 @@
+{
+    "title": "Particles (Three.js)",
+    "date": "2018-05-09",
+    "tags": ["javascript", "animation", "canvas", "webgl", "codepen"],
+    "thumb": "887bb415eac5dc1bb7258a8e9cc0c453",
+    "content": [
+        "After a break, I've returned to the CodePen with a new effect based on Three.js. I don't know where I can use it in this form, but it looks interesting.",
+        ["codepen", "MGExMb"]
+    ]
+}

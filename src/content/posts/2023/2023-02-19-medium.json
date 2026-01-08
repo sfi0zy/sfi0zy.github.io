@@ -1,0 +1,9 @@
+{
+    "title": "Medium",
+    "date": "2023-02-19",
+    "tags": ["css", "javascript", "animation", "github"],
+    "thumb": "a26a2b8b45126d206cc81d3c9c85657d",
+    "content": [
+        "For a long time, I was thinking about a tool that would provide a set of CSS custom properties with the mouse position, scroll position, random values etc. And since I didn't find anything that I would like, I decided to write the tool myself. I called it \"Medium\" because it connects CSS and JS worlds. The library itself is quite simple, but I used it for a few demos on CodePen and it really speeds things up. Now it's [available on GitHub](https://github.com/sfi0zy/medium) and as an [NPM package](https://www.npmjs.com/package/css.medium.js)."
+    ]
+}

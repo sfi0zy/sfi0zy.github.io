@@ -1,0 +1,12 @@
+{
+    "title": "Shaders examples: Part II",
+    "date": "2020-03-16",
+    "tags": ["javascript", "animation", "canvas", "webgl", "codepen"],
+    "thumb": "6bf4801495aef544004aeb6d216e0539",
+    "content": [
+        "I continue posting beautiful shader examples to CodePen. I started with colorful ones and now the time has come for the monochrome ones. They look very futuristic, and I associate them with sci-fi movies.",
+        ["codepen", "QWbrjyp"],
+        ["codepen", "wvajMVN"],
+        ["codepen", "qBdYZbP"]
+    ]
+}

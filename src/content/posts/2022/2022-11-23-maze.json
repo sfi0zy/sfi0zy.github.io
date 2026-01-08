@@ -1,0 +1,10 @@
+{
+    "title": "Maze",
+    "date": "2022-11-23",
+    "tags": ["javascript", "canvas", "webgl", "math", "codepen"],
+    "thumb": "f95e2be1e4d18f655460ec7efbf4941e",
+    "content": [
+        "Yet another Three.js example! This time it's a simple maze with one light and shadows. It's easy to do, and it looks not bad at all.",
+        ["codepen", "LYrQagq"]
+    ]
+}

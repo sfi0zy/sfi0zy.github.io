@@ -1,0 +1,71 @@
+{
+    "url": "https://sfi0zy.github.io",
+    "title": "Ivan Bogachev",
+    "name": "Ivan Bogachev",
+    "username": "sfi0zy",
+    "email": "sfi0zy@gmail.com",
+    "description": "Personal blog. A mix of programming and behavioral psychology with a touch of philosophy.",
+    "tags": [
+        [
+            "evolution",
+            "psychology", "schizophrenia", "emotions", "memory", "intelligence",
+            "philosophy", "religion", "free_will", "morality", "politics",
+            "methodology", "language"
+        ],
+        [
+            "html", "svg", "css", "javascript", "canvas", "webgl",
+            "animation",
+            "math",
+            "linux",
+            "codepen", "github", "habrahabr",
+            "publications", "books",
+            "photography", "music",
+            "podcast"
+        ]
+    ],
+    "importantTag": "evolution",
+    "nav": [
+        {
+            "url": "/",
+            "text": "Home"
+        },
+        {
+            "url": "/evolutionary-theory-of-behavior",
+            "text": "ETB"
+        },
+        {
+            "url": "/tag/evolution",
+            "text": "Evolution"
+        },
+        {
+            "url": "/about",
+            "text": "About"
+        }
+    ],
+    "static": {
+        "about": {
+            "title": "About me",
+            "lastmod": "2025-07-16",
+            "description": ""
+        },
+        "evolutionary-theory-of-behavior": {
+            "title": "Evolutionary theory of behavior",
+            "lastmod": "2025-09-18",
+            "description": ""
+        },
+        "free-books": {
+            "title": "My free books",
+            "lastmod": "2025-07-17",
+            "description": ""
+        }
+    },
+    "books": {
+        "archivedYears": ["2018", "2019"]
+    },
+    "homeIndexLimit": "10",
+    "icons": {
+        "v": "1",
+        "themeColor": "#cccccc",
+        "tileColor": "#1c1c1c"
+    }
+}

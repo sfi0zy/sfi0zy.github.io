@@ -1,0 +1,13 @@
+{
+    "title": "The magical number 6",
+    "date": "2025-05-04",
+    "tags": ["math", "evolution", "intelligence"],
+    "thumb": "9f2855bce61c2f2d756cdb74976e4536",
+    "content": [
+        "What is the capacity of our working memory? Some classical researches suggest it's a magical number 7 for a human. Plus-minus. Some other say it's 4. Plus-minus. And something like 2 for a chimpanzee. Plus-minus. In any case, it seems that the test subjects count things and that is being used as the evidence. The rules of counting affect the results and our interpretations of them.",
+        "But how many things do we really need to hold in working memory in order to learn new things? Not just count some objects, not just mirror the actions (monkey see, monkey do), but to understand what's going on?",
+        "In order to learn, the biological processor should be able to work with transitivity and Euclidean relations. So, how many memory cells do we need to put in its cache to make everything work?",
+        "Let's start with transitivity. We need three memory cells to work with one connection from A to B. We need to save A, to save B, and to save the connection. We need five memory cells to work with two connections. A to B. B to C. We need to save A, B, C, and two connections. Five memory cells in total. If we want to use this data to create a new connection from A to C, to learn something, we need the sixth memory cell. We need to save that new connection somewhere. The same logic works with the Euclidean relations as well. The same 6 memory cells are required.",
+        "This means that the evolution from 5 to 6 memory cells is the step from the intellectually disabled monkey to the organism that can learn things. It's quite an important step. I'm surprised that the cognitive psychologists don't talk about this elephant in the room."
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Funny face",
+    "date": "2017-11-08",
+    "tags": ["html", "css", "animation", "javascript", "codepen"],
+    "thumb": "604d85275197b8d2341f96d9b86fcf7e",
+    "content": [
+        "Nick Babich writes very interesting articles on UX Planet and usually they include amazing animations. But it seems like they are created using Adobe After Effects. I got the idea of this funny face from one of his articles and tried to recreate it using CSS and JS. Let's see what I got:",
+        ["codepen", "QOKGXy"]
+    ]
+}

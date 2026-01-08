@@ -1,0 +1,11 @@
+{
+    "title": "Texture projection",
+    "date": "2019-08-11",
+    "tags": ["javascript", "animation", "canvas", "webgl", "codepen"],
+    "thumb": "4443002de602f75a39fb4c2f6daedbe1",
+    "content": [
+        "Texture projection is one of the most powerful tricks in WebGL. It can be used in different situations. I don't know why I still haven't published any pens with it. But today I corrected this mistake. Here are two demos - the first one is for the ordinary texture projection and the second one for the \"sticky\" projection.",
+        ["codepen", "mNzREJ"],
+        ["codepen", "NQOdGd"]
+    ]
+}

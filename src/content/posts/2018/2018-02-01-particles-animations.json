@@ -1,0 +1,9 @@
+{
+    "title": "Particles and WOW effects",
+    "date": "2018-02-01",
+    "tags": ["javascript", "animation", "canvas", "codepen", "publications", "habrahabr"],
+    "thumb": "fc9588ba03219d17c2d43f2afa3db036",
+    "content": [
+        "A lot of people (and I mean not regular people, but professional front-end developers) think that the animations based on particles are difficult to implement. It's not true. Every developer with basic skills in JS can create this kinds of effects very easily. I wrote an <a href='https://habr.com/ru/articles/347962/'>article about these animations</a> to help them to start."
+    ]
+}

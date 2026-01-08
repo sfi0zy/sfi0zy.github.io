@@ -1,0 +1,9 @@
+{
+    "title": "Street Monochrome",
+    "date": "2023-06-14",
+    "tags": ["photography"],
+    "thumb": "6ee42db47ab362ad306c93f5ccd32afe",
+    "content": [
+        "It's been a while, isn't it? I haven't posted anything for a few months now. I'm working on a new photography-related project. It's a lot of work. Meanwhile, I decided to share the darktable styles that I use for street photography. Why not? My main style is the [Street Monochrome](https://github.com/sfi0zy/street-monochrome). This is a high contrast black and white style. It works well in almost every situation that I encounter on the street, and now it's available as a .dtstyle file and as a LUT."
+    ]
+}
