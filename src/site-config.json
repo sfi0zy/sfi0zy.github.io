@@ -60,7 +60,7 @@
         }
     },
     "books": {
-        "archivedYears": ["2018", "2019"]
+        "archivedYears": ["2017", "2018", "2019"]
     },
     "homeIndexLimit": "10",
     "icons": {
