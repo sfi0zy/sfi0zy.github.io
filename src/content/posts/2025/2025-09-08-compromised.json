@@ -4,7 +4,7 @@
     "tags": ["evolution", "memory"],
     "thumb": "e70fefdb80718e78fa6e4aa42dc5c365",
     "content": [
-        "In [my theory](/post/the-evolutionary-theory-of-behavior), I mentioned memory hallucinations. They're often perceived as a part of schizophrenia, and I argued that it's an independent problem. But that's just a drop in the ocean.",
+        "In my theory, I mentioned memory hallucinations. They're often perceived as a part of schizophrenia, and I argued that it's an independent problem. But that's just a drop in the ocean.",
         "At the current stage of the project, I reconnect data sets from various books and papers, and I see that the word \"hallucination\" is being used for many different things. It leads to serious problems in classifications of disorders, not only behavior-related ones.",
         "Let's take a look at our system from above. There are four parts with different functional roles: sensors, data channels, memory, and processors. Depending on your design, you may have many of them connected to each other or working in parallel.",
         "If we have a malfunction in the sensor, wrong data is entering our system. This is the first type of problem.",
