@@ -1,0 +1,20 @@
+{
+    "title": "Shrink in the middle",
+    "date": "2026-03-05",
+    "tags": ["evolution", "schizophrenia", "methodology"],
+    "thumb": "f0f0847e123857d811244d39079021cc",
+    "pinned": "true",
+    "content": [
+        "When talking to the patients with major psychiatric diseases, the first thing you notice is how they dislike their pills. Medicine makes you feel worse. Head becomes puffy, fuzzy, and it's hard to think. That's what they say. All of them.",
+        "What if they're not wrong? If a hundred patients in a row say the same thing, then maybe they're onto something. Let's take a look at antidepressants and antipsychotics. What do they do?",
+        "Both groups of drugs target data channels. These are attempts to perform man-in-the-middle attacks on the brain. Information is being transferred through pathways by neurotransmitters, and we're trying to intervene in the least delicate way possible.",
+        "Antidepressants work by flooding the system with noise. There are several approaches, but in all of them we force bits of information to re-appear in the channels in a chaotic fashion.",
+        "Concentration of neurotransmitters goes up, doctors celebrate, but new data in there isn't well-structured. It's a mess. Will it stop you from making bad decisions? Maybe. Will it make you think clearly? Definitely not. In computer science we even have a term for this. Garbage in, garbage out (GIGO).",
+        "Antipsychotics block signals from reaching their destination. It can prevent you from using damaged sequences of information when making decisions, but it also prevents you from using just about everything else, leaving you \"empty-headed\".",
+        "Also, as expected, things don't disappear just because you blocked signals from entering some part of the system. Data spills around, gets in adjacent channels, and rogue signals start to cause all sorts of side effects all over the brain.",
+        "For decades, we exploited more or less the same approaches. It's quite obvious that they are questionable. They can't work as a precise cure for anything in principle, yet here we are.",
+        "Some alternative ideas are present in the field. They give me hope. Especially the ones that are constructed around neural plasticity. Our tools lack precision, and we may be looking in the wrong places, but at least we start to play with something that looks like control switches instead of creating a random mess. It's promising. At least it makes sense.",
+        "I think that we should pay more attention to the logic behind our medicine. Levels of neurotransmitters and electrical activity are interesting things to discuss in vacuum, but we're always looking at the processing of information.",
+        "Hardware. Software. Chemistry. It's all the same at the end."
+    ]
+}
