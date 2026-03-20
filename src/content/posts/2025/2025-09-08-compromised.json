@@ -8,7 +8,7 @@
         "At the current stage of the project, I reconnect data sets from various books and papers, and I see that the word \"hallucination\" is being used for many different things. It leads to serious problems in classifications of disorders, not only behavior-related ones.",
         "Let's take a look at our system from above. There are four parts with different functional roles: sensors, data channels, memory, and processors. Depending on your design, you may have many of them connected to each other or working in parallel.",
         "If we have a malfunction in the sensor, wrong data is entering our system. This is the first type of problem.",
-        "If the data channels are compromised, we expect to see anomalies in the data flows inside the system. We can measure delays in receiving data, phase shifts, lost signals, amplitude changes, or something like that.",
+        "If data channels are compromised, we expect to see anomalies in data flows inside the system. We can measure delays in receiving data, phase shifts, lost signals, amplitude changes, or something like that.",
         "Also, we can imagine man-in-the-middle attacks, where multiple channels are being physically reconnected in an unusual manner, and some data leaks into the wrong channel.",
         "If the processes in our memory lose synchronization, we experience true hallucinations that look like dreams, effects like deja vu, and dissociative disorders.",
         "All these issues with data in memory can happen in a healthy system if you force it to skip its maintenance cycle. They're not necessarily caused by damage to the mechanism itself. If you destroy it, you'll lose data, obviously, but most phenomena here require hardware that actually works.",
