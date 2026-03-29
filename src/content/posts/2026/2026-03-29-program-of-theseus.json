@@ -1,0 +1,21 @@
+{
+    "title": "Program of Theseus",
+    "date": "2026-03-29",
+    "tags": ["evolution", "philosophy"],
+    "thumb": "0de5563b34d736345cdb7b01c62ede6a",
+    "content": [
+        "If you get managers, programmers, testers, admins, guys from marketing, maybe some users, and ask them how do they see your product, you'll likely receive completely different answers.",
+        "Looking from above, you see a project as a whole, with all the people, budgets, negotiations, and whatever paperwork you have included, but there are other perspectives as well.",
+        "One project, one program, can have thousands of interconnected versions. It's a lot. We invented version control systems and semantic versioning to keep track of things.",
+        "In some cases, changes accumulate to a point where two versions of your program don't have any common code at all. It's still the same project. Final users may not even notice anything, but programmers will have something to do for sure.",
+        "Naturally, we make copies. We clone projects. One version can have millions of clones. They're kind of identical, but not exactly the same thing. We need them to exist independently.",
+        "Usually, a program can be transformed into an executable file or at least some bundle prepared for distribution. We get a new shape of a project. It's like a proper butterfly now.",
+        "Finally, you start your program, make it a running instance. A particular copy of an executable file of a version of a program can be started many times and become a swarm of identical processes.",
+        "Every process gets some memory space to store its data. It treats that data as a part of itself, and becomes something new by changing it.",
+        "One program turns into a tree of versions, growing into an army of clones, going through various metamorphoses along the way, and millions of constantly changing processes possess personal computers with different designs all over the world.",
+        "This is a routine reality of our jobs. Nothing special. But professional philosophers always find their ways to get confused, and they still have some disputes in this context.",
+        "It's understandable. Historically, we never really worked with things that can be easily cloned or versioned. We never needed a structured framework to manage such things in practice, up until recent decades.",
+        "Primitive concepts of identities fail spectacularly when we utilize them in IT. Depending on your role and tasks to solve, your [symbolic understanding](/post/internal-world) of \"the same program\" varies a lot, highlighting inconsistencies between symbols and available words in our language, but none of these perspectives is the only right one.",
+        "You can't develop a product looking from just one side."
+    ]
+}
