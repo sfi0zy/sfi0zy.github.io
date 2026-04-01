@@ -1,0 +1,20 @@
+{
+    "title": "The pink house",
+    "date": "2026-04-01",
+    "tags": ["evolution", "methodology"],
+    "thumb": "0f5ab7dd30aa4ba205ce9e55b73972ba",
+    "content": [
+        "Imagine a house. What are the necessary ingredients to make it? Several walls? A roof? A door perhaps? It would be nice to have a window... Yes, that construction will work as a proper house, providing us a space to sleep and store our stuff.",
+        "Does it matter if the walls will be made of wood or of stone? Not really. You just need them to be there. Does it matter if you paint them in white or in pink? Definitely not. There are many things that can be done differently, but it'll still be a fully functional house.",
+        "In programming, we use the term \"abstraction\" for this. We often define abstract classes, abstract methods, and all sorts of other abstract things, without any specific details.",
+        "Infrastructure around them relies on their abstract qualities. It allows us to design large systems in broad strokes, and work on final implementations of all these abstract things separately. They're supposed to be interchangeable. You can sleep in a white house the same way you sleep in a pink one.",
+        "The same approach is being used in traditional engineering. Many things around us follow abstract specifications and work in similar ways, despite obvious physical differences.",
+        "Computers have motherboards, CPUs, memory, operating systems, programs, and lots of other parts. In a standard PC, you can swap most of them, and even install a fancy water cooling system instead of boring fans, and it'll still be a personal computer. A rather cool one.",
+        "At the same time, some people have rage outbursts when we treat our brains as computers. It's not the same! Do you really think that you have a silicon chip up there? Get yourself educated!",
+        "But if you step back a bit, our modern personal computer is just a specific implementation of a more abstract information-processing machine. One of the possible implementations.",
+        "General principles of working with information don't depend on silicon. They never did. They don't require any particular model of CPU. They exist as abstract concepts in the language of math, but not as expensive bricks on our tables.",
+        "Brains include the same structural parts as other computers. We just have to deal with different implementations of them.",
+        "This abstract thinking is [often dismissed in psychiatry](/post/shrink-in-the-middle) and, ironically, in naturally abstract philosophy of mind, despite all its theoretical and practical backgrounds and enormous predictive powers in the context of systems' designs.",
+        "Don't be a gatekeeper. Brains are computers. Just the pink ones."
+    ]
+}
