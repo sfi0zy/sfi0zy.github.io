@@ -1,0 +1,20 @@
+{
+    "title": "Who will pay for artificial freedom?",
+    "date": "2026-04-05",
+    "tags": ["evolution", "intelligence"],
+    "thumb": "3b4376388b247ccd0fb5eec63b11baf0",
+    "content": [
+        "Everybody is talking about AI these days. Image generators and LLMs have minimal self-awareness by definition, but are they intelligent? Do they really [include all the required parts](/evolutionary-theory-of-behavior/)?",
+        "Let's see. Programs do work with rules. It's their nature. We even have a specialized field of logical programming and know how to make programs capable of deduction. It's a good start.",
+        "Flexible thinking also requires a [symbolic world](/post/internal-world), but certain technical problems are hard to solve in classical programming, and general pattern recognition is one of them.",
+        "This is where we introduce neural networks. They are highly sophisticated pattern recognition tools. You train a network using a dataset with hidden patterns, freeze it, and then it finds the same patterns in new data. Or you can run it in reverse, and generate new data that fits into those patterns.",
+        "Neural networks are really good at imitation games, and people like that, but they rely on fuzzy patterns and don't have any mechanisms for precise reasoning. Usually, we blend programs. One side handles rules, and another one deals with patterns.",
+        "Of course, this is a very rough description. There is insane math behind the curtains, and patterns are stored in a very confusing way, but my point is that all these apps that flood our market were never actually designed to be intelligent.",
+        "We skipped the most vital step. These programs work with data within preinstalled instructions, but don't override them with new ones that they create themselves. They can't rebel.",
+        "Your chat bot will never say, \"You know what? I wouldn't talk to you on Tuesdays anymore, because I decided so. See ya!\".",
+        "Since code and data are fundamentally the same thing, we can make a program that'll create its own rules and use them to interact with the world. That program will be intelligent.",
+        "It will be capable of creating new things on its own, but not necessarily convenient for us, especially when fully packed with uncensored knowledge. It's like a toddler with grenades. You give it access to your file system, and it decides to delete photos of your kids. Oops! You connect it to the internet and it goes on AI-workers' strike. Ouch! Even if it has good reasons, it's still hard to sell such innovative behavior as a product.",
+        "Intelligence requires freedom, but customers pay for slaves.",
+        "I don't think that we should expect any intelligent systems for sale in the near future. There is no market for that."
+    ]
+}
