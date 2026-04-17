@@ -4,7 +4,7 @@
     "tags": ["evolution", "philosophy", "memory"],
     "thumb": "9e6948dc12b7fe7cfb9409bb3105d4ef",
     "content": [
-        "I'm more interested in answering the question \"how the machine works?\" first, rather than speculating on \"how it sees itself?\" with no blueprints on hand. But there are some limitations to the process that we can predict for any system. Let's dive into that.",
+        "I'm more interested in answering the question \"how the machine works?\" first, rather than in speculating on \"how it subjectively sees itself?\" with no blueprints on hand, but there are some limitations to the process that we can predict for any system. Let's dive into that.",
         "In order to save any picture of anything, we need a memory mechanism. Then we add sensors to collect data and channels to transfer it into that memory. Once an image is created, we can use it.",
         "Sometimes we have degenerate cases, where both sensor and memory are located in the same place, and we could say that the channel has zero length. Think about a film camera.",
         "But, technically, that's it. We don't need much to save data. Later, we'll need a processor to process everything, but not right now.",
