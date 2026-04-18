@@ -6,7 +6,7 @@
     "content": [
         "I'm still experimenting with shaders and I've created a couple of nice loaders. Do you think that WebGL shaders were created for something else? Maybe you're right. But it's easy to create interesting effects with them. So...",
         ["codepen", "LrPWRq"],
-        "Ok. This is an experiment and I think we shouldn't do it in production. The performance is quite bad. It's better to use SVG here.",
+        "Ok. This is an experiment and I think that we shouldn't do this in production. The performance is quite bad. It's better to use SVG here.",
         ["codepen", "MXgGZG"]
     ]
 }

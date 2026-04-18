@@ -4,7 +4,7 @@
     "tags": ["html", "css", "animation", "codepen"],
     "thumb": "6147ab361a09aa3e315924cc1517ed57",
     "content": [
-        "Here are three of my CSS loaders, which I didn't share on my website previously. The first one uses the standard gooey SVG filter on the seven moving dots, the second is the simple cube with animated backgrounds and the last animation consists of the circles changing their sizes like waves. Nothing serious, but they can look very attractive.",
+        "Here are three of my CSS loaders, which I didn't share on my website previously. The first one uses a standard gooey SVG filter on seven moving dots, the second is a simple cube with animated backgrounds and the last animation is based on circles changing their sizes like waves. Nothing serious, but they can look very attractive.",
         ["codepen", "NpZbJL"],
         ["codepen", "MmJggp"],
         ["codepen", "RpXEjE"]

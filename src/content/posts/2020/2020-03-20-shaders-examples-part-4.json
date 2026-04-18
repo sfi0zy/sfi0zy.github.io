@@ -4,7 +4,7 @@
     "tags": ["javascript", "animation", "canvas", "webgl", "codepen"],
     "thumb": "e1c1be7b3faa1da0ce74e720eaef99cf",
     "content": [
-        "This time I shared a pen with an example of usage of a noise generator. This pen includes a sea of particles with random waves on it. The usage of such generators is a very important technique for the creative frontend developers, so, despite the fact that it's only one pen here, I think this part of shaders collection is as important as the other parts.",
+        "This time I shared a pen with a noise generator. This pen includes a sea of particles with random waves on it. The usage of such generators is a very important technique for creative frontend developers, so, despite the fact that it's only one pen here, I think that this part of shaders collection is as important as the other parts.",
         ["codepen", "XWbYqOr"]
     ]
 }

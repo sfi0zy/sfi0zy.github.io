@@ -4,7 +4,7 @@
     "tags": ["html", "svg", "css", "animation", "codepen"],
     "thumb": "889cf5fbff8dc417957f00b0d9bbc0a1",
     "content": [
-        "SVG paths have an option called stroke-dashoffset and we can animate it. When Chris Coyier posted an article about it, someone said \"as always, using properties for the effects they were never intended for\". He is absolutely right, but...",
+        "SVG paths have an option called stroke-dashoffset and we can animate it. When Chris Coyier posted an article about it, someone said \"as always, using properties for the effects they were never intended for.\" He is absolutely right, but...",
         ["codepen", "JOrGjX"]
     ]
 }
