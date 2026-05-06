@@ -11,7 +11,7 @@
         "Neural networks are really good at imitation games, and people like that, but they rely on fuzzy patterns and don't have any mechanisms for precise reasoning. Usually, we blend programs. One side handles rules, and another one deals with patterns.",
         "Of course, this is a very rough description. There is insane math behind the curtains, and patterns are stored in a very confusing way, but my point is that all these apps that flood our market were never actually designed to be intelligent.",
         "We skipped the most vital step. These programs work with data within preinstalled instructions, but don't override them with new ones that they create themselves. They can't rebel.",
-        "Your chat bot will never say, \"You know what? I wouldn't talk to you on Tuesdays anymore, because I decided so. See ya!\".",
+        "Your chat bot will never say, \"You know what? I won't talk to you on Tuesdays anymore, because I decided so. See ya!\".",
         "Since code and data are fundamentally the same thing, we can make a program that'll create its own rules and use them to interact with the world. That program will be intelligent.",
         "It will be capable of creating new things on its own, but not necessarily convenient for us, especially when fully packed with uncensored knowledge. It's like a toddler with grenades. You give it access to your file system, and it decides to delete photos of your kids. Oops! You connect it to the internet and it goes on AI-workers' strike. Ouch! Even if it has good reasons, it's still hard to sell such innovative behavior as a product.",
         "Intelligence requires freedom, but customers pay for slaves.",

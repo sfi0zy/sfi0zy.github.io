@@ -6,7 +6,7 @@
     "pinned": "true",
     "content": [
         "When talking to the patients with major psychiatric diseases, the first thing you notice is how they dislike their pills. Medicine makes you feel worse. Head becomes puffy, fuzzy, and it's hard to think. That's what they say. All of them.",
-        "What if they're not wrong? If a hundred patients in a row say the same thing, then maybe they're onto something. Let's take a look at antidepressants and antipsychotics. What do they do?",
+        "What if they're not wrong? If a hundred patients in a row say the same thing, then maybe they're onto something. Let's take a look at antidepressants and antipsychotics. What do they actually do?",
         "Both groups of drugs target data channels. These are attempts to perform man-in-the-middle attacks on the brain. Information is being transferred through pathways by neurotransmitters, and we're trying to intervene in the least delicate way possible.",
         "Antidepressants work by flooding the system with noise. There are several approaches, but in all of them we force bits of information to re-appear in the channels in a chaotic fashion.",
         "Concentration of neurotransmitters goes up, doctors celebrate, but new data in there isn't well-structured. It's a mess. Will it stop you from making bad decisions? Maybe. Will it make you think clearly? Definitely not. In computer science we even have a term for this. Garbage in, garbage out (GIGO).",
