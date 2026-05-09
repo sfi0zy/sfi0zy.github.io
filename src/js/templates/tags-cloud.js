@@ -13,7 +13,8 @@ export default function $TagsCloud(config, postsData) {
     <h2>Search for:</h2>
     <br>
     ${tags.reduce((t, group, groupIndex) => `${t}
-    ${groupIndex > 0 ? '<br><br>+<br><br>' : ''}
+    ${groupIndex === 1 ? '<br><br>' : ''}
+    ${groupIndex > 1 ? '<br><br>+<br><br>' : ''}
     <ul>
     ${group.reduce((result, tag, index) => {
         const fontSize = 80 + weights[groupIndex][index] * 30;

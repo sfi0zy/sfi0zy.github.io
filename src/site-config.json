@@ -7,8 +7,11 @@
     "description": "Personal blog. A mix of programming and behavioral psychology with a touch of philosophy.",
     "tags": [
         [
-            "evolution",
+            "evolution"
+        ],
+        [
             "psychology", "schizophrenia", "emotions", "memory", "intelligence",
+            "AI", "data", "addiction", "reality_checker",
             "philosophy", "religion", "free_will", "morality", "politics",
             "methodology", "language"
         ],
