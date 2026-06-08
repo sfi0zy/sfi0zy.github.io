@@ -1,0 +1,18 @@
+{
+    "title": "Multitasking",
+    "date": "2026-06-08",
+    "tags": ["evolution", "intelligence", "data"],
+    "thumb": "5e7708aae16cc830207354b90d0f379f",
+    "content": [
+        "How many things can you actually do at once? It's a tricky question for most people. It's easy to misinterpret it.",
+        "We don't know much about our brains, but so far they exhibit behavior that we would expect from a machine with a single-core CPU. You can think only one thought at a time. One. Let that sink in. Even a budget Snapdragon in your smartphone can handle eight processes simultaneously!",
+        "This is not the end of the world, of course. It's possible to run a complex operating system on a single core. We just need to switch between our programs all the time.",
+        "There is no limit for a maximum number of processes that you can juggle with as long as they fit in your memory, but will this trickery make you better at your job? It depends.",
+        "When you do a hundred tasks, one after another, it takes some time. When you constantly switch between them, it still takes that time plus some additional time that you spend on switching itself.",
+        "In practice this means that by introducing multitasking to a single-core system you can keep several programs responsive, so you can pass data in and out of them in real time without waiting for them to unfreeze, but you pay with lower overall performance.",
+        "Do we have any workarounds? Yes and no. Your CPU doesn't exist in vacuum. Often, all you need to do is to redirect a signal somewhere else. Think of a network printer. You send it a document, and then it finishes the job on its own. It's not your problem anymore. You can do other things.",
+        "Our bodies include all sorts of parts, obviously, and some of them can work more or less independently. You just exchange data every once in a while. This is why you can easily walk on a flat surface while taking a selfie. You send your legs a standard program for walking and forget about them.",
+        "It works well until it doesn't. It's hard to make a selfie when you walk down a steep hill covered with slippery rocks and prickly plants. This happens because peripheral devices don't compute much. You have to use your CPU a lot to quickly invent a new program for your legs using live feeds from your sensors. Less processing time for selfies for now!",
+        "When working on your [smartness](/post/smartness), be intentional. Multitasking works, but it's a specialized tool that provides flexibility, not performance. In many cases, it would be a better idea to prepare programs for various parts of your brain and body in advance, stay in standard conditions letting them work on their own, and spend all your computing power on one specific puzzle that needs to be solved."
+    ]
+}
