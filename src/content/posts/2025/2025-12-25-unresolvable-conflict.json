@@ -6,7 +6,7 @@
     "content": [
         "What exact event is a trigger of schizophrenia? Depression? Mania? Catatonia? It seems like psychiatrists tend to use extremely vague wordings in their answers. Let's make things clear.",
         "We need to break the main control flow of the system and force it to go against itself by feeding data to it. What vectors of attacks are possible and can lead directly to these diseases?",
-        "Tricky sequences passed to the pattern-recognition modules, equivalents of code injections, make you misinterpret data from your inputs. It's weird, but hardly damages the system.",
+        "Tricky sequences passed to the pattern recognition modules, equivalents of code injections, make you misinterpret data from your inputs. It's weird, but hardly damages the system.",
         "Memory has to be updated using new data, which leads to an awkward feeling of cognitive dissonance. It's not a disease.",
         "In a busy environment, your memory caches can be overwhelmed by information. It's like a DoS attack of sorts. Makes you distracted and unproductive. In some cases, cache overflow can be abused to push unprotected data into the processor, increasing suggestibility so to speak, but it's not a permanent disease.",
         "[Hallucinations](/post/compromised) and dissociative disorders, caused by reading and writing into memory during its hot maintenance, are important issues, but not the ones we're looking for.",
