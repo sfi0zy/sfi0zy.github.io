@@ -49,17 +49,20 @@
         "about": {
             "title": "About me",
             "lastmod": "2026-03-17",
-            "description": ""
+            "description": "",
+            "priority": "1.0"
         },
         "evolutionary-theory-of-behavior": {
             "title": "Evolutionary theory of behavior",
             "lastmod": "2026-07-08",
-            "description": ""
+            "description": "Lecture notes for the evolutionary theory of behavior",
+            "priority": "1.0"
         },
         "free-books": {
             "title": "My free books",
             "lastmod": "2026-04-18",
-            "description": ""
+            "description": "Free PDF versions of my books",
+            "priority": "0.25"
         }
     },
     "books": {

@@ -14,6 +14,7 @@ export default function loadSitemapData(config, dirs, postsData) {
 
     urls.push({
         url: `${config.url}`,
+        priority: PRIORITY.TOP,
         lastmod: postsData.at(-1).date,
     });
 
@@ -26,7 +27,7 @@ export default function loadSitemapData(config, dirs, postsData) {
 
         urls.push({
             url: `${config.url}/${slug}`,
-            priority: PRIORITY.TOP,
+            priority: config.static[slug]?.priority,
             lastmod: config.static[slug]?.lastmod,
         });
     });
