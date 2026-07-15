@@ -27,7 +27,7 @@ export default function $Post(config, post, placeholders) {
     <footer>
         <span>Tags:</span>
         <ul>
-            ${post.tags.reduce((result, tag) => `${result}<li><a href='/tag/${tag}'>${tag}</a></li>`, '')}
+            ${post.tags.reduce((result, tag) => `${result}<li><a href='/tag/${tag}'>#${tag}</a></li>`, '')}
         </ul>
     </footer>
 </article>`;

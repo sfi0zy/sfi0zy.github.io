@@ -5,9 +5,9 @@ export default function $$TagPages(config, posts, parts) {
     return config.tags.flat().map((tag) => ({
         slug: tag,
         compiled: $Page(
-            `${config.url}/tag/${tag}`,
+            `${config.url}/tag/${tag}/`,
             config,
-            `Search for ${tag}`,
+            `#${tag} | ${config.title}`,
             `Search for the posts tagged with #${tag}`,
             $Index(config, posts, tag),
             parts,

@@ -9,10 +9,10 @@ export default function $$StaticPages(config, data, placeholders, parts) {
         const slug = slugs[i];
 
         const compiled = $Page(
-            `${config.url}/${slug}`,
+            `${config.url}/${slug}/`,
             config,
             `${config.static[slug].title} | ${config.title}`,
-            config.static[slug].title,
+            config.static[slug].description,
             $HTML(pages[i], placeholders),
             parts,
         );
