@@ -11,6 +11,10 @@ export default function $Index(config, posts, tag) {
         : 0;
 
     for (let i = selectedPosts.length - 1; i >= limit; i--) {
+        if (isHome) {
+            result = `${result}<img class='thumbtack' src='/images/thumbtack.jpg'/>`;
+        }
+
         result = `${result} ${selectedPosts[i].compiledPostOnly}`;
     }
 

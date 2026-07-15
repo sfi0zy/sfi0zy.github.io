@@ -309,6 +309,12 @@ img {
     width: 3rem;
 }
 
+.thumbtack {
+    height: 1rem;
+    width: 1rem;
+    margin: 4rem auto -3rem;
+}
+
 .center {
     text-align: center;
 }
