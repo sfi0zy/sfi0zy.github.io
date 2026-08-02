@@ -4,7 +4,7 @@
     "tags": ["evolution", "psychology", "emotions", "data"],
     "thumb": "af3023a3ea2106e2a3bca984cffce4c8",
     "content": [
-        "The central part of my theory of behavior, the mechanism that connects all the basic impulses, is a finite-state machine.",
+        "The central part of our theory of behavior, the mechanism that connects all the basic impulses, is a finite-state machine.",
         "We can add some time modifiers for impulses. Long ago. Last time. Real time. Expected in the future. Something like that. We can add diagnostic flags for the current or recently finished processes. Are they ok, or are there any problems? Also, we can add some system notifications for wounds, gaining or losing resources, memory malfunctions, etc.",
         "This will lead us to the machine with a few hundred possible states. It's not that much, actually. In the IT world we deal with much more complex machines. But in a biological context, it's not just data. Every state may have a corresponding feeling to it. Emotion, as some might say.",
         "Emotions that come from diagnostic data are universal. They do not depend on your patterns of behavior. Both predators and prey can have them. And they change all the time, following the events.",
