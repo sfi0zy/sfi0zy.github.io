@@ -1,0 +1,56 @@
+{
+    "url": "https://sfi0zy.github.io",
+    "title": "Ivan Bogachev",
+    "name": "Ivan Bogachev",
+    "username": "sfi0zy",
+    "email": "sfi0zy@gmail.com",
+    "description": "Personal blog. A mind-blowing mix of computer science and behavioral psychology with a touch of philosophy.",
+    "tags": [
+        [
+            "evolution"
+        ],
+        [
+            "psychology", "schizophrenia", "emotions", "memory", "intelligence",
+            "AI", "data", "addiction", "reality_checker",
+            "philosophy", "religion", "free_will", "morality", "politics", "society",
+            "methodology", "language"
+        ]
+    ],
+    "importantTag": "evolution",
+    "nav": [
+        {
+            "url": "/",
+            "text": "Home"
+        },
+        {
+            "url": "/evolutionary-theory-of-behavior",
+            "text": "ETB"
+        },
+        {
+            "url": "/tag/evolution",
+            "text": "#evolution"
+        },
+        {
+            "url": "/about",
+            "text": "About"
+        }
+    ],
+    "static": {
+        "about": {
+            "title": "About me",
+            "lastmod": "2026-09-05",
+            "description": "About me"
+        },
+        "evolutionary-theory-of-behavior": {
+            "title": "Evolutionary theory of behavior",
+            "lastmod": "2026-09-05",
+            "description": "Lecture notes for the evolutionary theory of behavior"
+        }
+    },
+    "homeIndexLimit": "10",
+    "icons": {
+        "v": "1",
+        "themeColor": "#cccccc",
+        "tileColor": "#1c1c1c"
+    }
+}

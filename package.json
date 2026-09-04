@@ -1,0 +1,27 @@
+{
+  "name": "sfi0zy.github.io",
+  "version": "3.0.0",
+  "description": "My website",
+  "author": "Ivan Bogachev",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "lint": "npx eslint build.js src/js/loaders/*.js src/js/modules/*.js src/js/templates/*.js src/js/templates/collections/*.js src/js/utils/*.js",
+    "build": "node build.js",
+    "serve": "npx http-server ./dist -c-1"
+  },
+  "dependencies": {
+    "csso": "5.0.5",
+    "html-minifier-terser": "7.2.0",
+    "image-size": "0.7.4"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "7.25.9",
+    "eslint": "8.57.1",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-sonarjs": "2.0.4",
+    "http-server": "14.1.1"
+  }
+}
