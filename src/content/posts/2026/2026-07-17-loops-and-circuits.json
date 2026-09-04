@@ -1,0 +1,20 @@
+{
+    "title": "Loops and circuits",
+    "date": "2026-07-17",
+    "tags": ["evolution", "methodology"],
+    "thumb": "78e1fe5685d446cf1b097d80e6614a7e",
+    "content": [
+        "The second part of my project will take a lot of time, and I would like to address certain misconceptions related to the computational complexity of our tasks, technical challenges that we actually need to overcome, and plans for the future.",
+        "Suffering from a [99 languages problem](/post/99-languages), we have to be careful with translations. Our loops of impulses, logical circles that form patterns of behavior, are not equal to neural circuits. It's not the same thing.",
+        "You don't build a separate processor for every single program.",
+        "We expect to see various programs moving through the same core circuits regardless of their locations in a long-term memory. The system should extract them from there and run through its CPU.",
+        "This means that when we map our model of behavior, a graph of interconnected processes, onto the interior of a human brain, we don't need to manually extract information from billions of neurons.",
+        "Instead, we differentiate our basic impulses one from another while they're running as processes through the same isolated regions of the brain. It's not the graph isomorphism problem, but a game of precise measurements. From there, we can backtrace processes to their origins and directly complete the graph that we're looking for.",
+        "Unfortunately, our current tools lack much-needed precision. We can work with large, slow, or highly repetitive things, but we can't effectively trace pieces of information in real time.",
+        "We do need a network protocol analyzer and a proper debugger.",
+        "It's not enough to learn that some regions of the brain are connected. We need to track changes in data channels over fractures of a second. Even the best fMRI machines mixed with AI-decoded EEG can't do that. We have broad observations that fit in our expectations, which is hardly surprising, but that's about it. We need more data. Much more.",
+        "I'm looking for workarounds, but it's still hard to tell if it's even possible to find everything we need using available technologies. The field may not be ready for the cybersecurity-inspired intervention that we need to perform.",
+        "Most likely, this will become a long journey. We'll test various tools, failing again and again, until we finally measure our software precisely enough to see the loops of processes in the circuits and get the job done.",
+        "As of the present day, we can explore all sorts of subjects from the perspective of our theory. The more things we explain and connect to each other \"from the outside\", the more targets we'll have in the next attempts to scan and crack the brain \"from the inside\"."
+    ]
+}

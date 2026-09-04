@@ -1,0 +1,20 @@
+{
+    "title": "Equilibrium",
+    "date": "2026-09-07",
+    "tags": ["evolution", "methodology", "language"],
+    "thumb": "9abb7f2a1fc730e80ef8e1fe4f9a7c7a",
+    "content": [
+        "The central part of our theory is a [set of 24 interconnected processes](/files/basic-impulses-2000.jpg), basic impulses, that form 16 patterns of behavior.",
+        "Initially, I used a brute-force attack to find them, choosing impulses randomly, connecting them in loops with simple logic, testing all available predictions in the real world, and replacing bad choices. After a few iterations, nobody around me could find any counterexamples anymore, and the resulting set of impulses was set in stone.",
+        "For all practical purposes, it works. But since [our species utilize fuzzy patterns](/post/internal-world), I don't trust our observations and assume that some parts of this symmetric system may still be slightly off-centered.",
+        "Can we balance them out? I hope so. I'm not sure if we can deduce everything and \"prove\" the right model, but at least we can build everything in reverse, and reduce the amount of variables from 24 to 6.",
+        "Four structural parts of the psyche with different functional roles require six data channels to be connected to each other. In order to enable all of them, we should choose only six processes that clearly go from one structure to another and don't have any other requirements.",
+        "Then, for every one of these processes, we add three additional processes, and create a specific configuration in every channel:",
+        "P1: Proactive, from A to B.",
+        "P2: Reactive, from A to B, that represents an opposite role in equivalent circumstances (P1 and P2 form a conflict, typical for bipolar disorders).",
+        "P3: Reactive, from B to A, that neutralizes P1 (we should have a perfectly balanced deadlock that later manifests as schizophrenia).",
+        "P4: Proactive, from B to A, that represents an opposite of P3 and neutralizes P2, making this whole thing completely symmetric.",
+        "Our current system is very close to this, but it's not quite there yet, and the real problem is that the spoken language is slightly asymmetric on its own. It doesn't reflect this elegant logic with absolute precision, and I really struggle with finding the right words to describe certain processes.",
+        "At the moment, we can use our model as is, assuming that patterns are fuzzy anyway, and small adjustments won't affect anything, but a little perfectionist in my head hopes that one day we'll fine-tune these processes and make a perfect mechanism."
+    ]
+}
