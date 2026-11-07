@@ -191,6 +191,7 @@ pre b {
 
 pre {
     font-family: monospace;
+    font-variant-ligatures: none !important;
     white-space: pre;
     font-size: .8em;
 }
