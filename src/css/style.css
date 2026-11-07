@@ -12,14 +12,13 @@ script {
 }
 
 :root {
-    --foreground: #000000;
-    --background: #ffffff;
-    --temp: #eeeeee;
-    --accent: #0000ff;
-    --active: #ffaa00;
+    --foreground: #000;
+    --background: #fff;
+    --temp: #eee;
+    --accent: #00f;
+    --active: #fa0;
 
     height: 100%;
-
     font-family:
         -apple-system,
         BlinkMacSystemFont,
@@ -32,7 +31,6 @@ script {
         'Droid Sans',
         'Helvetica Neue',
         sans-serif;
-
     font-size: calc(14px + (20 - 14) * ((100vw - 400px) / (1200 - 400)));
     line-height: 1.5;
     background-color: var(--background);

@@ -8,7 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "lint": "npx eslint build.js src/js/loaders/*.js src/js/modules/*.js src/js/templates/*.js src/js/templates/collections/*.js src/js/utils/*.js",
+    "lint": "npx stylelint src/css/style.css ; npx eslint build.js src/js/loaders/*.js src/js/modules/*.js src/js/templates/*.js src/js/templates/collections/*.js src/js/utils/*.js",
     "build": "node build.js",
     "serve": "npx http-server ./dist -c-1"
   },
@@ -22,6 +22,8 @@
     "eslint": "8.57.1",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-sonarjs": "4.2.0",
-    "http-server": "14.1.1"
+    "http-server": "14.1.1",
+    "stylelint": "18.0.0",
+    "stylelint-config-standard": "41.0.0"
   }
 }
