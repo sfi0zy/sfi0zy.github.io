@@ -1,0 +1,32 @@
+{
+    "extends": [
+        "airbnb-base",
+        "plugin:sonarjs/recommended-legacy"
+    ],
+
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "requireConfigFile": false
+    },
+
+    "env": {
+        "node": true
+    },
+
+    "plugins": [
+        "sonarjs"
+    ],
+
+    "rules": {
+        "import/extensions": "off",
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "space-before-function-paren": ["error", "never"],
+        "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
+        "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
+        "function-paren-newline": "off",
+        "object-curly-newline": "off",
+        "max-classes-per-file": "off",
+        "no-plusplus": "off",
+        "no-console": "off"
+    }
+}
